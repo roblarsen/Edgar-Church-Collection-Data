@@ -4,7 +4,7 @@ title,Issue,MHC Grade,MHC Price,CGC Grade,Page Quality,Note,Year,Publisher
 4 most ,4,NM+ ,,9.6,W , ,1942,Novelty Press
 a date with judy,1,NM+,$15.00 ,,,,,
 a date with judy,2,NM+,$8.00 ,,,,,
-a date with judy,3,NM+,$8.00 ,,,,,
+a date with judy,3,NM+,$8.00 ,9.6,OW-W , ,1948,D.C. Comics
 a date with judy,4,NM,$6.00 ,,,,,
 a date with judy,5,NM+,$8.00 ,,,,,
 a date with judy,6,NM+,$8.00 ,,,,,
@@ -19,7 +19,6 @@ a date with judy,14,FN,$2.00 ,,,,,
 a date with judy,15,G,$2.00 ,,,,,
 a date with judy,16,FN,$2.00 ,,,,,
 a date with judy,17,FN,$2.00 ,,,,,
-a date with judy ,3,NM+ ,,9.6,OW-W , ,1948,D.C. Comics
 a-1 comics,1,NM,$4.00 ,,,,,
 a-1 comics,3,NM+,$6.00 ,,,,,
 a-1 comics,4,NM+,$6.00 ,,,,,
@@ -41,7 +40,7 @@ abbott & costello,4,NM+,$7.00 ,,,,,
 abbott & costello,5,VG,$3.00 ,,,,,
 abbott & costello,6,NM,$7.00 ,,,,,
 abbott & costello,7,FN,$4.00 ,,,,,
-ace comics ,1,FN,NO PRICE,,,,,
+ace comics ,1,FN ,No Price,7.5,OW-W ,Slight (A) ,1937,David McKay Publishing
 ace comics ,2,FN,$65.00 ,,,,,
 ace comics ,5,FN,$45.00 ,,,,,
 ace comics ,6,VG,$28.00 ,,,,,
@@ -78,7 +77,7 @@ ace comics ,37,G,$5.00 ,,,,,
 ace comics ,38,G,$5.00 ,,,,,
 ace comics ,39,FN,$15.00 ,,,,,
 ace comics ,40,VG,$9.00 ,,,,,
-ace comics ,41,G,$4.00 ,,,,,
+ace comics ,41,G,$4.00 ,9,OW-W , ,1940,David McKay Publishing
 ace comics ,42,VG,$7.00 ,,,,,
 ace comics ,45,VG,$7.00 ,,,,,
 ace comics ,46,VG,$7.00 ,,,,,
@@ -89,12 +88,13 @@ ace comics ,50,G,$4.00 ,,,,,
 ace comics ,51,VG,$5.00 ,,,,,
 ace comics ,53,G,$5.00 ,,,,,
 ace comics ,54,VG,$9.00 ,,,,,
-ace comics ,55,NM,$13.00 ,,,,,
+ace comics ,55,NM,$13.00 ,6.5,W , ,1941,David McKay Publishing
 ace comics ,56,FN,$8.00 ,,,,,
 ace comics ,57,FN,$8.00 ,,,,,
 ace comics ,66,FN,$7.00 ,,,,,
 ace comics ,68,VG,$5.00 ,,,,,
 ace comics ,69,NM+,$15.00 ,,,,,
+ace comics ,71,NL ,,8.5,OW-W , ,1943,David McKay Publishing
 ace comics ,73,FN,$7.00 ,,,,,
 ace comics ,90,VG,$5.00 ,,,,,
 ace comics ,91,FN,$5.00 ,,,,,
@@ -107,12 +107,12 @@ ace comics ,100,NM,$8.00 ,,,,,
 ace comics ,102,FN,$5.00 ,,,,,
 ace comics ,103,VG,$3.00 ,,,,,
 ace comics ,104,G,$2.00 ,,,,,
-ace comics ,105,FN,$5.00 ,,,,,
+ace comics ,105,FN,$5.00 ,9,CR-OW , ,1945,David McKay Publishing
 ace comics ,107,NM,$7.00 ,,,,,
 ace comics ,111,NM,$7.00 ,,,,,
 ace comics ,112,VG,$3.00 ,,,,,
-ace comics ,113,NM,$7.00 ,,,,,
-ace comics ,115,NM,$7.00 ,,,,,
+ace comics ,113,NM,$7.00 ,7,W , ,1946,David McKay Publishing
+ace comics ,115,NM,$7.00 ,7.5,OW-W , ,1946,David McKay Publishing
 ace comics ,118,VG,$3.00 ,,,,,
 ace comics ,119,VG,$3.00 ,,,,,
 ace comics ,122,FN,$5.00 ,,,,,
@@ -131,13 +131,6 @@ ace comics ,144,NM,$7.00 ,,,,,
 ace comics ,145,VG,$3.00 ,,,,,
 ace comics ,146,NM+,$8.00 ,,,,,
 ace comics ,148,G,$2.00 ,,,,,
-ace comics ,1,FN ,,7.5,OW-W ,Slight (A) ,1937,David McKay Publishing
-ace comics ,41,NM ,,9,OW-W , ,1940,David McKay Publishing
-ace comics ,55,NM ,,6.5,W , ,1941,David McKay Publishing
-ace comics ,71,NL ,,8.5,OW-W , ,1943,David McKay Publishing
-ace comics ,105,FN ,,9,CR-OW , ,1945,David McKay Publishing
-ace comics ,113,NM ,,7,W , ,1946,David McKay Publishing
-ace comics ,115,NM ,,7.5,OW-W , ,1946,David McKay Publishing
 action comics ,22,NM,$180.00 ,,,,,
 action comics ,23,FN,$145.00 ,,,,,
 action comics ,27,NM,$150.00 ,,,,,
