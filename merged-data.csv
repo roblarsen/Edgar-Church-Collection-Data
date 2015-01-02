@@ -629,28 +629,23 @@ all flash ,29,NM+ ,$50.00 ,9.4,OW-W , ,1947,D.C. Comics
 all flash,30,NM,$40.00 ,,,,,
 all flash,31,NM+,$50.00 ,,,,,
 all flash ,32,NM ,$40.00 ,9,OW-W , ,1948,D.C. Comics
-all funny comics,1,NM+,$20.00 ,,,,,
+all funny comics ,1,NM+ ,$20.00 ,9.6,W , ,1943,D.C. Comics
 all funny comics,5,NM+,$8.00 ,,,,,
 all funny comics,6,NM,$5.00 ,,,,,
-all funny comics,7,NM+,$8.00 ,,,,,
-all funny comics,8,NM+,$8.00 ,,,,,
+all funny comics ,7,NM+ ,$8.00 ,9.4,W , , ,D.C. Comics
+all funny comics ,8,NM+ ,$8.00 ,9,W , ,1945,D.C. Comics
 all funny comics,9,NM+,$8.00 ,,,,,
 all funny comics,10,NM+,$6.00 ,,,,,
 all funny comics,12,NM+,$8.00 ,,,,,
 all funny comics,13,FN,$3.00 ,,,,,
-all funny comics,14,NM,$4.00 ,,,,,
+all funny comics ,14,NM ,$4.00 ,8, , , ,D.C. Comics
 all funny comics,15,NM+,$5.00 ,,,,,
 all funny comics,16,NM+,$8.00 ,,,,,
 all funny comics,17,FN,$3.00 ,,,,,
 all funny comics,18,FN,$3.00 ,,,,,
 all funny comics,20,FN,$3.00 ,,,,,
-all funny comics,21,NM,$4.00 ,,,,,
+all funny comics ,21,NM ,$4.00 ,9,OW-W , ,1948,D.C. Comics
 all funny comics,23,NM,$4.00 ,,,,,
-all funny comics ,1,NM+ ,,9.6,W , ,1943,D.C. Comics
-all funny comics ,7,NM+ ,,9.4,W , , ,D.C. Comics
-all funny comics ,8,NM+ ,,9,W , ,1945,D.C. Comics
-all funny comics ,14,NM ,,8, , , ,D.C. Comics
-all funny comics ,21,NM ,,9,OW-W , ,1948,D.C. Comics
 all good comics ,1,NM+ ,,9.2,OW , ,1946,Fox
 all good comics (1944 - 128 pages),NN,NM+,$19.00 ,,,,,
 all good comics (1946),1,NM+,$19.00 ,,,,,
@@ -658,8 +653,7 @@ all great comics,1,NM+,$11.00 ,,,,,
 all great comics,14,NM+,$25.00 ,,,,,
 all great comics (1945 - 128 pages),NN,FN,$13.00 ,,,,,
 all great jungle adventures (1949 - 128 pages),NN,NM,$20.00 ,,,,,
-all hero,1,NM,$200.00 ,,,,,
-all hero comics ,1,NM ,,7,W , ,1943,Fawcett
+all hero comics ,1,NM ,$200.00 ,7,W , ,1943,Fawcett
 all humor comics,1,NM+,$11.00 ,,,,,
 all humor comics,2,NM+,$5.00 ,,,,,
 all humor comics,3,NM+,$5.00 ,,,,,
@@ -679,25 +673,18 @@ all humor comics,16,VG,$2.00 ,,,,,
 all love,27,NM+,$2.00 ,,,,,
 all love,28,NM+,$2.00 ,,,,,
 all love romance,26,NM+,$2.00 ,,,,,
-all new comics,4,NM+,$40.00 ,,,,,
-all new comics,5,NM+,$40.00 ,,,,,
-all new comics,6,NM+,$40.00 ,,,,,
+all new comics ,3,NL ,,9.6,W , ,1943,Harvey Publications
+all new comics ,4,NM+ ,$40.00 ,9.4,OW-W , ,1943,Harvey Publications
+all new comics ,5,NM+ ,$40.00 ,9.4,W , ,1943,Harvey Publications
+all new comics ,6,NM+ ,$40.00 ,9.6,W , ,1944,Harvey Publications
 all new comics,7,NM+,$40.00 ,,,,,
-all new comics,8,NM+,$35.00 ,,,,,
-all new comics,9,NM+,$35.00 ,,,,,
-all new comics,10,NM+,$35.00 ,,,,,
+all new comics ,8,NM+ ,$35.00 ,7.5,W , ,1944,Harvey Publications
+all new comics ,9,NM+ ,$35.00 ,9.4,W , ,1944,Harvey Publications
+all new comics ,10,NM+ ,$35.00 ,9.2,W , ,1944,Harvey Publications
 all new comics,11,NM+,$25.00 ,,,,,
 all new comics,12,NM+,$35.00 ,,,,,
 all new comics,13,NM+,$60.00 ,,,,,
-all new comics,14,FN,$13.00 ,,,,,
-all new comics ,3,NL ,,9.6,W , ,1943,Harvey Publications
-all new comics ,4,NM+ ,,9.4,OW-W , ,1943,Harvey Publications
-all new comics ,5,NM+ ,,9.4,W , ,1943,Harvey Publications
-all new comics ,6,NM+ ,,9.6,W , ,1944,Harvey Publications
-all new comics ,8,NM+ ,,7.5,W , ,1944,Harvey Publications
-all new comics ,9,NM+ ,,9.4,W , ,1944,Harvey Publications
-all new comics ,10,NM+ ,,9.2,W , ,1944,Harvey Publications
-all new comics ,14,FN ,,8.5,W , ,1947,Harvey Publications
+all new comics ,14,FN ,$13.00 ,8.5,W , ,1947,Harvey Publications
 all new short-story comics,1,NM+,$135.00 ,,,,,
 all new short-story comics,2,NM+,$65.00 ,,,,,
 all new short-story comics,3,NM+,$55.00 ,,,,,
@@ -717,58 +704,51 @@ all select,10,NM,$80.00 ,,,,,
 all select,11,NM+,$90.00 ,,,,,
 all sports,2,NM+,$5.00 ,,,,,
 all sports,3,NM,$5.00 ,,,,,
-all star comics,2,NM,$500.00 ,,,,,
-all star comics,4,NM,$400.00 ,,,,,
-all star comics,10,NM,$300.00 ,,,,,
-all star comics,13,FN,$130.00 ,,,,,
-all star comics,16,NM+,$250.00 ,,,,,
-all star comics,23,NM+,$200.00 ,,,,,
-all star comics,25,NM+,$180.00 ,,,,,
-all star comics,26,NM+,$180.00 ,,,,,
-all star comics,27,NM+,$180.00 ,,,,,
-all star comics,28,NM,$130.00 ,,,,,
-all star comics,29,NM+,$160.00 ,,,,,
-all star comics,30,NM,$130.00 ,,,,,
-all star comics,31,NM,$120.00 ,,,,,
-all star comics,33,FN,$110.00 ,,,,,
-all star comics,34,NM,$100.00 ,,,,,
-all star comics,37,VG,$35.00 ,,,,,
-all star comics,38,NM,$180.00 ,,,,,
-all star comics,40,NM+,$125.00 ,,,,,
-all star comics,41,FN,$55.00 ,,,,,
-all star comics,44,VG,$35.00 ,,,,,
-all star comics,45,NM,$90.00 ,,,,,
-all star comics,46,FN,$55.00 ,,,,,
-all star comics,47,NM+,$110.00 ,,,,,
-all star comics,48,NM,$90.00 ,,,,,
-all star comics,53,VG,$35.00 ,,,,,
-all star comics,55,FN,$55.00 ,,,,,
-all star comics,57,VG,$33.00 ,,,,,
 all star comics ,1,NL ,,9.6,OW-W , ,1940,D.C. Comics
-all star comics ,2,NM ,,9.2,OW-W , , ,
+all star comics ,2,NM ,$500.00 ,9.2,OW-W , , ,D.C. Comics
 all star comics ,3,NL ,,9.6,OW-W ,Very minor amount of glue on cover ,1940,D.C. Comics
+all star comics,4,NM,$400.00 ,,,,,D.C. Comics
 all star comics ,6,NL ,,9.6,OW-W , ,1941,D.C. Comics
-all star comics ,7,NL ,,9.2,W , ,1941,
-all star comics ,10,NM ,,9.6,W , ,1942,D.C. Comics
+all star comics ,7,NL ,,9.2,W , ,1941,D.C. Comics
+all star comics ,10,NM ,$300.00 ,9.6,W , ,1942,D.C. Comics
 all star comics ,11,NL ,,9.6,OW-W , ,1942,D.C. Comics
 all star comics ,12,NL ,,9.4,W , ,1942,D.C. Comics
+all star comics,13,FN,$130.00 ,,,,,D.C. Comics
 all star comics ,14,NL ,,9.4,W , ,1943,D.C. Comics
 all star comics ,15,NL ,,8.5,W ,Very minor amount of color touch on cover. Very minor amount of glue on cover ,1943,D.C. Comics
+all star comics,16,NM+,$250.00 ,,,,,D.C. Comics
 all star comics ,17,NL ,,9.6,W , , ,D.C. Comics
 all star comics ,20,NL ,,9.6,OW-W , ,1944,D.C. Comics
 all star comics ,21,NL ,,9.4,W , ,1944,D.C. Comics
+all star comics,23,NM+,$200.00 ,,,,,D.C. Comics
 all star comics ,24,NL ,,9.6,OW-W , ,1945,D.C. Comics
-all star comics ,26,NM+ ,,9.4,W , ,1945,D.C. Comics
-all star comics ,29,NM+ ,,9.6,W , ,1946,D.C. Comics
-all star comics ,30,NM ,,9.6,W , , ,D.C. Comics
-all star comics ,33,FN ,,7.5,W ,Old grade 6.0 FN OW-W ,1947,D.C. Comics
-all star comics ,47,NM+ ,,9.2,W , ,1949,D.C. Comics
-all star western,58,NM,$24.00 ,,,,,
+all star comics,25,NM+,$180.00 ,,,,,D.C. Comics
+all star comics ,26,NM+ ,$180.00 ,9.4,W , ,1945,D.C. Comics
+all star comics,27,NM+,$180.00 ,,,,,D.C. Comics
+all star comics,28,NM,$130.00 ,,,,,D.C. Comics
+all star comics ,29,NM+ ,$160.00 ,9.6,W , ,1946,D.C. Comics
+all star comics ,30,NM ,$130.00 ,9.6,W , , ,D.C. Comics
+all star comics,31,NM,$120.00 ,,,,,D.C. Comics
+all star comics ,33,FN ,$110.00 ,7.5,W ,Old grade 6.0 FN OW-W ,1947,D.C. Comics
+all star comics,34,NM,$100.00 ,,,,,D.C. Comics
+all star comics,37,VG,$35.00 ,,,,,D.C. Comics
+all star comics,38,NM,$180.00 ,,,,,D.C. Comics
+all star comics,40,NM+,$125.00 ,,,,,D.C. Comics
+all star comics,41,FN,$55.00 ,,,,,D.C. Comics
+all star comics,44,VG,$35.00 ,,,,,D.C. Comics
+all star comics,45,NM,$90.00 ,,,,,D.C. Comics
+all star comics,46,FN,$55.00 ,,,,,D.C. Comics
+all star comics ,47,NM+ ,$110.00 ,9.2,W , ,1949,D.C. Comics
+all star comics,48,NM,$90.00 ,,,,,D.C. Comics
+all star comics,53,VG,$35.00 ,,,,,D.C. Comics
+all star comics,55,FN,$55.00 ,,,,,D.C. Comics
+all star comics,57,VG,$33.00 ,,,,,D.C. Comics
+all star western ,58,NM ,$24.00 ,8,W ,First issue ,1951,D.C. Comics
 all star western,59,NM+,$15.00 ,,,,,
 all star western,61,FN,$7.00 ,,,,,
-all star western,62,NM+,$15.00 ,,,,,
+all star western ,62,NM+ ,$15.00 ,9.4,W , ,1951,D.C. Comics
 all star western,63,VG,$5.00 ,,,,,
-all star western,64,NM+,$15.00 ,,,,,
+all star western ,64,NM+ ,$15.00 ,9.6,OW-W , ,1952,D.C. Comics
 all star western,65,NM+,$15.00 ,,,,,
 all star western,66,G,$3.00 ,,,,,
 all star western,67,VG,$5.00 ,,,,,
@@ -785,9 +765,6 @@ all star western,103,NM+,$10.00 ,,,,,
 all star western,105,NM,$7.00 ,,,,,
 all star western,106,FN,$5.00 ,,,,,
 all star western,107,NM,$7.00 ,,,,,
-all star western ,58,NM ,,8,W ,First issue ,1951,D.C. Comics
-all star western ,62,NM+ ,,9.4,W , ,1951,D.C. Comics
-all star western ,64,NM+ ,,9.6,OW-W , ,1952,D.C. Comics
 all teen,20,NM+,$7.00 ,,,,,
 all time sports,4,NM+,$7.00 ,,,,,
 all time sports,5,FN,$5.00 ,,,,,
