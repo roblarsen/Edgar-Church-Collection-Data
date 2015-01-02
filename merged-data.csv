@@ -483,8 +483,8 @@ air ace vol.2 ,2,NM+,$8.00 ,,,,,
 air ace vol.2 ,3,NM,$7.00 ,,,,,
 air ace vol.2 ,6,FN,$4.00 ,,,,,
 air ace vol.2 ,7,NM,$7.00 ,,,,,
-air ace vol.3,V3 1,VG,$2.00 ,,,,,
-air ace vol.3,V3 7,NM,$5.00 ,,,,,
+air ace vol.3,1,VG,$2.00 ,,,,,
+air ace vol.3,7,NM,$5.00 ,,,,,
 air fighters comics ,1,NM+ ,$240.00 ,9.4,OW-W ,Old grade NM- 9.2 ,1941,Hillman Periodicals
 air fighters comics ,10,NM+,$45.00 ,,,,,
 air fighters comics ,2,NM+ ,$360.00 ,8,OW-W , ,1942,Hillman Periodicals
@@ -507,102 +507,93 @@ air fighters comics vol2 ,5,NL ,,7,OW , ,1944,Hillman Periodicals
 air fighters comics vol2 ,6,NM+,$50.00 ,,,,,
 air fighters comics vol2 ,8,FN ,$30.00 ,5,OW , ,1944,Hillman Periodicals
 air fighters comics vol2 ,9,NM+,$50.00 ,,,,,
-airboy,V10 1,FN,$3.00 ,,,,,
-airboy,V10 3,FN,$3.00 ,,,,,
-airboy,V2 11,NM+,$24.00 ,,,,,
-airboy,V2 12,NM+,$24.00 ,,,,,
-airboy,V3 1,NM+,$16.00 ,,,,,
-airboy,V3 10,NM+,$16.00 ,,,,,
-airboy,V3 11 ,NM+,$16.00 ,,,,,
-airboy,V3 12,NM+,$16.00 ,,,,,
-airboy,V3 2,NM+,$16.00 ,,,,,
-airboy,V3 4,NM+,$16.00 ,,,,,
-airboy,V3 5,NM+,$16.00 ,,,,,
-airboy,V3 6,NM+,$16.00 ,,,,,
-airboy,V3 7,NM+,$16.00 ,,,,,
-airboy,V3 8,NM+,$16.00 ,,,,,
-airboy,V3 9,NM+,$16.00 ,,,,,
-airboy,V4 1,NM+,$12.00 ,,,,,
-airboy,V4 10,NM+,$20.00 ,,,,,
-airboy,V4 11,NM+,$20.00 ,,,,,
-airboy,V4 12,NM+,$20.00 ,,,,,
-airboy,V4 2,NM+,$12.00 ,,,,,
-airboy,V4 3,NM+,$12.00 ,,,,,
-airboy,V4 4,NM+,$12.00 ,,,,,
-airboy,V4 5,NM+,$20.00 ,,,,,
-airboy,V4 6,NM+,$20.00 ,,,,,
-airboy,V4 7,NM+,$20.00 ,,,,,
-airboy,V4 8,NM+,$20.00 ,,,,,
-airboy,V4 9,NM+,$20.00 ,,,,,
-airboy,V5 1,NM+,$10.00 ,,,,,
-airboy,V5 10,NM+,$10.00 ,,,,,
-airboy,V5 12,NM+,$10.00 ,,,,,
-airboy,V5 2,NM+,$10.00 ,,,,,
-airboy,V5 3,NM+,$10.00 ,,,,,
-airboy,V5 4,NM+,$10.00 ,,,,,
-airboy,V5 5,NM,$8.00 ,,,,,
-airboy,V5 6,NM+,$10.00 ,,,,,
-airboy,V5 7,NM+,$10.00 ,,,,,
-airboy,V5 8,NM+,$10.00 ,,,,,
-airboy,V5 9,NM+,$10.00 ,,,,,
-airboy,V6 1,NM+,$10.00 ,,,,,
-airboy,V6 11,NM+,$10.00 ,,,,,
-airboy,V6 2,NM+,$10.00 ,,,,,
-airboy,V6 3,NM,$8.00 ,,,,,
-airboy,V6 4,NM+,$10.00 ,,,,,
-airboy,V6 5,NM+,$10.00 ,,,,,
-airboy,V6 6,FN,$5.00 ,,,,,
-airboy,V6 7,NM+,$10.00 ,,,,,
-airboy,V6 8,NM,$8.00 ,,,,,
-airboy,V6 9,NM+,$10.00 ,,,,,
-airboy,V7 1,VG,$3.00 ,,,,,
-airboy,V7 10,NM+,$10.00 ,,,,,
-airboy,V7 11,NM+,$10.00 ,,,,,
-airboy,V7 2,NM+,$10.00 ,,,,,
-airboy,V7 3,NM+,$10.00 ,,,,,
-airboy,V7 5,NM+,$10.00 ,,,,,
-airboy,V7 6,NM+,$10.00 ,,,,,
-airboy,V7 7,NM,$8.00 ,,,,,
-airboy,V7 8,NM,$8.00 ,,,,,
-airboy,V7 9,G,$2.00 ,,,,,
-airboy,V8 1,G,$2.00 ,,,,,
-airboy,V8 2,FN,$3.00 ,,,,,
-airboy,V8 4,NM,$5.00 ,,,,,
-airboy,V9 2,FN,$3.00 ,,,,,
-airboy,V9 5,VG,$3.00 ,,,,,
-airboy comics vol.6 ,11,NM+ ,,9.2,OW-W , ,1949,Hillman Periodicals
-airboy comics vol.7 ,2,NM+ ,,9.2,OW-W , ,1950,Hillman Periodicals
-airboy comics vol.7 ,5,NM+ ,,9,OW-W , ,1950,Hillman Periodicals
+airboy vol10,1,FN,$3.00 ,,,,,
+airboy vol10,3,FN,$3.00 ,,,,,
+airboy v2,11,NM+,$24.00 ,,,,,
+airboy v2,12,NM+,$24.00 ,,,,,
+airboy v3,1,NM+,$16.00 ,,,,,
+airboy v3,10,NM+,$16.00 ,,,,,
+airboy v3,11,NM+,$16.00 ,,,,,
+airboy v3,12,NM+,$16.00 ,,,,,
+airboy v3,2,NM+,$16.00 ,,,,,
+airboy v3,4,NM+,$16.00 ,,,,,
+airboy v3,5,NM+,$16.00 ,,,,,
+airboy v3,6,NM+,$16.00 ,,,,,
+airboy v3,7,NM+,$16.00 ,,,,,
+airboy v3,8,NM+,$16.00 ,,,,,
+airboy v3,9,NM+,$16.00 ,,,,,
+airboy vol4,1,NM+,$12.00 ,,,,,
+airboy vol4,10,NM+,$20.00 ,,,,,
+airboy vol4,11,NM+,$20.00 ,,,,,
+airboy vol4,12,NM+,$20.00 ,,,,,
+airboy vol4,2,NM+,$12.00 ,,,,,
+airboy vol4,3,NM+,$12.00 ,,,,,
+airboy vol4,4,NM+,$12.00 ,,,,,
+airboy vol4,5,NM+,$20.00 ,,,,,
+airboy vol4,6,NM+,$20.00 ,,,,,
+airboy vol4,7,NM+,$20.00 ,,,,,
+airboy vol4,8,NM+,$20.00 ,,,,,
+airboy vol4,9,NM+,$20.00 ,,,,,
+airboy vol5,1,NM+,$10.00 ,,,,,
+airboy vol5,10,NM+,$10.00 ,,,,,
+airboy vol5,12,NM+,$10.00 ,,,,,
+airboy vol5,2,NM+,$10.00 ,,,,,
+airboy vol5,3,NM+,$10.00 ,,,,,
+airboy vol5,4,NM+,$10.00 ,,,,,
+airboy vol5,5,NM,$8.00 ,,,,,
+airboy vol5,6,NM+,$10.00 ,,,,,
+airboy vol5,7,NM+,$10.00 ,,,,,
+airboy vol5,8,NM+,$10.00 ,,,,,
+airboy vol5,9,NM+,$10.00 ,,,,,
+airboy vol6,1,NM+,$10.00 ,,,,,
+airboy comics vol.6 ,11,NM+ ,$10.00 ,9.2,OW-W , ,1949,Hillman Periodicals
+airboy vol6,2,NM+,$10.00 ,,,,,
+airboy vol6,3,NM,$8.00 ,,,,,
+airboy vol6,4,NM+,$10.00 ,,,,,
+airboy vol6,5,NM+,$10.00 ,,,,,
+airboy vol6,6,FN,$5.00 ,,,,,
+airboy vol6,7,NM+,$10.00 ,,,,,
+airboy vol6,8,NM,$8.00 ,,,,,
+airboy vol6,9,NM+,$10.00 ,,,,,
+airboy vol7,1,VG,$3.00 ,,,,,
+airboy vol7,10,NM+,$10.00 ,,,,,
+airboy vol7,11,NM+,$10.00 ,,,,,
+airboy comics vol.7 ,2,NM+ ,$10.00 ,9.2,OW-W , ,1950,Hillman Periodicals
+airboy vol7,3,NM+,$10.00 ,,,,,
+airboy comics vol.7 ,5,NM+ ,$10.00 ,9,OW-W , ,1950,Hillman Periodicals
+airboy vol7,6,NM+,$10.00 ,,,,,
+airboy vol7,7,NM,$8.00 ,,,,,
+airboy vol7,8,NM,$8.00 ,,,,,
+airboy vol7,9,G,$2.00 ,,,,,
+airboy vol8,1,G,$2.00 ,,,,,
+airboy vol8,2,FN,$3.00 ,,,,,
+airboy vol8,3,NM,$5.00 ,,,,,
+airboy vol9,2,FN,$3.00 ,,,,,
+airboy vol9,5,VG,$3.00 ,,,,,
 album of crime,NN,FR,$3.00 ,,,,,
 alice,10,FN,$2.00 ,,,,,
 all american western,103,NM+,$25.00 ,,,,,
 all american western,104,NM+,$25.00 ,,,,,
 all american western,105,NM+,$25.00 ,,,,,
 all american western,106,NM+,$25.00 ,,,,,
-all american western,107,NM+,$25.00 ,,,,,
+all american western ,107,NM+ ,$25.00 ,9.8,OW-W , ,1949,D.C. Comics
 all american western,108,NM+,$25.00 ,,,,,
 all american western,109,NM+,$25.00 ,,,,,
-all american western,110,NM,$12.00 ,,,,,
+all american western ,110,NM ,$12.00 ,7.5,OW , ,1949,D.C. Comics
+all american western ,111,NL ,,8,W , ,1949,D.C. Comics
 all american western,112,G,$3.00 ,,,,,
 all american western,113,NM,$12.00 ,,,,,
 all american western,114,NM+,$15.00 ,,,,,
 all american western,115,G,$3.00 ,,,,,
 all american western,116,NM,$12.00 ,,,,,
-all american western,117,NM+,$15.00 ,,,,,
-all american western,118,FN,$8.00 ,,,,,
+all american western ,117,NM+ ,$15.00 ,9.4,W , ,1951,D.C. Comics
+all american western ,118,FN ,$8.00 ,9.2,W ,Not CGC graded ,1951,D.C. Comics
 all american western,119,NM+,$15.00 ,,,,,
-all american western,120,NM+,$15.00 ,,,,,
+all american western ,120,NM+ ,$15.00 ,9.4,W , ,1951,D.C. Comics
 all american western,121,NM+,$15.00 ,,,,,
 all american western,122,NM+,$15.00 ,,,,,
-all american western,124,NM,$12.00 ,,,,,
+all american western ,124,NM ,$12.00 ,8.5,W , ,1952,D.C. Comics
 all american western,125,FN,$8.00 ,,,,,
-all american western ,107,NM+ ,,9.8,OW-W , ,1949,D.C. Comics
-all american western ,110,NM ,,7.5,OW , ,1949,D.C. Comics
-all american western ,111,NL ,,8,W , ,1949,D.C. Comics
-all american western ,117,NM+ ,,9.4,W , ,1951,D.C. Comics
-all american western ,118,FN ,,9.2,W ,Not CGC graded ,1951,D.C. Comics
-all american western ,120,NM+ ,,9.4,W , ,1951,D.C. Comics
-all american western ,124,NM ,,8.5,W , ,1952,D.C. Comics
 all capp's dog patch,3,NM,$7.00 ,,,,,
 all famous crime,4,FN,$2.00 ,,,,,
 all famous crime,5,NM,$3.00 ,,,,,
@@ -612,46 +603,32 @@ all famous crime,9,VG,$5.00 ,,,,,
 all famous crime,10,VG,$2.00 ,,,,,
 all famous crime (132 pages),NN,VG,$5.00 ,,,,,
 all flash,1,NM,$400.00 ,,,,,
-all flash,3,NM+,$150.00 ,,,,,
+all flash ,2,NL ,,9.6,OW , ,1941,D.C. Comics
+all flash ,3,NM+ ,$150.00 ,9.6,OW-W ,Mis-cut ,1941,D.C. Comics
 all flash,5,VG,$35.00 ,,,,,
-all flash,7,NM,$80.00 ,,,,,
+all flash ,7,NM ,$80.00 ,8,W , ,1942,D.C. Comics
 all flash,8,NM,$80.00 ,,,,,
 all flash,9,FN,$50.00 ,,,,,
 all flash,10,NM,$80.00 ,,,,,
-all flash,12,NM+,$75.00 ,,,,,
-all flash,13,NM+,$75.00 ,,,,,
+all flash ,12,NM+ ,$75.00 ,9.4,OW-W , , ,D.C. Comics
+all flash ,13,NM+ ,$75.00 ,7.5,OW-W , ,1943,D.C. Comics
 all flash,15,FN,$30.00 ,,,,,
 all flash,16,NM+,$60.00 ,,,,,
-all flash,17,NM+,$60.00 ,,,,,
-all flash,19,NM+,$60.00 ,,,,,
+all flash ,17,NM+ ,$60.00 ,9,OW-W , ,1944,D.C. Comics
+all flash ,19,NM+ ,$60.00 ,9.4,OW-W , ,1945,D.C. Comics
 all flash,20,NM+,$60.00 ,,,,,
-all flash,21,NM+,$50.00 ,,,,,
-all flash,22,NM+,$50.00 ,,,,,
+all flash ,21,NM+ ,$50.00 ,9.4,W ,Mis-cut ,1945,D.C. Comics
+all flash ,22,NM+ ,$50.00 ,9.6,OW-W ,Mis-cut ,1946,D.C. Comics
+all flash ,23,NL ,,9.4,OW-W , ,1946,D.C. Comics
 all flash,24,NM+,$50.00 ,,,,,
-all flash,25,NM+,$50.00 ,,,,,
-all flash,26,NM+,$50.00 ,,,,,
-all flash,27,NM+,$50.00 ,,,,,
-all flash,28,NM+,$50.00 ,,,,,
-all flash,29,NM+,$50.00 ,,,,,
+all flash ,25,NM+ ,$50.00 ,9.4,OW-W , ,1946,D.C. Comics
+all flash ,26,NM+ ,$50.00 ,9.6,OW , ,1947,D.C. Comics
+all flash ,27,NM+ ,$50.00 ,9.8,OW-W , ,1947,D.C. Comics
+all flash ,28,NM+ ,$50.00 ,8.5,OW-W , ,1947,D.C. Comics
+all flash ,29,NM+ ,$50.00 ,9.4,OW-W , ,1947,D.C. Comics
 all flash,30,NM,$40.00 ,,,,,
 all flash,31,NM+,$50.00 ,,,,,
-all flash,32,NM,$40.00 ,,,,,
-all flash ,2,NL ,,9.6,OW , ,1941,D.C. Comics
-all flash ,3,NM+ ,,9.6,OW-W ,Mis-cut ,1941,D.C. Comics
-all flash ,7,NM ,,8,W , ,1942,D.C. Comics
-all flash ,12,NM+ ,,9.4,OW-W , , ,D.C. Comics
-all flash ,13,NM+ ,,7.5,OW-W , ,1943,D.C. Comics
-all flash ,17,NM+ ,,9,OW-W , ,1944,D.C. Comics
-all flash ,19,NM+ ,,9.4,OW-W , ,1945,D.C. Comics
-all flash ,21,NM+ ,,9.4,W ,Mis-cut ,1945,D.C. Comics
-all flash ,22,NM+ ,,9.6,OW-W ,Mis-cut ,1946,D.C. Comics
-all flash ,23,NL ,,9.4,OW-W , ,1946,D.C. Comics
-all flash ,25,NM+ ,,9.4,OW-W , ,1946,D.C. Comics
-all flash ,26,NM+ ,,9.6,OW , ,1947,D.C. Comics
-all flash ,27,NM+ ,,9.8,OW-W , ,1947,D.C. Comics
-all flash ,28,NM+ ,,8.5,OW-W , ,1947,D.C. Comics
-all flash ,29,NM+ ,,9.4,OW-W , ,1947,D.C. Comics
-all flash ,32,NM ,,9,OW-W , ,1948,D.C. Comics
+all flash ,32,NM ,$40.00 ,9,OW-W , ,1948,D.C. Comics
 all funny comics,1,NM+,$20.00 ,,,,,
 all funny comics,5,NM+,$8.00 ,,,,,
 all funny comics,6,NM,$5.00 ,,,,,
