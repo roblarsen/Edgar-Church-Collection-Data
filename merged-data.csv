@@ -916,10 +916,11 @@ amazing detective,14,NM+,$4.00 ,,,,,
 amazing ghost stories,14,NM,$5.00 ,,,,,
 amazing ghost stories,15,NM+,$5.00 ,,,,,
 amazing ghost stories,16,FN,$3.00 ,,,,,
+amazing man comics ,5,NL ,,9.4,OW-W , ,1939,Centaur
 amazing man comics,6,NM,$100.00 ,,,,,
-amazing man comics,7,NM,$75.00 ,,,,,
-amazing man comics,8,NM+,$80.00 ,,,,,
-amazing man comics,9,NM,$60.00 ,,,,,
+amazing man comics ,7,NM ,$75.00 ,8.5,OW-W ,Slight (A) ,1939,Centaur
+amazing man comics ,8,NM+ ,$80.00 ,9,OW , ,1939,Centaur
+amazing man comics ,9,NM ,$60.00 ,9,OW , ,1940,Centaur
 amazing man comics,10,NM,$60.00 ,,,,,
 amazing man comics,11,NM+,$90.00 ,,,,,
 amazing man comics,12,NM,$45.00 ,,,,,
@@ -937,86 +938,62 @@ amazing man comics,23,NM+,$45.00 ,,,,,
 amazing man comics,24,NM+,$45.00 ,,,,,
 amazing man comics,25,NM+,$80.00 ,,,,,
 amazing man comics,26,NM,$55.00 ,,,,,
-amazing man comics ,5,NL ,,9.4,OW-W , ,1939,Centaur
-amazing man comics ,7,NM ,,8.5,OW-W ,Slight (A) ,1939,Centaur
-amazing man comics ,8,NM+ ,,9,OW , ,1939,Centaur
-amazing man comics ,9,NM ,,9,OW , ,1940,Centaur
 amazing mysteries,32,NM,$6.00 ,,,,,
 amazing mysteries,33,FN,$4.00 ,,,,,
 amazing mysteries,34,FN,$3.00 ,,,,,
 amazing mysteries,35,FN,$4.00 ,,,,,
-amazing mystery funnies,18,NM,$65.00 ,,,,,
-amazing mystery funnies,20,NM,$65.00 ,,,,,
-amazing mystery funnies,21,NM+,$85.00 ,,,,,
-amazing mystery funnies,22,NM,$65.00 ,,,,,
-amazing mystery funnies,23,NM+,$85.00 ,,,,,
-amazing mystery funnies,24,NM+,$85.00 ,,,,,
-amazing mystery funnies,V1 1,NM,$190.00 ,,,,,
-amazing mystery funnies,V1 2,NM,$80.00 ,,,,,
-amazing mystery funnies,V1 3,NM+,$70.00 ,,,,,
-amazing mystery funnies,V1 4,NM+,$70.00 ,,,,,
-amazing mystery funnies,V2 1,NM,$40.00 ,,,,,
-amazing mystery funnies,V2 10,NM+,$65.00 ,,,,,
-amazing mystery funnies,V2 11,NM+,$65.00 ,,,,,
-amazing mystery funnies,V2 12,NM,$40.00 ,,,,,
-amazing mystery funnies,V2 2,NM+,$55.00 ,,,,,
-amazing mystery funnies,V2 3,NM+,$55.00 ,,,,,
-amazing mystery funnies,V2 4,NM+,$55.00 ,,,,,
-amazing mystery funnies,V2 5,NM,$35.00 ,,,,,
-amazing mystery funnies,V2 6,NM,$35.00 ,,,,,
-amazing mystery funnies,V2 7,FN,$75.00 ,,,,,
-amazing mystery funnies,V2 8,FN,$45.00 ,,,,,
-amazing mystery funnies,V2 9,NM,$45.00 ,,,,,
-amazing mystery funnies,V3 1,NM,$35.00 ,,,,,
-amazing mystery funnies ,2,NM ,,7,W , ,1938,Centaur
-amazing mystery funnies ,18,NM ,,8.5,W , ,1940,Centaur
-amazing mystery funnies ,20,NM ,,7.5,W , ,1940,Centaur
-amazing mystery funnies ,24,NM+ ,,9.2,W , , ,
-amazing mystery funnies vol.2 ,1,NM ,,9,W , , ,Centaur
-amazing mystery funnies vol.2 ,5,NM ,,9.2, , , ,Centaur
-amazing mystery funnies vol.2 ,7,FN ,,8.5,W ,Slight (P)  ,1939,Centaur
-amazing mystery funnies vol.2 ,12,NM ,,8.5,CR-OW ,mis-cut ,1939,Centaur
-amazing mystery funnies vol.3 ,1,NM ,,6.5,W , ,1940,Centaur
+amazing mystery funnies vol.1,18,NM ,$65.00 ,8.5,W , ,1940,Centaur
+amazing mystery funnies vol.1,20,NM ,$65.00 ,7.5,W , ,1940,Centaur
+amazing mystery funnies vol.1,21,NM+,$85.00 ,,,,,
+amazing mystery funnies vol.1,22,NM,$65.00 ,,,,,
+amazing mystery funnies vol.1,23,NM+,$85.00 ,,,,,
+amazing mystery funnies vol.1,24,NM+ ,$85.00 ,9.2,W , , ,
+amazing mystery funnies vol.1,1,NM,$190.00 ,,,,,
+amazing mystery funnies vol.1,2,NM ,$80.00 ,7,W , ,1938,Centaur
+amazing mystery funnies vol.1,3,NM+,$70.00 ,,,,,
+amazing mystery funnies vol.1,4,NM+,$70.00 ,,,,,
+amazing mystery funnies vol.2 ,1,NM ,$40.00 ,9,W , , ,Centaur
+amazing mystery funnies vol.2 ,10,NM+,$65.00 ,,,,,
+amazing mystery funnies vol.2 ,11,NM+,$65.00 ,,,,,
+amazing mystery funnies vol.2 ,12,NM ,$0.00 ,8.5,CR-OW ,mis-cut ,1939,Centaur
+amazing mystery funnies vol.2 ,2,NM+,$55.00 ,,,,,
+amazing mystery funnies vol.2 ,3,NM+,$55.00 ,,,,,
+amazing mystery funnies vol.2 ,4,NM+,$55.00 ,,,,,
+amazing mystery funnies vol.2 ,5,NM ,$35.00 ,9.2, , , ,Centaur
+amazing mystery funnies vol.2 ,6,NM,$35.00 ,,,,,
+amazing mystery funnies vol.2 ,7,FN ,$75.00 ,8.5,W ,Slight (P)  ,1939,Centaur
+amazing mystery funnies vol.2 ,8,FN,$45.00 ,,,,,
+amazing mystery funnies vol.2 ,9,NM,$45.00 ,,,,,
+amazing mystery funnies vol.3 ,1,NM ,$35.00 ,6.5,W , ,1940,Centaur
 american library,4,VG,$2.00 ,,,,,
 america's best comics,1,NM,$150.00 ,,,,,
 america's best comics,3,FN,$40.00 ,,,,,
 america's best comics,4,NM+,$70.00 ,,,,,
 america's best comics,5,NM+,$65.00 ,,,,,
 america's best comics,7,NM+,$50.00 ,,,,,
-america's best comics,8,NM+,$45.00 ,,,,,
-america's best comics,9,NM+,$45.00 ,,,,,
-america's best comics,10,NM+,$45.00 ,,,,,
+america's best comics ,8,NM+ ,$45.00 ,9.2,W , ,1944,Nedor Publications
+america's best comics ,9,NM+ ,$45.00 ,9.6,OW-W , ,1944,Nedor Publications
+america's best comics ,10,NM+ ,$45.00 ,9.2,OW , ,1944,Nedor Publications
 america's best comics,11,NM+,$35.00 ,,,,,
 america's best comics,12,NM+,$35.00 ,,,,,
 america's best comics,13,NM,$22.00 ,,,,,
-america's best comics,14,NM+,$35.00 ,,,,,
+america's best comics ,14,NM+ ,$35.00 ,9.8,W ,Slight mis-cut ,1945,Nedor Publications
 america's best comics,15,NM+,$35.00 ,,,,,
-america's best comics,16,NM+,$35.00 ,,,,,
-america's best comics,17,NM+,$35.00 ,,,,,
-america's best comics,18,NM+,$35.00 ,,,,,
-america's best comics,19,NM+,$35.00 ,,,,,
+america's best comics ,16,NM+ ,$35.00 ,9,OW-W , ,1946,Nedor Publications
+america's best comics ,17,NM+ ,$35.00 ,9.2,OW-W , ,1946,Nedor Publications
+america's best comics ,18,NM+ ,$35.00 ,9.4,OW ,Old grade NM- 9.2 double copy? or fake  ,1946,Nedor Publications
+america's best comics ,19,NM+ ,$35.00 ,9.2,OW-W , ,1946,Nedor Publications
 america's best comics,20,NM,$22.00 ,,,,,
-america's best comics,21,NM,$15.00 ,,,,,
-america's best comics,22,NM,$15.00 ,,,,,
+america's best comics ,21,NM ,$15.00 ,9.2,OW-W , ,1947,Nedor Publications
+america's best comics ,22,NM ,$15.00 ,9.6,W ,Old grade NM- 9.2 ,1949,Nedor Publications
 america's best comics,23,NM+,$20.00 ,,,,,
 america's best comics,24,NM,$15.00 ,,,,,
 america's best comics,25,NM+,$20.00 ,,,,,
 america's best comics,26,NM,$15.00 ,,,,,
 america's best comics,27,NM,$15.00 ,,,,,
-america's best comics,29,NM+,$20.00 ,,,,,
+america's best comics ,29,NM+ ,$20.00 ,9.6,W ,Old grade NM- 9.2 ,1949,Nedor Publications
 america's best comics,30,NM,$15.00 ,,,,,
 america's best comics,31,NM+,$20.00 ,,,,,
-america's best comics ,8,NM+ ,,9.2,W , ,1944,Nedor Publications
-america's best comics ,9,NM+ ,,9.6,OW-W , ,1944,Nedor Publications
-america's best comics ,10,NM+ ,,9.2,OW , ,1944,Nedor Publications
-america's best comics ,14,NM+ ,,9.8,W ,Slight mis-cut ,1945,Nedor Publications
-america's best comics ,16,NM+ ,,9,OW-W , ,1946,Nedor Publications
-america's best comics ,17,NM+ ,,9.2,OW-W , ,1946,Nedor Publications
-america's best comics ,18,NM+ ,,9.4,OW ,Old grade NM- 9.2 double copy? or fake  ,1946,Nedor Publications
-america's best comics ,19,NM+ ,,9.2,OW-W , ,1946,Nedor Publications
-america's best comics ,21,NM ,,9.2,OW-W , ,1947,Nedor Publications
-america's best comics ,22,NM ,,9.6,W ,Old grade NM- 9.2 ,1949,Nedor Publications
-america's best comics ,29,NM+ ,,9.6,W ,Old grade NM- 9.2 ,1949,Nedor Publications
 america's biggest comics book,NN,NM,$22.00 ,,,,,
 america's greatest comics,2,NM+,$210.00 ,,,,,
 america's greatest comics,3,NM,$90.00 ,,,,,
@@ -1151,10 +1128,8 @@ atoman,1,NM,$22.00 ,,,,,
 atoman,2,NM+,$16.00 ,,,,,
 atomic comics ,1,NM+ ,,9.4,OW , ,1946,Green Publications
 atomic spy cases,NN,NM,$15.00 ,,,,,
-atomic thunderbolt,1,NM+,$18.00 ,,,,,
-atomic thunderbolt ,1,NM+ ,,7.5,OW , ,1946,Regor
-attack on planet mars ,0,NM+ ,,9,OW-W ,#nn ,1951,Avon
-attack on planet mars (1951),NN,NM+,$50.00 ,,,,,
+atomic thunderbolt ,1,NM+ ,$18.00 ,7.5,OW , ,1946,Regor
+attack on planet mars ,NN,NM+ ,$50.00 ,9,OW-W ,#nn ,1951,Avon
 authentic police cases,1,NM+,$7.00 ,,,,,
 authentic police cases,2,NM,$3.00 ,,,,,
 authentic police cases,3,NM+,$4.00 ,,,,,
@@ -1166,7 +1141,7 @@ authentic police cases,8,NM+,$4.00 ,,,,,
 authentic police cases,9,NM+,$4.00 ,,,,,
 authentic police cases,10,NM,$3.00 ,,,,,
 authentic police cases,11,NM+,$4.00 ,,,,,
-authentic police cases,13,NM+,$4.00 ,,,,,
+authentic police cases ,13,NM+ ,$4.00 ,9.4,OW-W , ,1951,St. John Publications
 authentic police cases,14,NM,$3.00 ,,,,,
 authentic police cases,15,NM+,$4.00 ,,,,,
 authentic police cases,16,NM,$3.00 ,,,,,
@@ -1177,7 +1152,6 @@ authentic police cases,22,G,$2.00 ,,,,,
 authentic police cases,24,NM,$3.00 ,,,,,
 authentic police cases,25,VG,$2.00 ,,,,,
 authentic police cases,31,NM+,$3.00 ,,,,,
-authentic police cases ,13,NM+ ,,9.4,OW-W , ,1951,St. John Publications
 babe,1,FN,$7.00 ,,,,,
 babe,2,NM+,$8.00 ,,,,,
 babe,3,FN,$4.00 ,,,,,
