@@ -1814,129 +1814,103 @@ blue bolt,106,NM,$20.00 ,,,,,
 blue bolt,107,NM+,$25.00 ,,,,,
 blue bolt,108,NM,$16.00 ,,,,,
 blue bolt,111,NM+,$10.00 ,,,,,
-blue bolt,V1 1,NM,$300.00 ,,,,,
-blue bolt,V1 10,NM,$28.00 ,,,,,
-blue bolt,V1 11,NM+,$40.00 ,,,,,
-blue bolt,V1 12,NM+,$40.00 ,,,,,
-blue bolt,V1 2,NM+,$240.00 ,,,,,
-blue bolt,V1 3,FN,$90.00 ,,,,,
-blue bolt,V1 4,NM,$110.00 ,,,,,
-blue bolt,V1 5,NM+,$180.00 ,,,,,
-blue bolt,V1 6,NM+,$150.00 ,,,,,
-blue bolt,V1 7,NM,$110.00 ,,,,,
-blue bolt,V1 9,NM,$110.00 ,,,,,
-blue bolt,V10 1,NM+,$4.00 ,,,,,
-blue bolt,V10 2,NM,$3.00 ,,,,,
-blue bolt,V2 10,NM,$7.00 ,,,,,
-blue bolt,V2 11,NM+,$8.00 ,,,,,
-blue bolt,V2 2,NM,$10.00 ,,,,,
-blue bolt,V2 3,VG,$5.00 ,,,,,
-blue bolt,V2 4,NM,$10.00 ,,,,,
-blue bolt,V2 5,NM+,$15.00 ,,,,,
-blue bolt,V2 6,FN,$8.00 ,,,,,
-blue bolt,V2 7,NM+,$8.00 ,,,,,
-blue bolt,V2 8,NM+,$8.00 ,,,,,
-blue bolt,V2 9,NM,$7.00 ,,,,,
-blue bolt,V3 1,NM+,$8.00 ,,,,,
-blue bolt,V3 10,NM,$7.00 ,,,,,
-blue bolt,V3 11,NM+,$8.00 ,,,,,
-blue bolt,V3 12,NM,$7.00 ,,,,,
-blue bolt,V3 2,NM,$7.00 ,,,,,
-blue bolt,V3 3,G,$2.00 ,,,,,
-blue bolt,V3 4,NM+,$8.00 ,,,,,
-blue bolt,V3 5,NM+,$8.00 ,,,,,
-blue bolt,V3 6,NM+,$8.00 ,,,,,
-blue bolt,V3 7,NM+,$8.00 ,,,,,
-blue bolt,V3 8,NM+,$8.00 ,,,,,
-blue bolt,V3 9,NM+,$8.00 ,,,,,
-blue bolt,V4 10,NM+,$7.00 ,,,,,
-blue bolt,V4 11,NM,$6.00 ,,,,,
-blue bolt,V4 12,NM+,$7.00 ,,,,,
-blue bolt,V4 2,NM+,$7.00 ,,,,,
-blue bolt,V4 3,NM,$6.00 ,,,,,
-blue bolt,V4 4,NM,$6.00 ,,,,,
-blue bolt,V4 5,NM+,$7.00 ,,,,,
-blue bolt,V4 6,NM+,$7.00 ,,,,,
-blue bolt,V4 7,NM,$6.00 ,,,,,
-blue bolt,V4 8,NM+,$7.00 ,,,,,
-blue bolt,V4 9,NM,$6.00 ,,,,,
-blue bolt,V5 2,NM,$4.00 ,,,,,
-blue bolt,V5 3,NM+,$5.00 ,,,,,
-blue bolt,V5 4,NM+,$5.00 ,,,,,
-blue bolt,V5 5,NM+,$5.00 ,,,,,
-blue bolt,V5 6,NM+,$5.00 ,,,,,
-blue bolt,V5 7,NM+,$5.00 ,,,,,
-blue bolt,V5 8,NM+,$5.00 ,,,,,
-blue bolt,V6 1,NM+,$5.00 ,,,,,
-blue bolt,V6 10,NM,$4.00 ,,,,,
-blue bolt,V6 2,NM+,$5.00 ,,,,,
-blue bolt,V6 3,NM+,$5.00 ,,,,,
-blue bolt,V6 4,NM+,$5.00 ,,,,,
-blue bolt,V6 5,NM+,$5.00 ,,,,,
-blue bolt,V6 6,NM+,$5.00 ,,,,,
-blue bolt,V6 7,NM+,$5.00 ,,,,,
-blue bolt,V6 8,NM,$4.00 ,,,,,
-blue bolt,V7 1,NM+,$5.00 ,,,,,
-blue bolt,V7 10,NM,$4.00 ,,,,,
-blue bolt,V7 11,NM+,$5.00 ,,,,,
-blue bolt,V7 12,NM+,$5.00 ,,,,,
-blue bolt,V7 2,NM+,$5.00 ,,,,,
-blue bolt,V7 3,NM+,$5.00 ,,,,,
-blue bolt,V7 4,NM+,$5.00 ,,,,,
-blue bolt,V7 5,NM+,$5.00 ,,,,,
-blue bolt,V7 6,NM+,$5.00 ,,,,,
-blue bolt,V7 7,NM+,$5.00 ,,,,,
-blue bolt,V7 8,NM+,$5.00 ,,,,,
-blue bolt,V7 9,NM+,$5.00 ,,,,,
-blue bolt,V8 1,NM,$3.00 ,,,,,
-blue bolt,V8 10,NM+,$4.00 ,,,,,
-blue bolt,V8 11,NM+,$4.00 ,,,,,
-blue bolt,V8 12,NM+,$4.00 ,,,,,
-blue bolt,V8 2,NM,$3.00 ,,,,,
-blue bolt,V8 3,NM,$3.00 ,,,,,
-blue bolt,V8 4,NM+,$4.00 ,,,,,
-blue bolt,V8 5,NM+,$4.00 ,,,,,
-blue bolt,V8 6,NM+,$4.00 ,,,,,
-blue bolt,V8 7,NM+,$4.00 ,,,,,
-blue bolt,V8 8,NM+,$4.00 ,,,,,
-blue bolt,V8 9,NM+,$4.00 ,,,,,
-blue bolt,V9 1,NM,$3.00 ,,,,,
-blue bolt,V9 2,NM+,$4.00 ,,,,,
-blue bolt,V9 3,NM+,$4.00 ,,,,,
-blue bolt,V9 4,NM+,$4.00 ,,,,,
-blue bolt,V9 5,NM,$3.00 ,,,,,
-blue bolt,V9 6,NM+,$4.00 ,,,,,
-blue bolt,V9 7,NM+,$4.00 ,,,,,
-blue bolt,V9 8,NM+,$4.00 ,,,,,
-blue bolt,V9 9,NM+,$4.00 ,,,,,
-blue bolt ,1,NM ,,9,W , ,1940,Novelty Press
-blue bolt ,2,NM+ ,,9.6,W , ,1940,Novelty Press
-blue bolt ,3,FN ,,8,OW-W , ,1940,Novelty Press
-blue bolt ,4,NM ,,9.2,OW-W , ,1940,Novelty Press
-blue bolt ,5,NM+ ,,8.5,OW-W , ,1940,Novelty Press
-blue bolt ,6,NM+ ,,9.2,W , ,1940,Novelty Press
-blue bolt ,7,NM ,,9.2,OW , ,1940,Novelty Press
-blue bolt ,10,NM ,,9,W , ,1941,Novelty Press
-blue bolt ,11,NM+ ,,9.4,W , ,1941,Novelty Press
-blue bolt ,12,NM+ ,,9.4,OW-W , ,1941,Novelty Press
+blue bolt vol1,1,NM,$300.00 ,9,W , ,1940,Novelty Press
+blue bolt vol1,10,NM,$28.00 ,9,W , ,1941,Novelty Press
+blue bolt vol1,11,NM+,$40.00 ,9.4,W , ,1941,Novelty Press
+blue bolt vol1,12,NM+,$40.00 ,9.4,OW-W , ,1941,Novelty Press
+blue bolt vol1,2,NM+,$240.00 ,9.6,W , ,1940,Novelty Press
+blue bolt vol1,3,FN,$90.00 ,8,OW-W , ,1940,Novelty Press
+blue bolt vol1,4,NM,$110.00 ,9.2,OW-W , ,1940,Novelty Press
+blue bolt vol1,5,NM+,$180.00 ,8.5,OW-W , ,1940,Novelty Press
+blue bolt vol1,6,NM+,$150.00 ,9.2,W , ,1940,Novelty Press
+blue bolt vol1,7,NM,$110.00 ,9.2,OW , ,1940,Novelty Press
+blue bolt vol1,9,NM,$110.00 ,,,,,
+blue bolt vol10,1,NM+,$4.00 ,,,,,
+blue bolt vol10,2,NM,$3.00 ,,,,,
+blue bolt vol2,1,NL ,,7,OW-W , ,1941,Novelty Press
+blue bolt vol2,10,NM,$7.00 ,,,,,
+blue bolt vol2,11,NM+,$8.00 ,9.6,W ,Old grade NM 9.4 ,1942,Novelty Press
+blue bolt vol2,2,NM,$10.00 ,9.4,W , ,1941,Novelty Press
+blue bolt vol2,3,VG,$5.00 ,,,,,
+blue bolt vol2,4,NM,$10.00 ,,,,,
+blue bolt vol2,5,NM+,$15.00 ,8,OW-W ,Small piece of tape on cover ,1941,Novelty Press
+blue bolt vol2,6,FN,$8.00 ,,,,,
+blue bolt vol2,7,NM+,$8.00 ,9.4,OW-W , ,1941,Novelty Press
+blue bolt vol2,8,NM+,$8.00 ,9.4,OW-W , ,1942,Novelty Press
+blue bolt vol2,9,NM,$7.00 ,7.5,OW-W , ,1942,Novelty Press
+blue bolt vol3,1,NM+,$8.00 ,,,,,
+blue bolt vol3,10,NM,$7.00 ,9.4,W , ,1943,Novelty Press
+blue bolt vol3,11,NM+,$8.00 ,9.6,OW-W , ,1943,Novelty Press
+blue bolt vol3,12,NM,$7.00 ,9.6,OW-W , ,1943,Novelty Press
+blue bolt vol3,2,NM,$7.00 ,9,W , ,1942,Novelty Press
+blue bolt vol3,3,G,$2.00 ,,,,,
+blue bolt vol3,4,NM+,$8.00 ,9,OW , ,1942,Novelty Press
+blue bolt vol3,5,NM+,$8.00 ,9.2,OW-W , ,1942,Novelty Press
+blue bolt vol3,6,NM+,$8.00 ,8.5,W , ,1942,Novelty Press
+blue bolt vol3,7,NM+,$8.00 ,9.8,W , ,1942,Novelty Press
+blue bolt vol3,8,NM+,$8.00 ,9.4,W , ,1943,Novelty Press
+blue bolt vol3,9,NM+,$8.00 ,9.2,W , ,1943,Novelty Press
+blue bolt vol4,10,NM+,$7.00 ,,,,,
+blue bolt vol4,11,NM,$6.00 ,,,,,
+blue bolt vol4,12,NM+,$7.00 ,,,,,
+blue bolt vol4,2,NM+,$7.00 ,,,,,
+blue bolt vol4,3,NM,$6.00 ,,,,,
+blue bolt vol4,4,NM,$6.00 ,,,,,
+blue bolt vol4,5,NM+,$7.00 ,,,,,
+blue bolt vol4,6,NM+,$7.00 ,,,,,
+blue bolt vol4,7,NM,$6.00 ,,,,,
+blue bolt vol4,8,NM+,$7.00 ,,,,,
+blue bolt vol4,9,NM,$6.00 ,,,,,
+blue bolt vol5,2,NM,$4.00 ,,,,,
+blue bolt vol5,3,NM+,$5.00 ,,,,,
+blue bolt vol5,4,NM+,$5.00 ,,,,,
+blue bolt vol5,5,NM+,$5.00 ,,,,,
+blue bolt vol5,6,NM+,$5.00 ,,,,,
+blue bolt vol5,7,NM+,$5.00 ,,,,,
+blue bolt vol5,8,NM+,$5.00 ,,,,,
+blue bolt vol6,1,NM+,$5.00 ,,,,,
+blue bolt vol6,10,NM,$4.00 ,,,,,
+blue bolt vol6,2,NM+,$5.00 ,,,,,
+blue bolt vol6,3,NM+,$5.00 ,,,,,
+blue bolt vol6,4,NM+,$5.00 ,,,,,
+blue bolt vol6,5,NM+,$5.00 ,,,,,
+blue bolt vol6,6,NM+,$5.00 ,,,,,
+blue bolt vol6,7,NM+,$5.00 ,,,,,
+blue bolt vol6,8,NM,$4.00 ,,,,,
+blue bolt vol7,1,NM+,$5.00 ,,,,,
+blue bolt vol7,10,NM,$4.00 ,,,,,
+blue bolt vol7,11,NM+,$5.00 ,,,,,
+blue bolt vol7,12,NM+,$5.00 ,,,,,
+blue bolt vol7,2,NM+,$5.00 ,,,,,
+blue bolt vol7,3,NM+,$5.00 ,,,,,
+blue bolt vol7,4,NM+,$5.00 ,,,,,
+blue bolt vol7,5,NM+,$5.00 ,,,,,
+blue bolt vol7,6,NM+,$5.00 ,,,,,
+blue bolt vol7,7,NM+,$5.00 ,,,,,
+blue bolt vol7,8,NM+,$5.00 ,,,,,
+blue bolt vol7,9,NM+,$5.00 ,,,,,
+blue bolt vol8,1,NM,$3.00 ,,,,,
+blue bolt vol8,10,NM+,$4.00 ,,,,,
+blue bolt vol8,11,NM+,$4.00 ,,,,,
+blue bolt vol8,12,NM+,$4.00 ,,,,,
+blue bolt vol8,2,NM,$3.00 ,,,,,
+blue bolt vol8,3,NM,$3.00 ,,,,,
+blue bolt vol8,4,NM+,$4.00 ,,,,,
+blue bolt vol8,5,NM+,$4.00 ,,,,,
+blue bolt vol8,6,NM+,$4.00 ,,,,,
+blue bolt vol8,7,NM+,$4.00 ,,,,,
+blue bolt vol8,8,NM+,$4.00 ,,,,,
+blue bolt vol8,9,NM+,$4.00 ,,,,,
+blue bolt vol9,1,NM,$3.00 ,,,,,
+blue bolt vol9,2,NM+,$4.00 ,,,,,
+blue bolt vol9,3,NM+,$4.00 ,,,,,
+blue bolt vol9,4,NM+,$4.00 ,,,,,
+blue bolt vol9,5,NM,$3.00 ,,,,,
+blue bolt vol9,6,NM+,$4.00 ,,,,,
+blue bolt vol9,7,NM+,$4.00 ,,,,,
+blue bolt vol9,8,NM+,$4.00 ,,,,,
+blue bolt vol9,9,NM+,$4.00 ,,,,,
 blue bolt (star publications) ,102,NL ,,9.2,OW-W , ,1949,Star Publications
-blue bolt vol.2 ,1,NL ,,7,OW-W , ,1941,Novelty Press
-blue bolt vol.2 ,2,NM ,,9.4,W , ,1941,Novelty Press
-blue bolt vol.2 ,5,NM+ ,,8,OW-W ,Small piece of tape on cover ,1941,Novelty Press
-blue bolt vol.2 ,7,NM+ ,,9.4,OW-W , ,1941,Novelty Press
-blue bolt vol.2 ,8,NM+ ,,9.4,OW-W , ,1942,Novelty Press
-blue bolt vol.2 ,9,NM ,,7.5,OW-W , ,1942,Novelty Press
-blue bolt vol.2 ,11,NM+ ,,9.6,W ,Old grade NM 9.4 ,1942,Novelty Press
-blue bolt vol.3 ,2,NM ,,9,W , ,1942,Novelty Press
-blue bolt vol.3 ,4,NM+ ,,9,OW , ,1942,Novelty Press
-blue bolt vol.3 ,5,NM+ ,,9.2,OW-W , ,1942,Novelty Press
-blue bolt vol.3 ,6,NM+ ,,8.5,W , ,1942,Novelty Press
-blue bolt vol.3 ,7,NM+ ,,9.8,W , ,1942,Novelty Press
-blue bolt vol.3 ,8,NM+ ,,9.4,W , ,1943,Novelty Press
-blue bolt vol.3 ,9,NM+ ,,9.2,W , ,1943,Novelty Press
-blue bolt vol.3 ,10,NM ,,9.4,W , ,1943,Novelty Press
-blue bolt vol.3 ,11,NM+ ,,9.6,OW-W , ,1943,Novelty Press
-blue bolt vol.3 ,12,NM ,,9.6,OW-W , ,1943,Novelty Press
 blue bolt weird tales,111,NM,$10.00 ,,,,,
 blue bolt weird tales,112,NM+,$10.00 ,,,,,
 blue bolt weird tales,113,FN,$15.00 ,,,,,
@@ -2027,8 +2001,8 @@ bouncer,12,NM+,$20.00 ,,,,,
 bouncer,13,NM+,$20.00 ,,,,,
 bouncer,NN,NM+,$20.00 ,,,,,
 bounty guns (fc),739,NM+,$3.00 ,,,,,
-boy comics,3,FN,$150.00 ,,,,,
-boy comics,4,NM,$110.00 ,,,,,
+boy comics ,3,FN ,$150.00 ,8,OW-W , ,1942,Lev Gleason
+boy comics ,4,NM ,$110.00 ,9.4,W ,Old grade VF/NM9.0 ,1942,Lev Gleason
 boy comics,5,FN,$65.00 ,,,,,
 boy comics,6,NM,$105.00 ,,,,,
 boy comics,7,NM+,$110.00 ,,,,,
@@ -2041,7 +2015,7 @@ boy comics,13,NM+,$55.00 ,,,,,
 boy comics,14,NM+,$55.00 ,,,,,
 boy comics,15,NM+,$55.00 ,,,,,
 boy comics,16,NM+,$70.00 ,,,,,
-boy comics,17,NM,$30.00 ,,,,,
+boy comics ,17,NM ,$30.00 ,7.5,W ,Old grade VG 4.0 ,1944,Lev Gleason
 boy comics,18,NM+,$45.00 ,,,,,
 boy comics,19,NM,$30.00 ,,,,,
 boy comics,20,NM,$30.00 ,,,,,
@@ -2078,36 +2052,33 @@ boy comics,51,VG,$3.00 ,,,,,
 boy comics,56,FN,$4.00 ,,,,,
 boy comics,57,VG,$3.00 ,,,,,
 boy comics,61,NM,$8.00 ,,,,,
-boy comics ,3,FN ,,8,OW-W , ,1942,Lev Gleason
-boy comics ,4,NM ,,9.4,W ,Old grade VF/NM9.0 ,1942,Lev Gleason
-boy comics ,17,NM ,,7.5,W ,Old grade VG 4.0 ,1944,Lev Gleason
-boy commandos,1,NM+,$450.00 ,,,,,
-boy commandos,2,NM+,$225.00 ,,,,,
-boy commandos,3,NM+,$110.00 ,,,,,
+boy commandos,1,NM+,$450.00 ,9.4,W , ,1942,D.C. Comics
+boy commandos,2,NM+,$225.00 ,9.4,W , ,1943,D.C. Comics
+boy commandos,3,NM+,$110.00 ,9.4,OW-W , ,1943,D.C. Comics
 boy commandos,4,NM+,$90.00 ,,,,,
 boy commandos,5,NM+,$70.00 ,,,,,
-boy commandos,7,NM+,$55.00 ,,,,,
-boy commandos,8,NM+,$55.00 ,,,,,
-boy commandos,9,NM,$40.00 ,,,,,
-boy commandos,10,NM+,$55.00 ,,,,,
-boy commandos,11,NM+,$30.00 ,,,,,
+boy commandos,7,NM+,$55.00 ,9.6,OW-W , ,1944,D.C. Comics
+boy commandos,8,NM+,$55.00 ,9.4,OW-W , ,1944,D.C. Comics
+boy commandos,9,NM,$40.00 ,8.5,OW-W , ,1944,D.C. Comics
+boy commandos,10,NM+,$55.00 ,9.6,OW-W , ,1945,D.C. Comics
+boy commandos,11,NM+,$30.00 ,9.6,OW-W , ,1945,D.C. Comics
 boy commandos,12,NM+,$35.00 ,,,,,
-boy commandos,13,NM+,$30.00 ,,,,,
+boy commandos,13,NM+,$30.00 ,9.6,OW-W , ,1945,D.C. Comics
 boy commandos,14,NM,$20.00 ,,,,,
 boy commandos,15,NM+,$35.00 ,,,,,
 boy commandos,16,NM+,$30.00 ,,,,,
-boy commandos,17,NM+,$30.00 ,,,,,
+boy commandos,17,NM+,$30.00 ,9.4,W , ,1946,D.C. Comics
 boy commandos,18,NM+,$30.00 ,,,,,
 boy commandos,19,NM+,$30.00 ,,,,,
 boy commandos,20,NM+,$30.00 ,,,,,
 boy commandos,21,NM+,$15.00 ,,,,,
-boy commandos,22,NM+,$15.00 ,,,,,
+boy commandos,22,NM+,$15.00 ,8.5,W , ,1947,D.C. Comics
 boy commandos,23,NM+,$30.00 ,,,,,
 boy commandos,24,G,$3.00 ,,,,,
 boy commandos,25,NM+,$15.00 ,,,,,
 boy commandos,26,NM,$12.00 ,,,,,
-boy commandos,27,NM+,$15.00 ,,,,,
-boy commandos,28,NM+,$15.00 ,,,,,
+boy commandos,27,NM+,$15.00 ,9.2,OW-W , ,1948,D.C. Comics
+boy commandos,28,NM+,$15.00 ,9.4,OW-W , ,1948,D.C. Comics
 boy commandos,30,NM,$12.00 ,,,,,
 boy commandos,31,FN,$6.00 ,,,,,
 boy commandos,32,NM+,$10.00 ,,,,,
@@ -2115,19 +2086,6 @@ boy commandos,33,NM,$10.00 ,,,,,
 boy commandos,34,NM+,$13.00 ,,,,,
 boy commandos,35,FN,$6.00 ,,,,,
 boy commandos,36,NM,$10.00 ,,,,,
-boy commandos ,1,NM+ ,,9.4,W , ,1942,D.C. Comics
-boy commandos ,2,NM+ ,,9.4,W , ,1943,D.C. Comics
-boy commandos ,3,NM+ ,,9.4,OW-W , ,1943,D.C. Comics
-boy commandos ,7,NM+ ,,9.6,OW-W , ,1944,D.C. Comics
-boy commandos ,8,NM+ ,,9.4,OW-W , ,1944,D.C. Comics
-boy commandos ,9,NM ,,8.5,OW-W , ,1944,D.C. Comics
-boy commandos ,10,NM+ ,,9.6,OW-W , ,1945,D.C. Comics
-boy commandos ,11,NM+ ,,9.6,OW-W , ,1945,D.C. Comics
-boy commandos ,13,NM+ ,,9.6,OW-W , ,1945,D.C. Comics
-boy commandos ,17,NM+ ,,9.4,W , ,1946,D.C. Comics
-boy commandos ,22,NM+ ,,8.5,W , ,1947,D.C. Comics
-boy commandos ,27,NM+ ,,9.2,OW-W , ,1948,D.C. Comics
-boy commandos ,28,NM+ ,,9.4,OW-W , ,1948,D.C. Comics
 boy detective (avon),1,NM+,$15.00 ,,,,,
 boy detective (avon),2,NM,$5.00 ,,,,,
 boy detective (avon),3,FN,$4.00 ,,,,,
@@ -2144,8 +2102,7 @@ boys ranch,1,NM+,$125.00 ,,,,,
 boys ranch,3,NM,$40.00 ,,,,,
 boys ranch,4,NM,$30.00 ,,,,,
 boys ranch,5,NM,$24.00 ,,,,,
-boys ranch,6,NM+,$30.00 ,,,,,
-boys' ranch ,6,NM+ ,,8.5,OW-W , ,1951,Harvey Publications
+boys' ranch ,6,NM+ ,$30.00 ,8.5,OW-W , ,1951,Harvey Publications
 brand of empire (fc),771,NM+,$3.00 ,,,,,
 brave eagle (fc),705,NM+,$3.00 ,,,,,
 brave eagle (fc),929,NM,$2.00 ,,,,,
@@ -2185,37 +2142,31 @@ broncho bill,5,NM+,$7.00 ,,,,,
 broncho bill,6,NM,$5.00 ,,,,,
 broncho bill,7,NM,$5.00 ,,,,,
 broncho bill,8,NM,$5.00 ,,,,,
-broncho bill,9,NM+,$7.00 ,,,,,
-broncho bill,10,NM+,$7.00 ,,,,,
-broncho bill,11,NM+,$5.00 ,,,,,
+broncho bill ,9,NM+ ,$7.00 ,9.8, , , ,
+broncho bill ,10,NM+ ,$7.00 ,9.4, ,Graded by Metropoliscomics.com not CGC , ,
+broncho bill ,11,NM+ ,$5.00 ,9.4, ,Graded by Metropoliscomics.com not CGC , ,
 broncho bill,12,NM,$4.00 ,,,,,
 broncho bill,13,NM+,$5.00 ,,,,,
 broncho bill,14,NM,$4.00 ,,,,,
 broncho bill,15,NM+,$5.00 ,,,,,
 broncho bill,16,NM+,$5.00 ,,,,,
-broncho bill ,9,NM+ ,,9.8, , , ,
-broncho bill ,10,NM+ ,,9.4, ,Graded by Metropoliscomics.com not CGC , ,
-broncho bill ,11,NM+ ,,9.4, ,Graded by Metropoliscomics.com not CGC , ,
 bruce gentry,1,NM+,$20.00 ,,,,,
-bruce gentry,2,NM+,$16.00 ,,,,,
-bruce gentry,3,NM+,$16.00 ,,,,,
+bruce gentry ,2,NM+ ,$16.00 ,9,OW , ,1948,Superior Comics
+bruce gentry ,3,NM+ ,$16.00 ,8.5,OW-W ,Old grade VF/NM 9.0 ,1949,Superior Comics
 bruce gentry,4,NM+,$13.00 ,,,,,
 bruce gentry,5,NM,$10.00 ,,,,,
 bruce gentry,6,NM+,$13.00 ,,,,,
 bruce gentry,7,NM+,$13.00 ,,,,,
 bruce gentry,8,NM+,$13.00 ,,,,,
-bruce gentry ,2,NM+ ,,9,OW , ,1948,Superior Comics
-bruce gentry ,3,NM+ ,,8.5,OW-W ,Old grade VF/NM 9.0 ,1949,Superior Comics
 buccaneers,19,NM+,$18.00 ,,,,,
 buccaneers,20,FN,$8.00 ,,,,,
 buccaneers,21,FN,$10.00 ,,,,,
 buccaneers,22,FN,$4.00 ,,,,,
 buccaneers,23,FN,$8.00 ,,,,,
 buccaneers,24,VG,$3.00 ,,,,,
-buccaneers,25,NM,$6.00 ,,,,,
+buccaneers ,25,NM ,$6.00 ,9,OW ,Old grade VF8.0 ,1951,Quality Comics
 buccaneers,26,NM,$6.00 ,,,,,
 buccaneers,27,NM,$10.00 ,,,,,
-buccaneers ,25,NM ,,9,OW ,Old grade VF8.0 ,1951,Quality Comics
 buck jones,2,NM+,$5.00 ,,,,,
 buck jones,3,NM+,$4.00 ,,,,,
 buck jones,4,NM+,$4.00 ,,,,,
@@ -2230,16 +2181,11 @@ buck jones (fc),652,NM,$4.00 ,,,,,
 buck jones (fc),733,NM+,$4.00 ,,,,,
 buck jones (fc),850,NM+,$4.00 ,,,,,
 buck rogers,1,NM+,$350.00 ,,,,,
-buck rogers,2,NM+,$240.00 ,,,,,
-buck rogers,3,NM,$120.00 ,,,,,
-buck rogers,4,NM+,$170.00 ,,,,,
-buck rogers,5,NM+,$160.00 ,,,,,
-buck rogers,6,NM,$110.00 ,,,,,
-buck rogers ,2,NM+ ,,9.8,W , ,1941,Eastern Color
-buck rogers ,3,NM ,,9.6,W , ,1941,Eastern Color
-buck rogers ,4,NM+ ,,9.6,OW-W , ,1942,Eastern Color
-buck rogers ,5,NM+ ,,9.6,OW-W , ,1943,Eastern Color
-buck rogers ,6,NM ,,9.4,OW-W , ,1943,Eastern Color
+buck rogers,2,NM+,$240.00 ,9.8,W , ,1941,Eastern Color
+buck rogers,3,NM,$120.00 ,9.6,W , ,1941,Eastern Color
+buck rogers,4,NM+,$170.00 ,9.6,OW-W , ,1942,Eastern Color
+buck rogers,5,NM+,$160.00 ,9.6,OW-W , ,1943,Eastern Color
+buck rogers,6,NM,$110.00 ,9.4,OW-W , ,1943,Eastern Color
 buck rogers (toby),100,NM,$12.00 ,,,,,
 buck rogers (toby),101,NM,$12.00 ,,,,,
 buckskin (fc),1107,NM,$3.00 ,,,,,
