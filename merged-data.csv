@@ -2496,259 +2496,220 @@ captain flight (march 1944),NN,NM,$10.00 ,,,,,
 captain hobby,1,G,$3.00 ,,,,,
 captain jet,2,FN,$3.00 ,,,,,
 captain jet,5,FN,$4.00 ,,,,,
-captain marvel,1,NM,"$3,000.00 ",,,,,
-captain marvel,2,NM,$800.00 ,,,,,
-captain marvel,3,NM,$425.00 ,,,,,
-captain marvel,5,NM,$240.00 ,,,,,
-captain marvel,6,NM,$180.00 ,,,,,
-captain marvel,7,NM+,$210.00 ,,,,,
-captain marvel,8,NM+,$210.00 ,,,,,
-captain marvel,9,NM+,$210.00 ,,,,,
-captain marvel,10,NM,$180.00 ,,,,,
-captain marvel,11,NM+,$150.00 ,,,,,
-captain marvel,12,NM+,$150.00 ,,,,,
-captain marvel,13,NM+,$150.00 ,,,,,
-captain marvel,14,NM+,$150.00 ,,,,,
-captain marvel,15,NM+,$150.00 ,,,,,
-captain marvel,17,NM+,$120.00 ,,,,,
-captain marvel,18,NM+,$180.00 ,,,,,
-captain marvel,19,NM+,$100.00 ,,,,,
-captain marvel,20,VG,$45.00 ,,,,,
-captain marvel,21,NM+,$80.00 ,,,,,
-captain marvel,23,NM+,$90.00 ,,,,,
-captain marvel,24,NM+,$90.00 ,,,,,
-captain marvel,25,NM,$90.00 ,,,,,
-captain marvel,26,NM+,$80.00 ,,,,,
-captain marvel,27,NM+,$80.00 ,,,,,
-captain marvel,28,NM,$65.00 ,,,,,
-captain marvel,29,NM+,$80.00 ,,,,,
-captain marvel,30,NM,$65.00 ,,,,,
-captain marvel,32,NM+,$60.00 ,,,,,
-captain marvel,33,NM+,$60.00 ,,,,,
-captain marvel,34,NM+,$60.00 ,,,,,
-captain marvel,35,NM,$45.00 ,,,,,
-captain marvel,36,FN,$27.00 ,,,,,
-captain marvel,37,NM,$40.00 ,,,,,
-captain marvel,38,NM+,$55.00 ,,,,,
-captain marvel,39,NM,$40.00 ,,,,,
-captain marvel,41,NM,$35.00 ,,,,,
-captain marvel,42,NM+,$50.00 ,,,,,
-captain marvel,43,NM+,$50.00 ,,,,,
-captain marvel,44,FN,$24.00 ,,,,,
-captain marvel,50,FN,$18.00 ,,,,,
-captain marvel,53,NM,$18.00 ,,,,,
-captain marvel,54,NM,$18.00 ,,,,,
-captain marvel,55,NM+,$24.00 ,,,,,
-captain marvel,58,FN,$12.00 ,,,,,
-captain marvel,65,NM,$18.00 ,,,,,
-captain marvel,66,NM,$18.00 ,,,,,
-captain marvel,67,NM,$18.00 ,,,,,
-captain marvel,69,FN,$12.00 ,,,,,
-captain marvel,70,NM,$18.00 ,,,,,
-captain marvel,71,FN,$12.00 ,,,,,
-captain marvel,73,NM,$18.00 ,,,,,
-captain marvel,74,NM,$18.00 ,,,,,
-captain marvel,75,NM,$18.00 ,,,,,
-captain marvel,77,NM,$18.00 ,,,,,
-captain marvel,78,NM,$18.00 ,,,,,
-captain marvel,81,NM+,$20.00 ,,,,,
-captain marvel,92,FN,$8.00 ,,,,,
-captain marvel,100,FN,$12.00 ,,,,,
-captain marvel,123,FN,$7.00 ,,,,,
+captain marvel,1,NM,"$3,000.00 ",,,,,Fawcett
+captain marvel,2,NM,$800.00 ,,,,,Fawcett
+captain marvel,3,NM,$425.00 ,,,,,Fawcett
+captain marvel,5,NM,$240.00 ,,,,,Fawcett
+captain marvel,6,NM,$180.00 ,,,,,Fawcett
+captain marvel,7,NM+,$210.00 ,,,,,Fawcett
+captain marvel,8,NM+,$210.00 ,,,,,Fawcett
+captain marvel,9,NM+,$210.00 ,,,,,Fawcett
+captain marvel,10,NM,$180.00 ,,,,,Fawcett
+captain marvel,11,NM+,$150.00 ,,,,,Fawcett
+captain marvel,12,NM+,$150.00 ,,,,,Fawcett
+captain marvel,13,NM+,$150.00 ,,,,,Fawcett
+captain marvel,14,NM+,$150.00 ,,,,,Fawcett
+captain marvel,15,NM+,$150.00 ,,,,,Fawcett
+captain marvel,17,NM+,$120.00 ,,,,,Fawcett
+captain marvel,18,NM+,$180.00 ,,,,,Fawcett
+captain marvel,19,NM+,$100.00 ,,,,,Fawcett
+captain marvel,20,VG,$45.00 ,,,,,Fawcett
+captain marvel,21,NM+,$80.00 ,,,,,Fawcett
+captain marvel,23,NM+,$90.00 ,,,,,Fawcett
+captain marvel,24,NM+,$90.00 ,,,,,Fawcett
+captain marvel,25,NM,$90.00 ,,,,,Fawcett
+captain marvel,26,NM+,$80.00 ,,,,,Fawcett
+captain marvel,27,NM+,$80.00 ,,,,,Fawcett
+captain marvel,28,NM,$65.00 ,,,,,Fawcett
+captain marvel,29,NM+,$80.00 ,,,,,Fawcett
+captain marvel,30,NM,$65.00 ,,,,,Fawcett
+captain marvel,32,NM+,$60.00 ,,,,,Fawcett
+captain marvel,33,NM+,$60.00 ,,,,,Fawcett
+captain marvel,34,NM+,$60.00 ,,,,,Fawcett
+captain marvel,35,NM,$45.00 ,,,,,Fawcett
+captain marvel,36,FN,$27.00 ,,,,,Fawcett
+captain marvel,37,NM,$40.00 ,,,,,Fawcett
+captain marvel,38,NM+,$55.00 ,,,,,Fawcett
+captain marvel,39,NM,$40.00 ,,,,,Fawcett
+captain marvel,41,NM,$35.00 ,,,,,Fawcett
+captain marvel,42,NM+,$50.00 ,,,,,Fawcett
+captain marvel,43,NM+,$50.00 ,,,,,Fawcett
+captain marvel,44,FN,$24.00 ,,,,,Fawcett
+captain marvel,50,FN,$18.00 ,,,,,Fawcett
+captain marvel,53,NM,$18.00 ,,,,,Fawcett
+captain marvel,54,NM,$18.00 ,,,,,Fawcett
+captain marvel,55,NM+,$24.00 ,,,,,Fawcett
+captain marvel,58,FN,$12.00 ,,,,,Fawcett
+captain marvel,65,NM,$18.00 ,,,,,Fawcett
+captain marvel,66,NM,$18.00 ,,,,,Fawcett
+captain marvel,67,NM,$18.00 ,,,,,Fawcett
+captain marvel,69,FN,$12.00 ,,,,,Fawcett
+captain marvel,70,NM,$18.00 ,,,,,Fawcett
+captain marvel,71,FN,$12.00 ,,,,,Fawcett
+captain marvel,73,NM,$18.00 ,,,,,Fawcett
+captain marvel,74,NM,$18.00 ,,,,,Fawcett
+captain marvel,75,NM,$18.00 ,,,,,Fawcett
+captain marvel,77,NM,$18.00 ,,,,,Fawcett
+captain marvel,78,NM,$18.00 ,,,,,Fawcett
+captain marvel,81,NM+,$20.00 ,,,,,Fawcett
+captain marvel,92,FN,$8.00 ,,,,,Fawcett
+captain marvel,100,FN,$12.00 ,,,,,Fawcett
+captain marvel,123,FN,$7.00 ,,,,,Fawcett
 captain marvel adventures ,24,NM+ ,,9.4,OW-W , ,1943,Fawcett
 captain marvel adventures ,29,NM+ ,,9.4,OW-W , ,1943,Fawcett
 captain marvel adventures ,38,NM+ ,,9.4,OW-W , ,1944,Fawcett
 captain marvel adventures ,70,NM ,,7.5,OW-W , ,1947,Fawcett
-captain marvel jr.,2,NM+,$240.00 ,,,,,
-captain marvel jr.,3,NM+,$180.00 ,,,,,
-captain marvel jr.,4,NM+,$180.00 ,,,,,
-captain marvel jr.,5,NM,$90.00 ,,,,,
-captain marvel jr.,6,NM+,$100.00 ,,,,,
-captain marvel jr.,7,NM+,$100.00 ,,,,,
-captain marvel jr.,8,NM+,$100.00 ,,,,,
-captain marvel jr.,9,NM+,$100.00 ,,,,,
-captain marvel jr.,10,NM+,$100.00 ,,,,,
-captain marvel jr.,11,NM+,$60.00 ,,,,,
-captain marvel jr.,12,NM+,$60.00 ,,,,,
-captain marvel jr.,13,NM+,$60.00 ,,,,,
-captain marvel jr.,14,NM+,$60.00 ,,,,,
-captain marvel jr.,15,NM+,$60.00 ,,,,,
-captain marvel jr.,16,NM+,$60.00 ,,,,,
-captain marvel jr.,17,NM+,$60.00 ,,,,,
-captain marvel jr.,18,NM+,$60.00 ,,,,,
-captain marvel jr.,19,NM+,$60.00 ,,,,,
-captain marvel jr.,20,NM,$45.00 ,,,,,
-captain marvel jr.,21,NM+,$35.00 ,,,,,
-captain marvel jr.,22,NM+,$35.00 ,,,,,
-captain marvel jr.,23,NM+,$35.00 ,,,,,
-captain marvel jr.,24,NM,$25.00 ,,,,,
-captain marvel jr.,25,NM,$25.00 ,,,,,
-captain marvel jr.,26,NM+,$35.00 ,,,,,
-captain marvel jr.,28,NM+,$35.00 ,,,,,
-captain marvel jr.,29,NM,$25.00 ,,,,,
-captain marvel jr.,30,NM+,$35.00 ,,,,,
-captain marvel jr.,31,NM+,$24.00 ,,,,,
-captain marvel jr.,32,NM+,$24.00 ,,,,,
-captain marvel jr.,33,NM+,$24.00 ,,,,,
-captain marvel jr.,35,NM,$18.00 ,,,,,
-captain marvel jr.,36,NM,$18.00 ,,,,,
-captain marvel jr.,37,NM+,$24.00 ,,,,,
-captain marvel jr.,38,NM,$18.00 ,,,,,
-captain marvel jr.,39,NM+,$24.00 ,,,,,
-captain marvel jr.,40,NM+,$24.00 ,,,,,
-captain marvel jr.,41,NM+,$15.00 ,,,,,
-captain marvel jr.,42,NM+,$15.00 ,,,,,
-captain marvel jr.,43,NM+,$15.00 ,,,,,
-captain marvel jr.,44,NM,$12.00 ,,,,,
-captain marvel jr.,45,NM+,$15.00 ,,,,,
-captain marvel jr.,46,FN,$8.00 ,,,,,
-captain marvel jr.,47,NM,$12.00 ,,,,,
-captain marvel jr.,48,NM+,$15.00 ,,,,,
-captain marvel jr.,49,NM+,$15.00 ,,,,,
-captain marvel jr.,50,NM+,$15.00 ,,,,,
-captain marvel jr.,51,NM+,$15.00 ,,,,,
-captain marvel jr.,52,VG,$5.00 ,,,,,
-captain marvel jr.,53,NM+,$15.00 ,,,,,
-captain marvel jr.,54,VG,$5.00 ,,,,,
-captain marvel jr.,55,FN,$8.00 ,,,,,
-captain marvel jr.,56,NM+,$15.00 ,,,,,
-captain marvel jr.,57,NM+,$15.00 ,,,,,
-captain marvel jr.,58,NM+,$15.00 ,,,,,
-captain marvel jr.,59,NM,$12.00 ,,,,,
-captain marvel jr.,60,NM,$12.00 ,,,,,
-captain marvel jr.,61,NM,$12.00 ,,,,,
-captain marvel jr.,62,NM,$12.00 ,,,,,
-captain marvel jr.,63,NM+,$15.00 ,,,,,
-captain marvel jr.,64,NM+,$15.00 ,,,,,
-captain marvel jr.,66,VG,$5.00 ,,,,,
-captain marvel jr.,67,FN,$8.00 ,,,,,
-captain marvel jr.,68,FN,$8.00 ,,,,,
-captain marvel jr.,69,NM,$12.00 ,,,,,
-captain marvel jr.,70,FN,$8.00 ,,,,,
-captain marvel jr.,71,NM+,$12.00 ,,,,,
-captain marvel jr.,72,FN,$6.00 ,,,,,
-captain marvel jr.,73,FN,$6.00 ,,,,,
-captain marvel jr.,74,FN,$6.00 ,,,,,
-captain marvel jr.,76,VG,$4.00 ,,,,,
-captain marvel jr.,77,VG,$4.00 ,,,,,
-captain marvel jr.,79,FN,$6.00 ,,,,,
-captain marvel jr.,80,FN,$6.00 ,,,,,
-captain marvel jr.,82,FN,$6.00 ,,,,,
-captain marvel jr.,84,FN,$6.00 ,,,,,
-captain marvel jr.,88,G,$3.00 ,,,,,
-captain marvel jr.,89,VG,$4.00 ,,,,,
-captain marvel jr.,90,FN,$6.00 ,,,,,
-captain marvel jr.,91,FN,$6.00 ,,,,,
-captain marvel jr.,92,VG,$4.00 ,,,,,
-captain marvel jr.,94,NM,$9.00 ,,,,,
-captain marvel jr.,95,NM,$9.00 ,,,,,
-captain marvel jr.,96,FN,$3.00 ,,,,,
-captain marvel jr.,98,NM,$9.00 ,,,,,
-captain marvel jr.,99,NM,$9.00 ,,,,,
-captain marvel jr.,102,NM,$9.00 ,,,,,
-captain marvel jr.,116,FN,$6.00 ,,,,,
-captain marvel story book,1,VG,$30.00 ,,,,,
-captain marvel story book,4,FN,$22.00 ,,,,,
-captain marvel story book ,4,FN ,,3.5,W ,Last issue ,1949,Fawcett
-captain midnight,1,NM+,$200.00 ,,,,,
-captain midnight,2,NM+,$90.00 ,,,,,
-captain midnight,3,NM+,$60.00 ,,,,,
-captain midnight,4,NM+,$60.00 ,,,,,
-captain midnight,5,NM+,$60.00 ,,,,,
-captain midnight,6,NM+,$40.00 ,,,,,
-captain midnight,7,NM+,$40.00 ,,,,,
-captain midnight,8,NM,$30.00 ,,,,,
-captain midnight,9,NM+,$40.00 ,,,,,
-captain midnight,10,NM,$30.00 ,,,,,
-captain midnight,11,NM+,$24.00 ,,,,,
-captain midnight,12,NM+,$24.00 ,,,,,
-captain midnight,13,NM+,$24.00 ,,,,,
-captain midnight,14,NM+,$24.00 ,,,,,
-captain midnight,15,NM+,$24.00 ,,,,,
-captain midnight,16,NM,$18.00 ,,,,,
-captain midnight,17,NM+,$24.00 ,,,,,
-captain midnight,18,NM+,$24.00 ,,,,,
-captain midnight,19,NM+,$24.00 ,,,,,
-captain midnight,20,NM+,$24.00 ,,,,,
-captain midnight,21,NM+,$18.00 ,,,,,
-captain midnight,22,NM+,$18.00 ,,,,,
-captain midnight,23,NM+,$18.00 ,,,,,
-captain midnight,24,NM+,$18.00 ,,,,,
-captain midnight,25,NM,$12.00 ,,,,,
-captain midnight,26,NM+,$18.00 ,,,,,
-captain midnight,27,NM+,$18.00 ,,,,,
-captain midnight,30,FN,$9.00 ,,,,,
-captain midnight,31,VG,$4.00 ,,,,,
-captain midnight,32,NM+,$14.00 ,,,,,
-captain midnight,33,NM+,$14.00 ,,,,,
-captain midnight,36,VG,$4.00 ,,,,,
-captain midnight,37,FN,$7.00 ,,,,,
-captain midnight,38,NM+,$14.00 ,,,,,
-captain midnight,39,NM+,$14.00 ,,,,,
-captain midnight,40,NM+,$14.00 ,,,,,
-captain midnight,41,NM+,$12.00 ,,,,,
-captain midnight,42,NM+,$12.00 ,,,,,
-captain midnight,44,NM+,$12.00 ,,,,,
-captain midnight,45,NM+,$12.00 ,,,,,
-captain midnight,46,NM,$9.00 ,,,,,
-captain midnight,47,NM+,$12.00 ,,,,,
-captain midnight,48,NM+,$12.00 ,,,,,
-captain midnight,49,NM,$9.00 ,,,,,
-captain midnight,50,NM+,$12.00 ,,,,,
-captain midnight,51,NM+,$12.00 ,,,,,
-captain midnight,52,NM+,$12.00 ,,,,,
-captain midnight,53,NM+,$12.00 ,,,,,
-captain midnight,54,NM,$9.00 ,,,,,
-captain midnight,55,NM+,$12.00 ,,,,,
-captain midnight,56,NM+,$12.00 ,,,,,
-captain midnight,57,NM+,$12.00 ,,,,,
-captain midnight,58,VG,$4.00 ,,,,,
-captain midnight,59,NM+,$12.00 ,,,,,
-captain midnight,60,NM+,$12.00 ,,,,,
-captain midnight,61,FN,$6.00 ,,,,,
-captain midnight,62,NM+,$12.00 ,,,,,
-captain midnight,64,FN,$6.00 ,,,,,
-captain midnight,65,G,$2.00 ,,,,,
-captain midnight,66,NM,$9.00 ,,,,,
-captain midnight,67,NM,$9.00 ,,,,,
-captain midnight ,1,NM+ ,,7.5,OW , ,1942,Fawcett
-captain midnight ,2,NM+ ,,9.6,OW , ,1942,Fawcett
-captain midnight ,3,NM+ ,,9.4,W , ,1942,Fawcett
-captain midnight ,4,NM+ ,,9.2,W , ,1943,Fawcett
-captain midnight ,5,NM+ ,,9.6,W , ,1943,Fawcett
-captain midnight ,7,NM+ ,,9.6,W , ,1943,Fawcett
-captain midnight ,8,NM ,,9.2,W ,Old grade VF+ 8.5 ,1943,Fawcett
-captain midnight ,10,NM ,,9,OW , ,1943,Fawcett
-captain midnight ,13,NM+ ,,9.6,OW-W , ,1943,Fawcett
-captain midnight ,14,NM+ ,,9.4,OW-W , ,1943,Fawcett
-captain midnight ,15,NM+ ,,9.6,W , ,1943,Fawcett
-captain midnight ,16,NM ,,8,OW-W , ,1944,Fawcett
-captain midnight ,18,NM+ ,,9.4,W , ,1944,Fawcett
-captain midnight ,19,NM+ ,,9.4,OW , ,1944,Fawcett
-captain midnight ,20,NM+ ,,9.4,OW-W , ,1944,Fawcett
-captain midnight ,21,NM+ ,,9.4,W , ,1944,Fawcett
-captain midnight ,22,NM+ ,,9.4,W , ,1944,Fawcett
-captain midnight ,23,NM+ ,,9.4,W , ,1944,Fawcett
-captain midnight ,24,NM+ ,,9.4,OW , ,1944,Fawcett
-captain midnight ,25,NM ,,8.5,OW , ,1944,Fawcett
-captain midnight ,26,NM+ ,,9.6,OW-W , ,1944,Fawcett
-captain midnight ,32,NM+ ,,9.6,OW , ,1945,Fawcett
-captain midnight ,33,NM+ ,,9.8,W , ,1945,Fawcett
-captain midnight ,38,NM+ ,,9.6,OW-W , ,1946,Fawcett
-captain midnight ,41,NM+ ,,9.2,OW ,Old grade 7.0 FN/VF OW-W ,1946,Fawcett
-captain midnight ,42,NM+ ,,9.6,OW-W , ,1946,Fawcett
-captain midnight ,44,NM+ ,,9.4,OW , ,1946,Fawcett
-captain midnight ,45,NM+ ,,9.2,OW-W , ,1946,Fawcett
-captain midnight ,48,NM+ ,,8.5,OW-W , ,1947,Fawcett
-captain midnight ,50,NM+ ,,9.2,OW-W , ,1947,Fawcett
-captain midnight ,52,NM+ ,,9.4,OW , ,1947,Fawcett
-captain midnight ,53,NM+ ,,9.4,OW-W , ,1947,Fawcett
-captain midnight ,54,NM ,,7.5,OW-W , ,1947,Fawcett
-captain midnight ,55,NM+ ,,9.6,OW-W , ,1947,Fawcett
-captain midnight ,56,NM+ ,,9.4,OW-W , ,1947,Fawcett
-captain midnight ,57,NM+ ,,9.2,W , ,1947,Fawcett
-captain midnight ,59,NM+ ,,9.4,OW , ,1948,Fawcett
-captain midnight ,62,NM+ ,,9.4,OW-W , ,1948,Fawcett
+captain marvel jr.,2,NM+,$240.00 ,,,,,Fawcett
+captain marvel jr.,3,NM+,$180.00 ,,,,,Fawcett
+captain marvel jr.,4,NM+,$180.00 ,,,,,Fawcett
+captain marvel jr.,5,NM,$90.00 ,,,,,Fawcett
+captain marvel jr.,6,NM+,$100.00 ,,,,,Fawcett
+captain marvel jr.,7,NM+,$100.00 ,,,,,Fawcett
+captain marvel jr.,8,NM+,$100.00 ,,,,,Fawcett
+captain marvel jr.,9,NM+,$100.00 ,,,,,Fawcett
+captain marvel jr.,10,NM+,$100.00 ,,,,,Fawcett
+captain marvel jr.,11,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,12,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,13,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,14,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,15,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,16,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,17,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,18,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,19,NM+,$60.00 ,,,,,Fawcett
+captain marvel jr.,20,NM,$45.00 ,,,,,Fawcett
+captain marvel jr.,21,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,22,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,23,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,24,NM,$25.00 ,,,,,Fawcett
+captain marvel jr.,25,NM,$25.00 ,,,,,Fawcett
+captain marvel jr.,26,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,28,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,29,NM,$25.00 ,,,,,Fawcett
+captain marvel jr.,30,NM+,$35.00 ,,,,,Fawcett
+captain marvel jr.,31,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,32,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,33,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,35,NM,$18.00 ,,,,,Fawcett
+captain marvel jr.,36,NM,$18.00 ,,,,,Fawcett
+captain marvel jr.,37,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,38,NM,$18.00 ,,,,,Fawcett
+captain marvel jr.,39,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,40,NM+,$24.00 ,,,,,Fawcett
+captain marvel jr.,41,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,42,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,43,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,44,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,45,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,46,FN,$8.00 ,,,,,Fawcett
+captain marvel jr.,47,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,48,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,49,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,50,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,51,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,52,VG,$5.00 ,,,,,Fawcett
+captain marvel jr.,53,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,54,VG,$5.00 ,,,,,Fawcett
+captain marvel jr.,55,FN,$8.00 ,,,,,Fawcett
+captain marvel jr.,56,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,57,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,58,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,59,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,60,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,61,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,62,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,63,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,64,NM+,$15.00 ,,,,,Fawcett
+captain marvel jr.,66,VG,$5.00 ,,,,,Fawcett
+captain marvel jr.,67,FN,$8.00 ,,,,,Fawcett
+captain marvel jr.,68,FN,$8.00 ,,,,,Fawcett
+captain marvel jr.,69,NM,$12.00 ,,,,,Fawcett
+captain marvel jr.,70,FN,$8.00 ,,,,,Fawcett
+captain marvel jr.,71,NM+,$12.00 ,,,,,Fawcett
+captain marvel jr.,72,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,73,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,74,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,76,VG,$4.00 ,,,,,Fawcett
+captain marvel jr.,77,VG,$4.00 ,,,,,Fawcett
+captain marvel jr.,79,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,80,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,82,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,84,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,88,G,$3.00 ,,,,,Fawcett
+captain marvel jr.,89,VG,$4.00 ,,,,,Fawcett
+captain marvel jr.,90,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,91,FN,$6.00 ,,,,,Fawcett
+captain marvel jr.,92,VG,$4.00 ,,,,,Fawcett
+captain marvel jr.,94,NM,$9.00 ,,,,,Fawcett
+captain marvel jr.,95,NM,$9.00 ,,,,,Fawcett
+captain marvel jr.,96,FN,$3.00 ,,,,,Fawcett
+captain marvel jr.,98,NM,$9.00 ,,,,,Fawcett
+captain marvel jr.,99,NM,$9.00 ,,,,,Fawcett
+captain marvel jr.,102,NM,$9.00 ,,,,,Fawcett
+captain marvel jr.,116,FN,$6.00 ,,,,,Fawcett
+captain marvel story book,1,VG,$30.00 ,,,,,Fawcett
+captain marvel story book,4,FN,$22.00 ,3.5,W ,Last issue ,1949,Fawcett
+captain midnight,1,NM+,$200.00 ,7.5,OW , ,1942,Fawcett
+captain midnight,2,NM+,$90.00 ,9.6,OW , ,1942,Fawcett
+captain midnight,3,NM+,$60.00 ,9.4,W , ,1942,Fawcett
+captain midnight,4,NM+,$60.00 ,9.2,W , ,1943,Fawcett
+captain midnight,5,NM+,$60.00 ,9.6,W , ,1943,Fawcett
+captain midnight,6,NM+,$40.00 ,,,,,Fawcett
+captain midnight,7,NM+,$40.00 ,9.6,W , ,1943,Fawcett
+captain midnight,8,NM,$30.00 ,9.2,W ,Old grade VF+ 8.5 ,1943,Fawcett
+captain midnight,9,NM+,$40.00 ,,,,,Fawcett
+captain midnight,10,NM,$30.00 ,9,OW , ,1943,Fawcett
+captain midnight,11,NM+,$24.00 ,,,,,Fawcett
+captain midnight,12,NM+,$24.00 ,,,,,Fawcett
+captain midnight,13,NM+,$24.00 ,9.6,OW-W , ,1943,Fawcett
+captain midnight,14,NM+,$24.00 ,9.4,OW-W , ,1943,Fawcett
+captain midnight,15,NM+,$24.00 ,9.6,W , ,1943,Fawcett
+captain midnight,16,NM,$18.00 ,8,OW-W , ,1944,Fawcett
+captain midnight,17,NM+,$24.00 ,,,,,Fawcett
+captain midnight,18,NM+,$24.00 ,9.4,W , ,1944,Fawcett
+captain midnight,19,NM+,$24.00 ,9.4,OW , ,1944,Fawcett
+captain midnight,20,NM+,$24.00 ,9.4,OW-W , ,1944,Fawcett
+captain midnight,21,NM+,$18.00 ,9.4,W , ,1944,Fawcett
+captain midnight,22,NM+,$18.00 ,9.4,W , ,1944,Fawcett
+captain midnight,23,NM+,$18.00 ,9.4,W , ,1944,Fawcett
+captain midnight,24,NM+,$18.00 ,9.4,OW , ,1944,Fawcett
+captain midnight,25,NM,$12.00 ,8.5,OW , ,1944,Fawcett
+captain midnight,26,NM+,$18.00 ,9.6,OW-W , ,1944,Fawcett
+captain midnight,27,NM+,$18.00 ,,,,,Fawcett
+captain midnight,30,FN,$9.00 ,,,,,Fawcett
+captain midnight,31,VG,$4.00 ,,,,,Fawcett
+captain midnight,32,NM+,$14.00 ,9.6,OW , ,1945,Fawcett
+captain midnight,33,NM+,$14.00 ,9.8,W , ,1945,Fawcett
+captain midnight,36,VG,$4.00 ,,,,,Fawcett
+captain midnight,37,FN,$7.00 ,,,,,Fawcett
+captain midnight,38,NM+,$14.00 ,9.6,OW-W , ,1946,Fawcett
+captain midnight,39,NM+,$14.00 ,,,,,Fawcett
+captain midnight,40,NM+,$14.00 ,,,,,Fawcett
+captain midnight,41,NM+,$12.00 ,9.2,OW ,Old grade 7.0 FN/VF OW-W ,1946,Fawcett
+captain midnight,42,NM+,$12.00 ,9.6,OW-W , ,1946,Fawcett
+captain midnight,44,NM+,$12.00 ,,,,,Fawcett
+captain midnight,45,NM+,$12.00 ,9.4,OW , ,1946,Fawcett
+captain midnight,46,NM,$9.00 ,9.2,OW-W , ,1946,Fawcett
+captain midnight,47,NM+,$12.00 ,,,,,Fawcett
+captain midnight,48,NM+,$12.00 ,8.5,OW-W , ,1947,Fawcett
+captain midnight,49,NM,$9.00 ,,,,,Fawcett
+captain midnight,50,NM+,$12.00 ,9.2,OW-W , ,1947,Fawcett
+captain midnight,51,NM+,$12.00 ,,,,,Fawcett
+captain midnight,52,NM+,$12.00 ,9.4,OW , ,1947,Fawcett
+captain midnight,53,NM+,$12.00 ,9.4,OW-W , ,1947,Fawcett
+captain midnight,54,NM,$9.00 ,7.5,OW-W , ,1947,Fawcett
+captain midnight,55,NM+,$12.00 ,9.6,OW-W , ,1947,Fawcett
+captain midnight,56,NM+,$12.00 ,9.4,OW-W , ,1947,Fawcett
+captain midnight,57,NM+,$12.00 ,9.2,W , ,1947,Fawcett
+captain midnight,58,VG,$4.00 ,,,,,Fawcett
+captain midnight,59,NM+,$12.00 ,9.4,OW , ,1948,Fawcett
+captain midnight,60,NM+,$12.00 ,,,,,Fawcett
+captain midnight,61,FN,$6.00 ,,,,,Fawcett
+captain midnight,62,NM+,$12.00 ,9.4,OW-W , ,1948,Fawcett
+captain midnight,64,FN,$6.00 ,,,,,Fawcett
+captain midnight,65,G,$2.00 ,,,,,Fawcett
+captain midnight,66,NM,$9.00 ,,,,,Fawcett
+captain midnight,67,NM,$9.00 ,,,,,Fawcett
 captain rocket,1,NM+,$12.00 ,,,,,
 captain science,1,NM+,$60.00 ,,,,,
 captain science,2,NM+,$25.00 ,,,,,
@@ -2784,26 +2745,28 @@ catholic comics,12,NM,$3.00 ,,,,,
 catholic comics,13,NM,$3.00 ,,,,,
 catholic comics,V2 4,FR,$2.00 ,,,,,
 catholic comics,V3 2,VG,$2.00 ,,,,,
-catman comics,1,NM,$100.00 ,,,,,
-catman comics,2,NM,$50.00 ,,,,,
-catman comics,3,NM,$35.00 ,,,,,
-catman comics,4,NM+,$55.00 ,,,,,
-catman comics,5,NM,$30.00 ,,,,,
-catman comics,7,NM+,$45.00 ,,,,,
-catman comics,8,NM,$35.00 ,,,,,
-catman comics,9,NM+,$35.00 ,,,,,
-catman comics,10,NM,$25.00 ,,,,,
-catman comics,11,NM+,$27.00 ,,,,,
-catman comics,12,NM,$18.00 ,,,,,
-catman comics,13,NM,$18.00 ,,,,,
-catman comics,14,NM,$18.00 ,,,,,
-catman comics,15,NM,$18.00 ,,,,,
-catman comics,16,NM,$18.00 ,,,,,
-catman comics,19,NM+,$25.00 ,,,,,
-catman comics,20,NM+,$25.00 ,,,,,
-catman comics,21,NM+,$22.00 ,,,,,
-catman comics,22,NM,$15.00 ,,,,,
-catman comics,23,NM,$22.00 ,,,,,
+catman comics,1,NM,$100.00 ,,,,,Holyoke Publications
+catman comics,2,NM,$50.00 ,9,CR-OW , ,1941,Holyoke Publications
+catman comics,3,NM,$35.00 ,,,,,Holyoke Publications
+catman comics,4,NM+,$55.00 ,9,OW , ,1941,Holyoke Publications
+catman comics,5,NM,$30.00 ,7.5,OW , ,1941,Holyoke Publications
+catman comics,7,NM+,$45.00 ,,,,,Holyoke Publications
+catman comics,8,NM,$35.00 ,,,,,Holyoke Publications
+catman comics,9,NM+,$35.00 ,8,OW , ,1942,Holyoke Publications
+catman comics,10,NM,$25.00 ,9,OW ,Slight (A ,1942,Holyoke Publications
+catman comics,11,NM+,$27.00 ,8.5,OW-W , ,1942,Holyoke Publications
+catman comics,12,NM,$18.00 ,,,,,Holyoke Publications
+catman comics,13,NM,$18.00 ,,,,,Holyoke Publications
+catman comics,14,NM,$18.00 ,,,,,Holyoke Publications
+catman comics,15,NM,$18.00 ,9,OW , ,1942,Holyoke Publications
+catman comics,16,NM,$18.00 ,,,,,Holyoke Publications
+catman comics ,18,NL ,,9.2,OW-W , ,1943,Holyoke Publications
+catman comics,19,NM+,$25.00 ,,,,,Holyoke Publications
+catman comics,20,NM+,$25.00 ,,,,,Holyoke Publications
+catman comics,21,NM+,$22.00 ,9,OW-W , ,1943,Holyoke Publications
+catman comics,22,NM,$15.00 ,,,,,Holyoke Publications
+catman comics,23,NM,$22.00 ,9.4,W , ,1944,Holyoke Publications
+catman comics ,26,NL ,,9.2,W , ,1944,Holyoke Publications
 catman comics,27,NM+,$13.00 ,,,,,
 catman comics,28,NM+,$13.00 ,,,,,
 catman comics,30,NM+,$13.00 ,,,,,
@@ -2813,19 +2776,7 @@ catman comics,V2 12,NM,$15.00 ,,,,,
 catman comics,V3 1,NM,$15.00 ,,,,,
 catman comics,V3 13,NM+,$22.00 ,,,,,
 catman comics,V3 2,NM+,$22.00 ,,,,,
-catman comics ,2,NM ,,9,CR-OW , ,1941,Holyoke Publications
-catman comics ,4,NM+ ,,9,OW , ,1941,Holyoke Publications
-catman comics ,5,NM ,,7.5,OW , ,1941,Holyoke Publications
-catman comics ,10,NM ,,8,OW , ,1942,Holyoke Publications
-catman comics ,11,NM+ ,,9,OW ,Slight (A ,1942,Holyoke Publications
-catman comics ,12,NM ,,8.5,OW-W , ,1942,Holyoke Publications
-catman comics ,15,NM ,,9,OW , ,1942,Holyoke Publications
-catman comics ,18,NL ,,9.2,OW-W , ,1943,Holyoke Publications
-catman comics ,21,NM+ ,,9,OW-W , ,1943,Holyoke Publications
-catman comics ,23,NM+ ,,9.4,W , ,1944,Holyoke Publications
-catman comics ,26,NL ,,9.2,W , ,1944,Holyoke Publications
-cavalier comics ,2,NM ,,8.5,OW-W , ,1945,A.W. Nugent
-cavalier comics (1945),2,NM ,$5.00 ,,,,,
+cavalier comics (1945),2,NM ,$5.00 ,8.5,OW-W , ,1945,A.W. Nugent
 cave girl,11,NM+,$35.00 ,,,,,
 cave girl,12,NM+,$23.00 ,,,,,
 cave girl,13,FN,$13.00 ,,,,,
@@ -2902,9 +2853,8 @@ chief (fc),290,NM+,$6.00 ,,,,,
 chief crazy horse,NN,NM+,$18.00 ,,,,,
 chief victorio's apache masacre,NN,NM+,$50.00 ,,,,,
 chilling tales,13,FN,$3.00 ,,,,,
-chilling tales,15,NM+,$4.00 ,,,,,
+chilling tales,15,NM+,$4.00 ,8.5,OW ,Not CGC graded--ComicCollectors.Net grade VF+ 8.5 ,1953,Youtful Magazines
 chilling tales,16,FN,$3.00 ,,,,,
-chilling tales ,15,NM+ ,,8.5,OW ,Not CGC graded--ComicCollectors.Net grade VF+ 8.5 ,1953,Youtful Magazines
 choice comics,1,NM+,$75.00 ,,,,,
 choice comics,2,NM+,$35.00 ,,,,,
 choice comics,3,NM+,$35.00 ,,,,,
@@ -2985,6 +2935,7 @@ classics illustrated,37,NM,$18.00 ,,,,,
 classics illustrated,38,NM+,$40.00 ,,,,,
 classics illustrated,39,NM,$35.00 ,,,,,
 classics illustrated,40,NM+,$60.00 ,,,,,
+classics illustrated ,45,NL ,,6,OW-W , ,1948,Gilberton
 classics illustrated,46,NM,$60.00 ,,,,,
 classics illustrated,47,VG,$7.00 ,,,,,
 classics illustrated,52,VG,$7.00 ,,,,,
@@ -3020,7 +2971,6 @@ classics illustrated,50 (78),FN,$3.00 ,,,,,
 classics illustrated,57 (94),NM,$4.00 ,,,,,
 classics illustrated,64 (82),NM,$4.00 ,,,,,
 classics illustrated,69 (87),FN,$3.00 ,,,,,
-classics illustrated ,45,NL ,,6,OW-W , ,1948,Gilberton
 classics illustrated ,8 (78),FR,$3.00 ,,,,,
 clay cody gunslinger,1,FN,$2.00 ,,,,,
 cloak and dagger,1,VG,$3.00 ,,,,,
