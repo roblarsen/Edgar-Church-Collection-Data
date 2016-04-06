@@ -1,0 +1,27 @@
+{
+  "name": "edgar-church-collection-data",
+  "version": "1.0.0",
+  "description": "Freely shareable data on the Edgar Church collection of comic books",
+  "main": "data.csv",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblarsen/Edgar-Church-Collection-Data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roblarsen/Edgar-Church-Collection-Data/issues"
+  },
+  "homepage": "https://github.com/roblarsen/Edgar-Church-Collection-Data#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-remove-empty-lines": "^0.1.0",
+    "grunt-replace": "^0.11.0"
+  }
+}
