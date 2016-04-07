@@ -21,7 +21,7 @@ You can also browse the files on Github:
 - [S-U](https://github.com/roblarsen/Edgar-Church-Collection-Data/blob/master/src/S-U.csv)
 - [V-Z](https://github.com/roblarsen/Edgar-Church-Collection-Data/blob/master/src/V-Z.csv)
 
-You can edit them on Github or open isssue if you have account. You can also email rob.react@gmail.com with updates.
+You can edit them on Github or open isssues if you have account. You can also email rob.react@gmail.com with updates.
 
 This data is licensed under a [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/ "creative commons attribution")
 
