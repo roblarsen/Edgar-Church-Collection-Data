@@ -8,7 +8,7 @@ For the technically inclined, working on the data is as follows:
 1. Ensure node/npm are installed
 2. npm install
 3. work on individual section in the `src` directory
-4. run `grunt` to build the full csv 
+4. run `grunt` to build the full csv and json files 
 
 You can also browse the files on Github:
 
