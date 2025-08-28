@@ -3,6 +3,30 @@ Edgar Church Collection Data Project
 
 An open repository of data relating to the Edgar Church collection of Golden Age comic books.
 
+## Web Application
+
+A TypeScript-based web application is now available for browsing and exploring the collection data interactively! 
+
+**[View the Interactive Data Grid →](webapp/)**
+
+Features:
+- Browse 14,728+ comic book records with sorting and filtering
+- Real-time collection statistics
+- Responsive design with pagination
+- RESTful API for data access
+
+To run the webapp locally:
+```bash
+cd webapp
+npm install
+npm run build:all
+npm start
+```
+
+Then visit: http://localhost:3000
+
+## Data Processing
+
 For the technically inclined, working on the data is as follows:
 
 1. Ensure node/npm are installed
