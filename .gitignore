@@ -2,3 +2,7 @@
 /.tmp
 /.sass-cache
 /bower_components
+
+# Webapp build artifacts and dependencies
+/webapp/node_modules
+/webapp/dist
