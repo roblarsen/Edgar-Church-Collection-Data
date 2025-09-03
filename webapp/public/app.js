@@ -136,8 +136,8 @@ class ChurchDataApp {
         const maxYear = Math.max(...years);
         statsDiv.innerHTML = `
       <h3>Collection Statistics</h3>
-      <p><strong>${count.toLocaleString()}</strong> total records</p>
-      <p><strong>${publishers.size}</strong> unique publishers</p>
+      <p><strong>${count.toLocaleString()}</strong> total records, 
+      <strong>${publishers.size}</strong> unique publishers</p>
       <p>Years: <strong>${minYear}</strong> - <strong>${maxYear}</strong></p>
     `;
     }
