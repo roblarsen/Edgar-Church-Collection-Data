@@ -3,6 +3,7 @@ class ChurchDataApp {
         this.initializeGrid();
         this.loadData();
         this.setupQuickFilter();
+        this.setupContactModal();
     }
     initializeGrid() {
         const gridOptions = {
@@ -155,6 +156,68 @@ class ChurchDataApp {
                 if (this.gridApi) {
                     this.gridApi.setGridOption('quickFilterText', target.value);
                 }
+            });
+        }
+    }
+    setupContactModal() {
+        const contactLink = document.getElementById('contact-link');
+        const modal = document.getElementById('contact-modal');
+        const closeBtn = document.querySelector('.close');
+        const cancelBtn = document.getElementById('cancel-btn');
+        const contactForm = document.getElementById('contact-form');
+        // Open modal when contact link is clicked
+        if (contactLink) {
+            contactLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (modal)
+                    modal.style.display = 'block';
+            });
+        }
+        // Close modal when close button is clicked
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                if (modal)
+                    modal.style.display = 'none';
+            });
+        }
+        // Close modal when cancel button is clicked
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', () => {
+                if (modal)
+                    modal.style.display = 'none';
+            });
+        }
+        // Close modal when clicking outside of it
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                if (modal)
+                    modal.style.display = 'none';
+            }
+        });
+        // Handle form submission
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const nameField = document.getElementById('contact-name');
+                const emailField = document.getElementById('contact-email');
+                const messageField = document.getElementById('contact-message');
+                const name = nameField?.value || '';
+                const email = emailField?.value || '';
+                const message = messageField?.value || '';
+                // Create mailto link with form data
+                const subject = encodeURIComponent('Edgar Church Collection - Update from ' + name);
+                const body = encodeURIComponent(`Name: ${name}\n` +
+                    `Email: ${email}\n\n` +
+                    `Message:\n${message}\n\n` +
+                    `--\n` +
+                    `Sent from Edgar Church Collection webapp`);
+                const mailtoLink = `mailto:rob.react@gmail.com?subject=${subject}&body=${body}`;
+                // Open email client
+                window.location.href = mailtoLink;
+                // Close modal and reset form
+                if (modal)
+                    modal.style.display = 'none';
+                contactForm.reset();
             });
         }
     }
