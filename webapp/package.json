@@ -20,6 +20,9 @@
   ],
   "author": "Edgar Church Collection Data Project",
   "license": "CC-BY-4.0",
+  "engines": {
+    "node": ">=18.x"
+  },
   "dependencies": {
     "ag-grid-community": "^34.1.2",
     "cors": "^2.8.5",
