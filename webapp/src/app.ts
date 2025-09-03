@@ -28,6 +28,7 @@ class ChurchDataApp {
   constructor() {
     this.initializeGrid();
     this.loadData();
+    this.setupQuickFilter();
   }
 
   private initializeGrid(): void {
@@ -175,6 +176,18 @@ class ChurchDataApp {
     const statsDiv = document.getElementById('stats');
     if (statsDiv) {
       statsDiv.innerHTML = `<div class="error">${message}</div>`;
+    }
+  }
+
+  private setupQuickFilter(): void {
+    const quickFilterInput = document.getElementById('quickFilter') as HTMLInputElement;
+    if (quickFilterInput) {
+      quickFilterInput.addEventListener('input', (event) => {
+        const target = event.target as HTMLInputElement;
+        if (this.gridApi) {
+          this.gridApi.setGridOption('quickFilterText', target.value);
+        }
+      });
     }
   }
 }

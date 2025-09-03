@@ -78,6 +78,36 @@
             color: #666;
             text-align: center;
         }
+        
+        .filter-section {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .filter-section label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .filter-section input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        
+        .filter-section input:focus {
+            outline: none;
+            border-color: #007acc;
+            box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -88,6 +118,15 @@
     
     <div class="stats" id="stats">
         <div class="loading">Loading data...</div>
+    </div>
+    
+    <div class="filter-section">
+        <label for="quickFilter">Search all columns:</label>
+        <input 
+            type="text" 
+            id="quickFilter" 
+            placeholder="Type to search across all columns..."
+        />
     </div>
     
     <div class="grid-container">
