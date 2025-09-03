@@ -26,10 +26,23 @@ app.use(express.static(path.join(__dirname, '../public')));
 // API endpoint to get church collection data
 app.get('/api/church-data', (req, res) => {
   try {
-    const dataPath = path.join(__dirname, '../../dist/church-data-collection.json');
+    // Try multiple possible locations for the data file
+    const possiblePaths = [
+      path.join(__dirname, '../../dist/church-data-collection.json'),  // Original path
+      path.join(__dirname, 'church-data-collection.json'),              // Same directory as server
+      path.join(__dirname, '../dist/church-data-collection.json')       // Parent dist folder
+    ];
+    
+    let dataPath = '';
+    for (const testPath of possiblePaths) {
+      if (fs.existsSync(testPath)) {
+        dataPath = testPath;
+        break;
+      }
+    }
     
     // Check if file exists
-    if (!fs.existsSync(dataPath)) {
+    if (!dataPath || !fs.existsSync(dataPath)) {
       return res.status(404).json({ 
         error: 'Church data collection file not found. Please run "grunt" in the root directory to generate the data.' 
       });
