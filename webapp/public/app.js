@@ -5,6 +5,13 @@ class ChurchDataApp {
         this.setupQuickFilter();
     }
     initializeGrid() {
+        const toTitleCase = (str) => {
+            if (!str)
+                return '';
+            return str.replace(/\w\S*/g, function (txt) {
+                return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            });
+        };
         const gridOptions = {
             columnDefs: [
                 {
@@ -13,7 +20,8 @@ class ChurchDataApp {
                     filter: 'agTextColumnFilter',
                     sortable: true,
                     resizable: true,
-                    minWidth: 150
+                    minWidth: 150,
+                    valueFormatter: (params) => toTitleCase(params.value),
                 },
                 {
                     field: 'Issue #',
