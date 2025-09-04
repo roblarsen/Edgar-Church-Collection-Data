@@ -30,11 +30,23 @@ module.exports = function(grunt) {
       files: {
         '.tmp/church-data-collection.csv': ['.tmp/church-data-collection.csv']
       }
+    },
+    compress: {
+      main: {
+        options: {
+          archive: 'dist/church-data-collection.zip'
+        },
+        files: [
+          {src: ['church-data-collection.csv'], dest: './', expand: true, cwd: 'dist/'},
+          {src: ['church-data-collection.json'], dest: './', expand: true, cwd: 'dist/'}
+        ]
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-remove-empty-lines');
   grunt.loadNpmTasks('grunt-replace');
 
@@ -85,6 +97,6 @@ module.exports = function(grunt) {
     grunt.log.writeln('JSON file created: ' + jsonFile + ' (' + data.length + ' records)');
   });
 
-  grunt.registerTask('default', ['concat','removeemptylines','replace','csvtojson']);
+  grunt.registerTask('default', ['concat','removeemptylines','replace','csvtojson','compress']);
 
 };

@@ -4,11 +4,13 @@
   "description": "TypeScript web application for browsing the Edgar Church comic book collection data",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
+    "prebuild": "cd .. && npx grunt",
+    "build": "npm run prebuild && tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --exec ts-node src/server.ts",
     "build:client": "tsc src/app.ts --outDir public --target ES2020 --lib ES2020,DOM --skipLibCheck",
-    "build:all": "npm run build && npm run build:client",
+    "build:all": "npm run build && npm run build:client && npm run copy:data",
+    "copy:data": "cp ../dist/church-data-collection.zip public/",
     "postinstall": "npm run build:all"
   },
   "keywords": [
