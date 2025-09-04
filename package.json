@@ -18,6 +18,7 @@
   "homepage": "https://github.com/roblarsen/Edgar-Church-Collection-Data#readme",
   "devDependencies": {
     "grunt": "^1.6.1",
+    "grunt-contrib-compress": "^2.0.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
