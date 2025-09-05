@@ -7,13 +7,12 @@ An open repository of data relating to the Edgar Church collection of Golden Age
 
 A TypeScript-based web application is now available for browsing and exploring the collection data interactively! 
 
-**[View the Interactive Data Grid →](webapp/)**
+**[View the Interactive Data Grid →](https://edgarchurchdata.com/)**
 
 Features:
 - Browse 14,728+ comic book records with sorting and filtering
 - Real-time collection statistics
 - Responsive design with pagination
-- RESTful API for data access
 
 To run the webapp locally:
 ```bash
