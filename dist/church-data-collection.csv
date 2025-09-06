@@ -143,7 +143,7 @@ action comics ,30,NM+,$150.00 ,9.2,OW-W , ,1940,National,
 action comics ,32,NM,$100.00 ,,,,1941,National,
 action comics ,34,NM,$125.00 ,,,,1941,National,
 action comics ,35,NL ,,9.2,W , ,1941,National,
-action comics ,36,NM,$100.00 ,,,,1941,National,
+action comics ,36,NM,$100.00 ,9,W ,,1941,National,
 action comics ,38,NM+,$125.00 ,9,OW-W , ,1941,National,
 action comics ,42,NM,$100.00 ,,,,1942,National,
 action comics ,44,NM,$85.00 ,,,,1942,National,
@@ -162,7 +162,7 @@ action comics ,67,NM,$55.00 ,,,,1943,National,
 action comics ,68,NM+,$65.00 ,9.4,OW-W , ,1943,National,
 action comics ,70,NL ,,9.8,OW-W , ,1943,National,
 action comics ,71,NM+,$50.00 ,,,,1944,National,
-action comics ,72,,,8,,,1944,National,
+action comics ,72,NL ,,8,,,1944,National,
 action comics ,73,NM+,$50.00 ,,,,1944,National,
 action comics ,74,NL ,,9.6,W , ,1944,National,
 action comics ,75,NM+,$50.00 ,,,,1944,National,
@@ -277,6 +277,7 @@ adventure comics,52,NM+,$180.00 ,,,,1940,National,
 adventure comics,53,NM+,$180.00 ,,,,1940,National,
 adventure comics,56,NM+,$180.00 ,,,,1940,National,
 adventure comics ,58,NL ,,9,OW-W , ,1941,National,
+adventure comics ,59,NL ,,8,OW-W , ,1941,National,
 adventure comics ,61,NL ,,9.4,W ,Slight (P) moderate CT tear seal ,1941,National,
 adventure comics,68,NM+,$150.00 ,,,,1941,National,
 adventure comics,69,NM+,$200.00 ,,,,1941,National,
@@ -291,12 +292,15 @@ adventure comics,83,NM+,$150.00 ,,,,1943,National,
 adventure comics,84,NM,$120.00 ,,,,1943,National,
 adventure comics ,85,NL ,,9.2,W , ,1943,National,
 adventure comics,86,NM+,$150.00 ,,,,1944,National,
+adventure comics,88,NL , ,9.6,,,1944,National,
 adventure comics ,89,NM+ ,$150.00 ,9.2,W , ,1944,National,
 adventure comics ,90,NL ,,9.2,W , ,1944,National,
 adventure comics,92,NM+,$150.00 ,,,,1944,National,
+adventure comics ,96,NL ,,9.8,, ,1945,National,
 adventure comics ,97,NL ,,9.8,W , ,1945,National,
 adventure comics,99,G,$11.00 ,,,,1945,National,
 adventure comics ,100,NL ,,9.2,OW-W , ,1945,National,
+adventure comics ,102,NL ,,9.4,, ,1946,National,
 adventure comics ,103,NL ,,9.6,OW-W , ,1946,National,
 adventure comics,106,NM,$35.00 ,,,,1946,National,
 adventure comics,108,NM+,$45.00 ,,,,1946,National,
@@ -375,7 +379,7 @@ adventures into the unknown,17,NM+,$8.00 ,,,,1951,ACG,
 adventures into the unknown,18,NM+,$8.00 ,,,,1951,ACG,
 adventures into the unknown,19,NM,$5.00 ,,,,1951,ACG,
 adventures into the unknown,20,NM+,$8.00 ,,,,1951,ACG,
-adventures into the unknown,21,NM+,$8.00 ,,,,1951,ACG,
+adventures into the unknown,21,NM+,$8.00 ,9.4,OW-W ,,1951,ACG,
 adventures into the unknown,22,NM,$5.00 ,,,,1951,ACG,
 adventures into the unknown,23,NM+,$8.00 ,,,,1951,ACG,
 adventures into the unknown,24,NM+,$8.00 ,,,,1951,ACG,
@@ -951,7 +955,7 @@ america's best comics,11,NM+,$35.00 ,,,,1944,Standard,
 america's best comics,12,NM+,$35.00 ,,,,1945,Standard,
 america's best comics,13,NM,$22.00 ,,,,1945,Standard,
 america's best comics ,14,NM+ ,$35.00 ,9.8,W ,Slight mis-cut ,1945,Standard,
-america's best comics,15,NM+,$35.00 ,,,,1945,Standard,
+america's best comics,15,NM+,$35.00 ,9.2,,,1945,Standard,
 america's best comics ,16,NM+ ,$35.00 ,9,OW-W , ,1946,Standard,
 america's best comics ,17,NM+ ,$35.00 ,9.2,OW-W , ,1946,Standard,
 america's best comics ,18,NM+ ,$35.00 ,9.4,OW ,Old grade NM- 9.2 double copy? or fake  ,1946,Standard,
@@ -1003,8 +1007,8 @@ annie oakley & tagg (dell),14,NM+,$2.00 ,,,,1958,Dell,
 annie oakley & tagg (dell),15,NM+,$2.00 ,,,,1958,Dell,
 annie oakley & tagg (fc),481,VG,$2.00 ,,,,1953,Dell,
 annie oakley (atlas),1,FN,$2.00 ,,,,1948,Timely,
-annie oakley (atlas),2,NM+,$15.00 ,,,,1948,Timely,
-annie oakley (atlas),3,NM+,$8.00 ,,,,1948,Timely,
+annie oakley (atlas),2,NM+,$15.00 ,9,ow,,1948,Timely,
+annie oakley (atlas),3,NM+,$8.00 ,9,ow,,1948,Timely,
 annie oakley (atlas),4,NM,$7.00 ,,,,1948,Timely,
 annie oakley (atlas),6,NM+,$5.00 ,,,,1955,Timely,
 annie oakley (atlas),7,NM+,$5.00 ,,,,1955,Timely,
@@ -1145,7 +1149,7 @@ baffling mysteries,5,NM+,$5.00 ,,,,1951,Ace Magazines,
 baffling mysteries,6,NM+,$5.00 ,,,,1952,Ace Magazines,
 baffling mysteries,7,NM,$4.00 ,,,,1952,Ace Magazines,
 baffling mysteries,8,NM+,$5.00 ,,,,1952,Ace Magazines,
-baffling mysteries ,9,NM+ ,$5.00 ,9.2,OW-W , ,1952,Ace Magazines,
+baffling mysteries ,9,NM+ ,$5.00 ,9.4,W , ,1952,Ace Magazines,
 baffling mysteries,10,NM,$4.00 ,,,,1952,Ace Magazines,
 baffling mysteries,11,FN,$3.00 ,,,,1952,Ace Magazines,
 baffling mysteries,12,G,$2.00 ,,,,1952,Ace Magazines,
@@ -1904,11 +1908,11 @@ blue ribbon,12,NM,$150.00 ,9.4,W,,1941,MLJ,
 blue ribbon,13,NM,$150.00 ,,W,,1941,MLJ,
 blue ribbon,14,NM+,$150.00 ,9.6,W,,1941,MLJ,
 blue ribbon,15,NM+,$150.00 ,9.6,W,,1941,MLJ,
-blue ribbon,16,,,9.4,W,,1941,MLJ,
+blue ribbon,16,NL ,,9.4,W,,1941,MLJ,
 blue ribbon,17,NM,$120.00 ,9.6,W,,1941,MLJ,
 blue ribbon,18,NM+,$150.00 ,9.4,W,,1941,MLJ,
 blue ribbon,19,NM+,$100.00 ,9.4,W,,1941,MLJ,
-blue ribbon,20, , ,9.4,W,,1941,MLJ,
+blue ribbon,20,NL , ,9.4,W,,1941,MLJ,
 blue ribbon,21,NM,$170.00 ,9.4,W,,1942,MLJ,
 blue ribbon,22,NM+,$100.00 ,9.6,W,,1942,MLJ,
 bob colt,1,NM,$11.00 ,,,,1950,Fawcett,
@@ -2088,8 +2092,8 @@ brenda starr ,10,NM+ ,$15.00 ,9.8,OW-W , ,1949,Superior,
 brenda starr ,11,NM+ ,$15.00 ,9.2,W , ,1949,Superior,
 brick bradford,5,NM+,$15.00 ,,,,1948,Standard,
 brick bradford,6,NM+,$15.00 ,,,,1948,Standard,
-brick bradford,7,NM+,$15.00 ,,,,1949,Standard,
-brick bradford,8,NM+,$15.00 ,,,,1949,Standard,
+brick bradford,7,NM+,$15.00 ,9.4,W ,,1949,Standard,
+brick bradford,8,NM+,$15.00 ,9.4,W ,,1949,Standard,
 broadway romances,1,NM,$5.00 ,,,,1950,Quality,
 broadway romances,3,FN,$2.00 ,,,,1950,Quality,
 broadway romances,4,VG,$2.00 ,,,,1950,Quality,
@@ -2674,7 +2678,7 @@ captain siler's log of the sea hound ,4,NM,$12.00 ,,,,1949,Avon,
 captain siler's log of the sea hound (avon),2,VG,$4.00 ,,,,1945,Avon,
 captain steve savage,1,NM,$30.00 ,,,,1951,Avon,
 captain steve savage,2,NM+,$8.00 ,,,,1951,Avon,
-captain steve savage,3,NM,$6.00 ,,,,1952,Avon,
+captain steve savage,3,NM,$6.00 ,8,OW-W ,,1952,Avon,
 captain steve savage,4,NM,$6.00 ,,,,1952,Avon,
 captain stone,10,NM,$5.00 ,,,,1944,Holyoke,
 captain tootsie,1,NM,$15.00 ,,,,1950,Toby,
@@ -2715,7 +2719,7 @@ catman comics,14,NM,$18.00 ,8.5,OW-W ,,1942,Holyoke,
 catman comics,15,NM,$18.00 ,9,OW , ,1942,Holyoke,
 catman comics,16,NM,$18.00 ,,,,1942,Holyoke,
 catman comics ,18,NL ,,9.2,OW-W , ,1943,Continental,
-catman comics,19,NM+,$25.00 ,,,,1943,Continental,
+catman comics,19,NM+,$25.00 ,9.6,,,1943,Continental,
 catman comics,20,NM+,$25.00 ,,,,1943,Continental,
 catman comics,21,NM+,$22.00 ,9,OW-W , ,1943,Continental,
 catman comics,22,NM,$15.00 ,9.2,W ,,1943,Continental,
@@ -2874,12 +2878,12 @@ city of the living dead,NN,NM,$12.00 ,,,,1952,Avon,
 claire voyant,1,NM+,$35.00 ,,,,1946,Universal Phoenix,
 claire voyant,2,NM+,$24.00 ,,,,1946,Universal Phoenix,
 claire voyant,3,NM+,$35.00 ,,,,1946,Universal Phoenix,
-classic comics,2,,,9.6,W ,,1942,Gilberton,
+classic comics,2,NL ,,9.6,W ,,1942,Gilberton,
 classic comics,3,NM,$13.00 ,9.4,,,1942,Gilberton,
-classic comics,10,,,9,,,1943,Gilberton,
+classic comics,10,NL ,,9,,,1943,Gilberton,
 classic comics,17,FN,NP,,,,1944,Gilberton,
 classic comics,19,VG,$13.00 ,,,,1944,Gilberton,
-classic comics,20, , ,9,,,1945,Gilberton,
+classic comics,20,NL , ,9,,,1945,Gilberton,
 classic comics,23,NM+,$35.00 ,,,,1945,Gilberton,
 classic comics,24,NM+,$35.00 ,,,,1945,Gilberton,
 classic comics,25,FN,$24.00 ,,,,1945,Gilberton,
@@ -2985,7 +2989,7 @@ comedy comics (1942),19,FN,$3.00 ,,,,1944,Timely,
 comedy comics (1942),20,NM,$4.00 ,,,,1944,Timely,
 comedy comics (1942),31,VG,$2.00 ,,,,1946,Timely,
 comedy comics (1942),32,FN,$3.00 ,,,,1946,Timely,
-comedy comics (1942),34,FN,$3.00 ,,,,1946,Timely,
+comedy comics (1942),34,FN,$3.00 ,9.6,OW,,1946,Timely,
 comic capers,3,FN,$4.00 ,,,,1945,Timely,
 comic cavalcade,1,FN,$225.00 ,7,W ,Very minor amount of CT and glue on cover ,1942,National,
 comic cavalcade,4,FN,$60.00 ,,,,1943,National,
@@ -3066,7 +3070,7 @@ congo bill,2,FN,$7.00 ,8,OW , ,1954,National,
 congo bill,5,NM+,$12.00 ,,,,1955,National,
 congo bill,6,NM,$9.00 ,9,W , ,1955,National,
 conqueror comics (1945),NN,NM+,$7.00 ,,,,1945,Albrecht Publishing,
-contact comics,1,NM+,$20.00 ,,,,1944,Aviation,
+contact comics,1,NM+,$20.00 ,9,,,1944,Aviation,
 contact comics,2,NM,$10.00 ,,,,1944,Aviation,
 contact comics,3,NM,$10.00 ,,,,1944,Aviation,
 contact comics,4,NM+,$12.00 ,,,,1945,Aviation,
@@ -3173,6 +3177,8 @@ cowgirl romances,9,NM+,$9.00 ,9,W , ,1952,Fiction House,
 cowgirl romances,10,NM+,$9.00 ,,,,1952,Fiction House,
 cowgirl romances,11,NM+,$9.00 ,,,,1952,Fiction House,
 cowgirl romances,12,NM+,$9.00 ,,,,1952,Fiction House,
+crack comics,22,NL, ,9.4,W ,,1942,Quality,
+crack comics,24,NL, ,9.4,W ,,1942,Quality,
 crack comics,25,NM+,$90.00 ,,,,1942,Quality,
 crack comics,26,NM,$40.00 ,,,,1942,Quality,
 crack comics,27,NM+,$150.00 ,,,,1943,Quality,
@@ -3637,7 +3643,7 @@ dale evans comics ,21,NM+,$9.00 ,9,W , ,1952,National,
 dale evans comics ,22,VG,$4.00 ,,,,1952,National,
 dale evans comics ,23,NM+,$9.00 ,9,W , ,1952,National,
 dale evans comics ,24,FN,$5.00 ,4.5,OW-W , ,1952,National,
-dalton boys,NN,NM+,$12.00 ,,,,1951,Avon,
+dalton boys,NN,NM+,$12.00 ,9.4,,,1951,Avon,
 danger,1,FN,$4.00 ,,,,1954,Charlton,
 danger,2,VG,$3.00 ,,,,1954,Charlton,
 danger,10,NM,$4.00 ,,,,1955,Charlton,
@@ -4094,7 +4100,7 @@ dixie dugan vol. 3,1,FN,$3.00 ,,,,1951,Prize,
 dixie dugan vol. 3,2,FN,$3.00 ,,,,1952,Prize,
 dixie dugan vol. 3,4,VG,$2.00 ,,,,1952,Prize,
 dixie dugan vol. 4,2,G,$2.00 ,,,,1953,Prize,
-dizzy dames,1,NM,$4.00 ,,,,1952,ACG,
+dizzy dames,1,NM,$4.00 ,8.5,OW-W ,,1952,ACG,
 dizzy dames,2,FR,$2.00 ,,,,1952,ACG,
 dizzy dames,3,G,$2.00 ,,,,1953,ACG,
 dizzy dames,4,G,$2.00 ,,,,1953,ACG,
@@ -4313,9 +4319,9 @@ eagle,3,NM+,$45.00 ,,,,1941,Fox,
 eagle,4,NM,$30.00 ,,,,1942,Fox,
 eagle comics,1,NM+,$10.00 ,,,,1945,Rural Home,
 eagle comics,2,NM+,$5.00 ,,,,1945,Rural Home,
-eerie,1,NM+,$30.00 ,,,,1947,Avon,
-eerie,2,NM+,$25.00 ,,,,1951,Avon,
-eerie,3,NM+,$25.00 ,,,,1951,Avon,
+eerie,1,NM+,$30.00 ,9,OW-W ,,1947,Avon,
+eerie,2,NM+,$25.00 ,9.4,W ,,1951,Avon,
+eerie,3,NM+,$25.00 ,9,,,1951,Avon,
 eerie,4,NM+,$15.00 ,,,,1951,Avon,
 eerie,5,NM+,$15.00 ,,,,1952,Avon,
 eerie,6,NM,$6.00 ,,,,1952,Avon,
@@ -4324,7 +4330,7 @@ eerie,8,NM+,$8.00 ,,,,1952,Avon,
 eerie,9,VG,$4.00 ,,,,1952,Avon,
 eerie,10,VG,$2.00 ,,,,1952,Avon,
 eerie,11,FN,$3.00 ,,,,1953,Avon,
-eerie (not the same as the other one),1,NM+,$30.00 ,,,,1951,Ziff-Davis,
+eerie (1947),1,NM+,$30.00 ,9.2,CR-OW,,1951,Avon,
 egbert,1,FN,$3.00 ,,,,1946,Quality,
 el bombo,1,NM+,$5.00 ,,,,1946,United Features Syndicate,
 ella cinders,1,NM,$4.00 ,,,,1948,St. John,
@@ -4831,7 +4837,7 @@ fight comics,83,NM,$6.00 ,,,,1952,Fiction House,
 fight comics,84,NM,$6.00 ,,,,1952,Fiction House,
 fight for love,NN,G,$5.00 ,,,,1952,United Features Syndicate,
 fighting airforce (1952),1,FN,$3.00 ,,,,1952,Charlton,
-fighting indians,1,NM+,$12.00 ,,,,1952,Avon,
+fighting indians,1,NM+,$12.00 ,7.5,OW-W ,,1952,Avon,
 fighting indians,2,FN,$4.00 ,,,,1952,Avon,
 fighting leathernecks,1,FN,$3.00 ,,,,1952,Toby,
 fighting leathernecks,2,NM,$4.00 ,,,,1952,Toby,
@@ -4850,7 +4856,7 @@ fighting yank,2,NM,$65.00 ,,,,1942,Standard,
 fighting yank,3,NM+,$70.00 ,,,,1943,Standard,
 fighting yank,4,NM+,$60.00 ,9.4,OW-W , ,1943,Standard,
 fighting yank,5,NM+,$50.00 ,,,,1943,Standard,
-fighting yank,6,NM+,$50.00 ,,,,1943,Standard,
+fighting yank,6,NM+,$50.00 ,6,OW-W ,,1943,Standard,
 fighting yank,7,NM,$30.00 ,9.6,W , ,1944,Standard,
 fighting yank,8,NM+,$50.00 ,,,,1944,Standard,
 fighting yank,9,FN,$25.00 ,,,,1944,Standard,
@@ -4924,11 +4930,12 @@ flaming western romances,3,NM,$4.00 ,,,,1950,Star,
 flash comics ,1,NL ,,9.6,OW-W , ,1940,National,
 flash comics,4,PR (coverless),$15.00 ,,,,1940,National,
 flash comics,5,PR (coverless),$15.00 ,,,,1940,National,
+flash comics,8,NL , ,8.5,OW-W ,,1940,National,
 flash comics,11,NM+,$165.00 ,,,,1940,National,
 flash comics,12,NM+,$165.00 ,,,,1940,National,
 flash comics,13,NM,$135.00 ,,,,1941,National,
 flash comics,14,NM,$135.00 ,,,,1941,National,
-flash comics,15,NM,$135.00 ,,,,1941,National,
+flash comics,15,NM,$135.00 ,9,OW-W ,,1941,National,
 flash comics,16,NM,$135.00 ,,,,1941,National,
 flash comics,17,NM,$135.00 ,,,,1941,National,
 flash comics,18,NM,$135.00 ,,,,1941,National,
@@ -4947,7 +4954,7 @@ flash comics,33,NM,$70.00 ,,,,1942,National,
 flash comics,36,NM,$70.00 ,,,,1942,National,
 flash comics,37,NM+,$90.00 ,,,,1943,National,
 flash comics,38,NM+,$90.00 ,,,,1943,National,
-flash comics,39,NM,$70.00 ,,,,1943,National,
+flash comics,39,NM,$70.00 ,8.5,W ,,1943,National,
 flash comics,40,NM+,$90.00 ,,,,1943,National,
 flash comics,41,NM+,$75.00 ,,,,1943,National,
 flash comics,42,NM,$60.00 ,,,,1943,National,
@@ -5170,7 +5177,7 @@ frankie,14,FN,$3.00 ,,,,1949,Timely,
 frankie,15,VG,$2.00 ,,,,1949,Timely,
 frankie doodle single series,7,VG,$12.00 ,,,,1939,United Features Syndicate,
 freckles & friends,5,NM,$4.00 ,,,,1947,Standard,
-freckles & friends,6,NM,$4.00 ,,,,1948,Standard,
+freckles & friends,6,NM,$4.00 ,9,OW-W ,,1948,Standard,
 freckles & friends,7,NM,$4.00 ,,,,1948,Standard,
 freckles & friends,8,NM+,$5.00 ,,,,1948,Standard,
 freckles & friends,9,NM+,$5.00 ,,,,1948,Standard,
@@ -5541,7 +5548,8 @@ georgie comics ,30,G,$2.00 ,,,,1951,Timely,
 geronimo,1,NM+,$12.00 ,,,,1950,Avon,
 geronimo and his apache murderers,3,NM+,$8.00 ,,,,1951,Avon,
 geronimo on the warpath,2,NM+,$10.00 ,,,,1951,Avon,
-ghost,1,NM+,$12.00 ,,,,1951,Fiction House,
+geronimo on the warpath,2,NL,,8,OW-W ,,1951,Avon,
+ghost,1,NM+,$12.00 ,9.2,OW-W ,,1951,Fiction House,
 ghost,2,NM+,$8.00 ,,,,1952,Fiction House,
 ghost,3,NM+,$8.00 ,,,,1952,Fiction House,
 ghost,4,NM+,$8.00 ,,,,1952,Fiction House,
@@ -5685,9 +5693,9 @@ green hornet,17,FN,$14.00 ,7.5,W , ,1944,Harvey ,
 green hornet,18,FN,$14.00 ,,,,1944,Harvey ,
 green hornet,20,NM+,$27.00 ,9.4,OW , ,1944,Harvey ,
 green hornet,22,NM+,$22.00 ,,,,1945,Harvey ,
-green hornet,23,NM+,$22.00 ,,,,1945,Harvey ,
+green hornet,23,NM+,$22.00 ,9.6,W ,,1945,Harvey ,
 green hornet,25,NM+,$22.00 ,,,,1945,Harvey ,
-green hornet,26,NM+,$22.00 ,,,,1945,Harvey ,
+green hornet,26,NM+,$22.00 ,9.2,W ,,1945,Harvey ,
 green hornet,27,NM+,$22.00 ,,,,1945,Harvey ,
 green hornet,28,NM,$15.00 ,,,,1946,Harvey ,
 green hornet,29,NM,$15.00 ,,,,1946,Harvey ,
@@ -6391,11 +6399,11 @@ indian fighter,15,VG,$2.00 ,,,,1952,Youthful,
 indian fighter,16,VG,$2.00 ,,,,1953,Youthful,
 indian warriors,7,FN,$3.00 ,,,,1951,Star Publications,
 intimate confessions,1,NM,$10.00 ,,,,1951,Avon,
-intimate confessions,2,VG,$2.00 ,,,,1951,Avon,
+intimate confessions,2,VG,$2.00 ,4,W,,1951,Avon,
 intimate confessions,4,NM+,$5.00 ,,,,1952,Avon,
 intimate confessions,5,FN,$3.00 ,,,,1952,Avon,
-intimate confessions,6,FN,$3.00 ,,,,1952,Avon,
-intimate confessions,7,FN,$3.00 ,,,,1952,Avon,
+intimate confessions,6,FN,$3.00 ,8.5,W,,1952,Avon,
+intimate confessions,7,FN,$3.00 ,8,W,,1952,Avon,
 intimate confessions,8,FN,$4.00 ,,,,1953,Avon,
 intimate love,6,FN,$3.00 ,,,,1950,Standard,
 intimate love,9,VG,$2.00 ,,,,1950,Standard,
@@ -6659,7 +6667,7 @@ jolly jingles,15,NM+,$6.00 ,,,,1944,MLJ,
 jolly jingles,16,NM+,$6.00 ,,,,1944,MLJ,
 journey into fear,1,NM,$6.00 ,,,,1951,Superior,
 journey into fear,2,NM+,$5.00 ,,,,1951,Superior,
-journey into fear,3,NM+,$5.00 ,,,,1951,Superior,
+journey into fear,3,NM+,$5.00 ,9.2,W ,,1951,Superior,
 journey into fear,4,NM,$4.00 ,,,,1951,Superior,
 journey into fear,5,NM+,$5.00 ,,,,1952,Superior,
 journey into fear,6,NM,$6.00 ,,,,1952,Superior,
@@ -6693,7 +6701,9 @@ journey into unknown worlds,36,NM,$10.00 ,,,,1955,Timely,
 journey into unknown worlds,37,NM+,$12.00 ,,,,1955,Timely,
 judy canova,23,NM,$8.00 ,,,,1950,Fox,
 jughead,1,NM,$75.00 ,,,,1949,MLJ,
+jughead,4,NL ,,,,,1951,MLJ,
 jughead,15,FN,$7.00 ,,,,1952,MLJ,
+jumbo comics ,14,NL ,,9,W , ,1940,Fiction House,
 jumbo comics ,16,NL ,,9.6, , ,1940,Fiction House,
 jumbo comics ,17,NL ,,9.2, , ,1940,Fiction House,
 jumbo comics ,19,NL ,,9.6,OW , ,1940,Fiction House,
@@ -6962,7 +6972,7 @@ kathy,2,FN,$3.00 ,,,,1949,Standard,
 kathy,5,FN,$3.00 ,,,,1950,Standard,
 kathy,13,FN,$3.00 ,,,,1951,Standard,
 katy keene,1,NM+,$35.00 ,,,,1949,MLJ,
-katy keene,2,NM,$18.00 ,,,,1950,MLJ,
+katy keene,2,NM,$18.00 ,6.5,OW-W ,,1950,MLJ,
 katy keene,4,VG,$6.00 ,,,,1951,MLJ,
 katy keene,5,NM,$18.00 ,,,,1952,MLJ,
 katy keene,6,FN,$9.00 ,,,,1952,MLJ,
@@ -7082,7 +7092,8 @@ kid colt outlaw,24,FN,$5.00 ,,,,1953,Timely,
 kid colt outlaw,25,G,$2.00 ,,,,1953,Timely,
 kid colt outlaw,26,VG,$3.00 ,,,,1953,Timely,
 kid colt outlaw,27,VG,$3.00 ,,,,1953,Timely,
-kid colt outlaw,29,VG,$3.00 ,,,,1953,Timely,
+kid colt outlaw,28,NL ,,8.5,,,1953,Timely,
+kid colt outlaw,29,VG,$3.00 ,8,,,1953,Timely,
 kid colt outlaw,42,G,$4.00 ,,,,1954,Timely,
 kid colt outlaw,52,NM+,$5.00 ,,,,1955,Timely,
 kid colt outlaw,53,NM+,$5.00 ,,,,1955,Timely,
@@ -8262,7 +8273,7 @@ master comics,8,NM+,$160.00 ,,,,1940,Fawcett,
 master comics,9,FN,$75.00 ,,,,1940,Fawcett,
 master comics,10,NM+,$140.00 ,,,,1941,Fawcett,
 master comics,12,NM,$135.00 ,,,,1941,Fawcett,
-master comics,13,NM+,$270.00 ,,,,1941,Fawcett,
+master comics,13,NM+,$270.00 ,9.6,OW-W ,,1941,Fawcett,
 master comics,14,NM+,$180.00 ,,,,1941,Fawcett,
 master comics,15,NM+,$180.00 ,,,,1941,Fawcett,
 master comics,16,NM+,$180.00 ,,,,1941,Fawcett,
@@ -8719,8 +8730,9 @@ more fun comics,65,NM,$300.00 ,9.4,W , ,1941,National,
 more fun comics,66,NM+,$375.00 ,,,,1941,National,
 more fun comics,67,NM+,$550.00 ,,,,1941,National,
 more fun comics ,68,NL ,,9.2,OW-W , ,1941,National,
+more fun comics ,69,NL ,,9.4,W , ,1941,National,
 more fun comics,70,NM,$240.00 ,9.6,W , ,1941,National,
-more fun comics,71,NM+,$375.00 ,,,,1941,National,
+more fun comics,71,NM+,$375.00 ,9.4,W ,,1941,National,
 more fun comics,73,NM+,$500.00 ,9.4,W , ,1941,National,
 more fun comics,74,NM,$180.00 ,9.6,W , ,1941,National,
 more fun comics,75,NM+,$225.00 ,,,,1942,National,
@@ -8884,6 +8896,7 @@ my friend irma,29,NM,$4.00 ,,,,1953,Timely,
 my friend irma,30,VG,$2.00 ,,,,1953,Timely,
 my great love,1,NM+,$5.00 ,,,,1949,Fox,
 my great love,2,NM,$4.00 ,,,,1949,Fox,
+my great love,3,NL, ,,,NM- in a catalog I lost the source of (RL),1949,Fox,
 my intimate affair,NN,FR,$2.00 ,,,,1950,Fox,
 my life,4,NM+,$5.00 ,,,,1948,Fox,
 my life,6,VG,$2.00 ,,,,1949,Fox,
@@ -8906,6 +8919,7 @@ my love life,7,NM,$4.00 ,,,,1949,Fox,
 my love life,8,FN,$3.00 ,,,,1949,Fox,
 my love life,9,NM,$4.00 ,,,,1949,Fox,
 my love memoirs,9,NM+,$15.00 ,,,,1949,Fox,
+my love memoirs,11,NL,,,,"""nm-m"" in paper catalog I have lost the source of (RL)",1949,Fox,
 my love secret,24,NM+,$5.00 ,,,,1949,Fox,
 my love secret,25,NM+,$5.00 ,,,,1949,Fox,
 my love secret,26,FN,$3.00 ,,,,1949,Fox,
@@ -9194,6 +9208,7 @@ new york world's fair comics (1939),NN,NM,$400.00 ,,,,1939,National,
 nick halliday,1,NM+,$7.00 ,,,,1955,Argo,
 nickel comics ,1,NL ,,9.4,OW-W , ,1940,Fawcett,
 nickel comics ,2,NL ,,9,W , ,1940,Fawcett,
+nickel comics ,5,NL ,,5,W , ,1940,Fawcett,
 night of mystery,NN,VG,$4.00 ,,,,1953,Avon,
 nightmare,1,NM+,$7.00 ,,,,1952,Ziff-Davis,
 nightmare,2,VG,$2.00 ,,,,1952,Ziff-Davis,
@@ -9314,10 +9329,10 @@ out of the shadows,8,G,$2.00 ,,,,1953,Standard,
 out of this world,1,NM+,$100.00 ,,,,1956,Charlton,
 outer space,20,FN,$3.00 ,,,,1958,Charlton,
 outlaw fighters,3,NM,$4.00 ,,,,1954,Timely,
-outlaw kid,4,,,,,,1955,Timely,
-outlaw kid,5,,,,,,1955,Timely,
-outlaw kid,7,,,,,,1955,Timely,
-outlaw kid,8,,,,,,1955,Timely,
+outlaw kid,4,NL,,,,,1955,Timely,
+outlaw kid,5,NL,,,,,1955,Timely,
+outlaw kid,7,NL,,,,,1955,Timely,
+outlaw kid,8,NL,,,,,1955,Timely,
 outlaw kid,9,NM+,$8.00 ,,,,1956,Timely,
 outlaw kid,10,NM+,$12.00 ,,,,1956,Timely,
 outlaw kid,11,NM+,$6.00 ,,,,1956,Timely,
@@ -9360,6 +9375,252 @@ ozzie & babs,10,NM,$4.00 ,,,,1949,Fawcett,
 ozzie & babs,11,NM+,$5.00 ,,,,1949,Fawcett,
 ozzie & babs,12,NM+,$5.00 ,,,,1949,Fawcett,
 ozzie & babs,13,FN,$3.00 ,,,,1949,Fawcett,
+
+Title,Issue,Pedigree,Publisher,Year,Grader,Grade,Page Quality
+4Most V2,2,Mile High pedigree,Novelty Press,1943,CGC,NM- 9.2,Off-white to white pages.
+4Most V7,4,Mile High pedigree,Novelty Press,1948,CGC,VF- 7.5,Off-white to white pages.
+Adventure Comics,102,Mile High pedigree,DC,1946,CGC,NM 9.4,White pages.
+Adventure Comics,54,Mile High pedigree,DC,1940,CGC,NM+ 9.6,Off-white pages.
+Adventure Comics,57,Mile High pedigree,DC,1940,CGC,NM+ 9.6,White pages.
+Adventure Comics,59,Mile High pedigree,DC,1941,CGC,VF 8.0,Off-white to white pages.
+Adventure Comics,60,Mile High pedigree,DC,1941,CGC,NM+ 9.6,White pages.
+Adventure Comics,62,Mile High pedigree,DC,1941,CGC,NM+ 9.6,White pages.
+Adventure Comics,67,Mile High pedigree,DC,1941,CGC,NM/MT 9.8,White pages.
+Adventure Comics,81,Mile High pedigree,DC,1942,CGC,NM+ 9.6,White pages.
+Adventure Comics,86,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Adventure Comics,88,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Adventure Comics,94,Mile High pedigree,DC,1944,CGC,NM/MT 9.8,White pages.
+All Sports Comics,2,Mile High pedigree,Hillman Publications,1948,CGC,NM+ 9.6,White pages.
+All-Flash,8,Mile High pedigree,DC,1943,CGC,Apparent FN/VF 7.0 Slight (P),White pages.
+Bill Barnes Comics,2,Mile High pedigree,Street & Smith,1941,CGC,VF/NM 9.0,Off-white to white pages.
+Blue Bolt V4,11,Mile High pedigree,Novelty Press,1944,CGC,NM+ 9.6,Off-white to white pages.
+Bobby Gets Hep,nn,Mile High pedigree,Bell Telephone System,1946,CGC,VF/NM 9.0,Off-white pages.
+Captain Marvel Adventures,10,Mile High pedigree,Fawcett,1942,CGC,NM+ 9.6,White pages.
+Captain Marvel Adventures,21,Mile High pedigree,Fawcett,1943,CGC,NM/MT 9.8,White pages.
+Captain Marvel Adventures,81,Mile High pedigree,Fawcett,1948,CGC,NM 9.4,Off-white to white pages.
+Captain Midnight,35,Fawcett,1945,CGC,NM 9.4,White pages.
+Captain Midnight,42,Mile High pedigree,Fawcett,1946,CGC,NM+ 9.6,Off-white to white pages.
+Captain Midnight,57,Mile High pedigree,Fawcett,1947,CGC,NM+ 9.6,White pages.
+Captain Midnight,59,Mile High pedigree,Fawcett,1948,CGC,NM 9.4,Off-white pages.
+Captain Midnight,60,Mile High pedigree,Fawcett,1948,CGC,NM- 9.2,Off-white pages.
+Catman Comics,18,Mile High pedigree,Holyoke Publications,1944,CGC,NM- 9.2,Off-white to white pages.
+Charlie Chan,5,Mile High pedigree,Crestwood/Headline,1949,CGC,NM 9.4,Off-white pages.
+Claire Voyant,4,Mile High pedigree,Pentagon,1947,CGC,NM- 9.2,White pages.
+Clue Comics,2,Mile High pedigree,Hillman Publications,1943,CGC,NM/MT 9.8,Off-white pages.
+Clue Comics,7,Hillman Publications,1943,CGC,NM+ 9.6,Off-white to white pages.
+Crack Comics,22,Mile High pedigree,Quality,1942,CGC,NM 9.4,White pages.
+Crack Comics,23,Mile High pedigree,Quality,1942,CGC,NM+ 9.6,White pages.
+Crack Comics,24,Mile High pedigree,Quality,1942,CGC,NM 9.4,White pages.
+Crimes by Women,2,Mile High pedigree,Fox Features Syndicate,1948,CGC,VF 8.0,White pages.
+Doll Man,38,Mile High pedigree,Quality,1952,CGC,FN/VF 7.0,White pages.
+Eagle Comics,1,Mile High pedigree,Rural Home,1945,CGC,VF/NM 9.0,White pages.
+Flash Comics,45,San Francisco pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Great Comics,1,Mile High pedigree,Novack,1945,CGC,VF 8.0,White pages.
+Green Lantern,35,Mile High pedigree,DC,1948,CGC,FN/VF 7.0,Off-white to white pages.
+Green Lantern,38,Mile High pedigree,DC,1949,CGC,VF 8.0,Off-white pages.
+Hi-Spot Comics,2,Mile High pedigree,Hawley Publications,1940,,,"A Dave Innes of Pellucidar story written by Edgar Rice Bur..."
+It Rhymes With Lust,nn,St. John,1950,CGC,Apparent VG/FN 5.0 Slight (A),Off-white to white pages.
+Kewpies,1,Mile High pedigree,Will Eisner Publications,1949,CGC,FN- 5.5,White pages.
+Magic Comics,1,Mile High pedigree,David McKay Publications,1939,CGC,FN/VF 7.0,Off-white to white pages.
+Negro Heroes,1,Mile High pedigree,Parents' Magazine Institute,1947,CGC,VG+ 4.5,White pages.
+New York World's Fair Comics 1939,Mile High pedigree,DC,1939,CGC,FN- 5.5,White pages.
+Plastic Man,6,Mile High pedigree,Quality,1946,CGC,VG/FN 5.0,Off-white to white pages.
+Punch Comics,15,Mile High pedigree,Chesler,1945,CGC,VG/FN 5.0,White pages.
+Santa Claus Funnies,1,Mile High pedigree,Dell,1952,CGC,FN 6.0,Off-white pages.
+Schwinn Bike Thrills,nn,Mile High pedigree,Schwinn,1959,CGC,FN/VF 7.0,Off-white to white pages.
+Shadow Comics V8,10,Mile High pedigree,Street & Smith,1949,CGC,VF 8.0,Off-white to white pages.
+Shock SuspenStories,9,Gaines File pedigree,EC,1953,CGC,NM/MT 9.8,White pages.
+Target Comics V3,6,Mile High pedigree,Novelty Press,1942,CGC,VF 8.0,White pages.
+The American Air Forces,7,Mile High pedigree,Magazine Enterprises,1952,CGC,VF- 7.5,White pages.
+True Crime Comics,5,Mile High pedigree,Magazine Village,1949,CGC,FN- 5.5,Off-white to white pages.
+War Comics,2,Mile High pedigree,Dell,1941,CGC,VF- 7.5,Off-white to white pages.
+Whiz Comics,122,Mile High pedigree,Fawcett,1950,CGC,FN+ 6.5,White pages.
+Young King Cole V3,8,Mile High pedigree,Novelty Press,1948,CGC,VF/NM 9.0,Off-white to white pages
+
+roblarsen
+roblarsen commented now
+roblarsen
+now
+Owner
+Author
+Title,Issue,Pedigree,Publisher,Year,Grader,Grade,Page Quality
+Adventure Comics,141,Mile High pedigree,DC,1949,CGC,VF/NM 9.0,Off-white to white pages.
+Adventure Comics,56,DC,1940,CGC,NM 9.4,Off-white to white pages.
+Adventures Into the Unknown,9,Mile High pedigree,ACG,1950,CGC,NM+ 9.6,Off-white to white pages.
+Adventures Into the Unknown,15,Mile High pedigree,ACG,1951,CGC,VF+ 8.5,Off-white to white pages.
+Adventures Into the Unknown,27,Mile High pedigree,ACG,1952,CGC,NM 9.4,Off-white to white pages.
+All Funny Comics,1,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+All-Flash,2,Mile High pedigree,DC,1941,CGC,NM+ 9.6,Off-white pages.
+All-New Comics,9,Mile High pedigree,Harvey,1944,CGC,NM 9.4,White pages.
+Boy Comics,14,Mile High pedigree,Lev Gleason,1944,CGC,NM- 9.2,White pages.
+Boy Commandos,3,Mile High pedigree,DC,1943,CGC,NM 9.4,Off-white to white pages.
+Brenda Starr,14 (#2),Mile High pedigree,Four Star,1948,CGC,NM 9.4,Off-white pages.
+Brenda Starr V2,5,Mile High pedigree,Four Star,1948,CGC,NM- 9.2,White pages.
+Bulletman,10,Mile High pedigree,Fawcett,1942,CGC,NM 9.4,White pages.
+Captain Midnight,24,Mile High pedigree,Fawcett,1944,CGC,NM 9.4,Off-white pages.
+Colossus Comics,1,Mile High pedigree,Sun Publications,1940,CGC,NM 9.4,White pages.
+Comic Cavalcade,16,Mile High pedigree,DC,1946,CGC,VF+ 8.5,White pages.
+Cowgirl Romances,1,Mile High pedigree,Fiction House,1950,CGC,NM 9.4,White pages.
+Cowgirl Romances,8,Mile High pedigree,Fiction House,1952,CGC,NM 9.4,White pages.
+Criminals on the Run V5,2,Mile High pedigree,Curtis,1949,CGC,VF+ 8.5,Off-white pages.
+Crown Comics,4,Mile High pedigree,Golfing, Inc.,1945,CGC,NM 9.4,Off-white to white pages.
+Crown Comics,6,Mile High pedigree,Golfing, Inc.,1946,CGC,VF+ 8.5,Off-white to white pages.
+Cyclone Comics,5,Mile High pedigree,Bilbara,1940,CGC,NM 9.4,Off-white to white pages.
+Dale Evans Comics,19,Mile High pedigree,DC,1951,CGC,VF/NM 9.0,White pages.
+Daredevil Comics,39,Mile High pedigree,Lev Gleason,1946,CGC,NM 9.4,White pages.
+Daredevil Comics,44,Mile High pedigree,Lev Gleason,1947,CGC,NM 9.4,Off-white pages.
+Dark Mysteries,4,Mile High pedigree,Master Publications,1952,CGC,VF+ 8.5,White pages.
+Dark Mysteries,5,Mile High pedigree,Master Publications,1952,CGC,VF+ 8.5,White pages.
+Doc Savage Comics v2,8,Mile High pedigree,Street & Smith,1943,CGC,NM 9.4,Off-white to white pages.
+Don Winslow of the Navy,37,Mile High pedigree,Fawcett,1946,CGC,NM/MT 9.8,Off-white to white pages.
+Don Winslow of the Navy,51,Mile High pedigree,Fawcett,1947,CGC,NM+ 9.6,Off-white to white pages.
+Don Winslow,53,Mile High pedigree,Fawcett,1948,CGC,NM 9.4,Off-white to white pages.
+Dutch Boy and the Haunted House,nn,Mile High pedigree,National Lead Co.,no date listed,CGC,NM 9.4,Off-white to white pages.
+Fairy Tale Parade,8,Mile High pedigree,Dell,1943,CGC,NM- 9.2,White pages.
+Famous Funnies,72,Mile High pedigree,Eastern Color,1940,CGC,NM 9.4,Off-white pages.
+Fighting Yank,18,Mile High pedigree,Nedor Publications,1946,CGC,VF/NM 9.0,Off-white pages.
+First Love Illustrated,2,Mile High pedigree,Harvey,1949,CGC,NM+ 9.6,White pages.
+Flash Comics,24,Mile High pedigree,DC,1941,CGC,NM 9.4,White pages.
+Flash Comics,67,Mile High pedigree,DC,1945,CGC,NM 9.4,White pages.
+Flash Comics,92,Mile High pedigree,DC,1948,CGC,NM- 9.2,White pages.
+Flash Comics,96,Mile High pedigree,DC,1948,CGC,NM 9.4,White pages.
+Flash Comics,98,Mile High pedigree,DC,1948,CGC,NM+ 9.6,White pages.
+Four Color,88,Bugs Bunny's Great Adventure - Mile High pedigree,Dell,1945,CGC,VF/NM 9.0,Off-white pages.
+Four Favorites,27,Mile High pedigree,Ace,1947,CGC,VF/NM 9.0,Off-white to white pages.
+Funnies,60,Mile High pedigree,Dell,1941,CGC,NM+ 9.6,Off-white to white pages.
+Gang Busters,2,Mile High pedigree,DC,1948,CGC,NM+ 9.6,Off-white to white pages.
+Gay Comics,19,Mile High Pedigree,Timely,1944,CGC,NM 9.4,White pages.
+Gene Autry Comics,9,Mile High pedigree,Fawcett,1943,CGC,NM+ 9.6,Off-white to white pages.
+Ghost Rider,1,Mile High pedigree,Magazine Enterprises,1950,CGC,NM+ 9.6,Off-white to white pages.
+Green Lantern,36,Mile High pedigree,DC,1949,CGC,VF/NM 9.0,White pages.
+Ibis The Invincible,2,Mile High pedigree,Fawcett,1943,CGC,NM+ 9.6,Off-white to white pages.
+Ibis The Invincible,3,Mile High pedigree,Fawcett,1943,CGC,NM+ 9.6,Off-white pages.
+Joker Comics,26,Mile High pedigree,Timely,1947,CGC,NM- 9.2,Off-white pages.
+Jungle Tales,5,Mile High pedigree,Atlas,1955,CGC,NM 9.4,White pages.
+Katy Keene,5,Mile High pedigree,Archie,1952,CGC,NM- 9.2,White pages.
+Krazy Komics,13,Mile High pedigree,Timely,1944,CGC,NM- 9.2,Off-white pages.
+Lance O'Casey,4,Mile High pedigree,Fawcett,1948,CGC,NM/MT 9.8,Off-white pages.
+Latest Comics,2,Mile High pedigree,Spotlight/Palace,1945,CGC,NM/MT 9.8,Off-white pages.
+Leading Comics,7,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Little Miss Muffet,11,Mile High pedigree,Best Books,1948,CGC,NM 9.4,White pages.
+Lone Ranger,3,Mile High pedigree,Dell,1948,CGC,NM 9.4,Off-white to white pages.
+Major Hoople Comics,1,Mile High pedigree,Nedor Publications,1943,CGC,NM 9.4,Off-white pages.
+Mary Marvel Comics,3,Mile High pedigree,Fawcett Publications,1946,CGC,NM+ 9.6,Off-white pages.
+Military Comics,16,Mile High pedigree,Quality,1943,CGC,NM 9.4,White pages.
+Miss Beverly Hills of Hollywood,5,Edgar Church (Mile High) pedigree,DC,1949,CGC,VF+ 8.5,"The Great Lover Bob Hope enc..."
+More Fun Comics,118,Mile High pedigree,DC,1947,CGC,NM 9.4,Off-white to white pages.
+More Fun Comics,59,Mile High pedigree,DC,1940,CGC,NM 9.4,Off-white to white pages.
+More Fun Comics,93,Mile High pedigree,DC,1943,CGC,NM+ 9.6,Off-white to white pages.
+Movie Comics,4,Mile High pedigree,Fiction House,1947,CGC,NM 9.4,White pages.
+OK Comics,2,Mile High pedigree,United Features Syndicate,1940,CGC,NM 9.4,Off-white to white pages.
+Oscar Comics,3,Mile High pedigree,Timely,1947,CGC,NM- 9.2,Off-white to white pages.
+Patsy Walker,21,Mile High pedigree,Atlas,1949,CGC,VF- 7.5,Off-white to white pages.
+Plastic Man,4,Mile High pedigree,Quality,1946,CGC,NM 9.4,Off-white to white pages.
+Plastic Man,16,Mile High pedigree,Quality,1949,CGC,NM+ 9.6,Off-white to white pages.
+Plastic Man,18,Mile High pedigree,Quality,1949,CGC,NM+ 9.6,Off-white to white pages.
+Police Comics,17,Mile High pedigree,Quality,1943,CGC,NM- 9.2,Off-white to white pages.
+Police Comics,38,Mile High pedigree,Quality,1944,CGC,VF/NM 9.0,Off-white to white pages.
+Popular Comics,79,Mile High pedigree,Dell,1942,CGC,NM 9.4,Off-white to white pages.
+Prize Comics,20,Mile High pedigree,Prize,1942,CGC,NM 9.4,Off-white pages.
+Rawhide Kid,6,Mile High pedigree,Marvel,1956,CGC,NM 9.4,White pages.
+Red Ryder Comics,12,Mile High pedigree,Dell,1943,CGC,NM 9.4,Off-white to white pages.
+Science Comics,7,Mile High pedigree,Fox,1940,CGC,NM+ 9.6,White pages.
+Secret Hearts,1,Mile High pedigree,DC,1949,CGC,NM- 9.2,White pages.
+Sheena, Queen of the Jungle,7,Mile High pedigree,Fiction House,1950,CGC,NM 9.4,White pages.
+Slam-Bang Comics,7,Mile High pedigree,Fawcett,1940,CGC,NM 9.4,Off-white to white pages.
+Smash Comics,51,Mile High pedigree,Quality,1944,CGC,NM+ 9.6,White pages.
+Speed Comics,36,Mile High pedigree,Harvey,1945,CGC,NM+ 9.6,Off-white to white pages.
+Star Spangled Comics,27,Mile High pedigree,DC,1943,CGC,NM 9.4,Off-white to white pages.
+Star Spangled Comics,33,Mile High pedigree,DC,1944,CGC,NM+ 9.6,Off-white to white pages.
+Star Spangled Comics,35,Mile High pedigree,DC,1944,CGC,NM 9.4,Off-white to white pages.
+Star Spangled Comics,80,Mile High pedigree,DC,1948,CGC,NM+ 9.6,Off-white to white pages.
+Startling Comics,25,Mile High pedigree,Better Publications,1944,CGC,NM+ 9.6,Off-white to white pages.
+Startling Comics,47,Mile High pedigree,Better Publications,1947,CGC,NM+ 9.6,Off-white to white pages.
+Straight Arrow,1,Mile High pedigree,Magazine Enterprises,1950,CGC,NM- 9.2,White pages.
+Super Comics,60,Mile High pedigree,Dell,1941,CGC,NM+ 9.6,Off-white to white pages.
+Supersnipe Comics,7,Mile High pedigree,Street & Smith,1943,CGC,NM+ 9.6,Off-white to white pages.
+Suspense Comics,9,Mile High pedigree,Continental Magazines,1945,CGC,NM 9.4,Off-white to white pages.
+Target Comics,V2#4,Mile High pedigree,Novelty Press,1941,CGC,NM+ 9.6,Off-white to white pages.
+Target Comics,V2#6,Mile High pedigree,Novelty Press,1941,CGC,NM- 9.2,Off-white to white pages.
+Target Comics,V7#12,Mile High pedigree,Novelty Press,1947,CGC,NM 9.4,Off-white to white pages.
+Target Comics,V9#10,Mile High pedigree,Novelty Press,1948,CGC,NM 9.4,Off-white to white pages.
+Teen Comics,26,Mile High pedigree,Marvel,1948,CGC,NM- 9.2,Off-white to white pages.
+The Funnies,42,Mile High pedigree,Dell,1940,CGC,NM- 9.2,Off-white to white pages.
+The Spirit,15,Mile High pedigree,Quality,1949,CGC,NM+ 9.6,Off-white to white pages.
+Top-Notch Comics,3,Mile High pedigree,MLJ,1940,CGC,NM+ 9.6,Off-white to white pages.
+Top-Notch Comics,37,Mile High pedigree,MLJ,1943,CGC,NM+ 9.6,Off-white to white pages.
+Two-Gun Kid,3,Mile High pedigree,Marvel,1948,CGC,NM 9.4,Off-white to white pages.
+Weird Comics,6,Mile High pedigree,Fox,1940,CGC,NM- 9.2,Off-white to white pages.
+Weird Comics,9,Mile High pedigree,Fox,1940,CGC,NM- 9.2,Off-white to white pages.
+Western Comics,24,Mile High pedigree,DC,1951,CGC,NM 9.4,Off-white to white pages.
+Whiz Comics,62,Mile High pedigree,Fawcett,1945,CGC,NM+ 9.6,Off-white to white pages.
+Wings Comics,69,Mile High pedigree,Fiction House,1946,CGC,NM+ 9.6,Off-white to white pages.
+Wonder Woman,17,Mile High pedigree,DC,1946,CGC,NM+ 9.6,Off-white to white pages.
+Wow Comics,57,Mile High pedigree,Fawcett,1947,CGC,FN- 5.5,White pages.
+Yellowjacket Comics,8,Mile High pedigree,Charlton,1946,CGC,NM+ 9.6,Off-white to white pages.
+
+
+Title,Issue,Pedigree,Publisher,Year,Grader,Grade,Page Quality
+4Most V2,2,Mile High pedigree,Novelty Press,1943,CGC,NM- 9.2,Off-white to white pages.
+4Most V7,4,Mile High pedigree,Novelty Press,1948,CGC,VF- 7.5,Off-white to white pages.
+Adventure Comics,102,Mile High pedigree,DC,1946,CGC,NM 9.4,White pages.
+Adventure Comics,54,Mile High pedigree,DC,1940,CGC,NM+ 9.6,Off-white pages.
+Adventure Comics,57,Mile High pedigree,DC,1940,CGC,NM+ 9.6,White pages.
+Adventure Comics,59,Mile High pedigree,DC,1941,CGC,VF 8.0,Off-white to white pages.
+Adventure Comics,60,Mile High pedigree,DC,1941,CGC,NM+ 9.6,White pages.
+Adventure Comics,62,Mile High pedigree,DC,1941,CGC,NM+ 9.6,White pages.
+Adventure Comics,67,Mile High pedigree,DC,1941,CGC,NM/MT 9.8,White pages.
+Adventure Comics,81,Mile High pedigree,DC,1942,CGC,NM+ 9.6,White pages.
+Adventure Comics,86,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Adventure Comics,88,Mile High pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Adventure Comics,94,Mile High pedigree,DC,1944,CGC,NM/MT 9.8,White pages.
+All Sports Comics,2,Mile High pedigree,Hillman Publications,1948,CGC,NM+ 9.6,White pages.
+All-Flash,8,Mile High pedigree,DC,1943,CGC,Apparent FN/VF 7.0 Slight (P),White pages.
+Bill Barnes Comics,2,Mile High pedigree,Street & Smith,1941,CGC,VF/NM 9.0,Off-white to white pages.
+Blue Bolt V4,11,Mile High pedigree,Novelty Press,1944,CGC,NM+ 9.6,Off-white to white pages.
+Bobby Gets Hep,nn,Mile High pedigree,Bell Telephone System,1946,CGC,VF/NM 9.0,Off-white pages.
+Captain Marvel Adventures,10,Mile High pedigree,Fawcett,1942,CGC,NM+ 9.6,White pages.
+Captain Marvel Adventures,21,Mile High pedigree,Fawcett,1943,CGC,NM/MT 9.8,White pages.
+Captain Marvel Adventures,81,Mile High pedigree,Fawcett,1948,CGC,NM 9.4,Off-white to white pages.
+Captain Midnight,35,Fawcett,1945,CGC,NM 9.4,White pages.
+Captain Midnight,42,Mile High pedigree,Fawcett,1946,CGC,NM+ 9.6,Off-white to white pages.
+Captain Midnight,57,Mile High pedigree,Fawcett,1947,CGC,NM+ 9.6,White pages.
+Captain Midnight,59,Mile High pedigree,Fawcett,1948,CGC,NM 9.4,Off-white pages.
+Captain Midnight,60,Mile High pedigree,Fawcett,1948,CGC,NM- 9.2,Off-white pages.
+Catman Comics,18,Mile High pedigree,Holyoke Publications,1944,CGC,NM- 9.2,Off-white to white pages.
+Charlie Chan,5,Mile High pedigree,Crestwood/Headline,1949,CGC,NM 9.4,Off-white pages.
+Claire Voyant,4,Mile High pedigree,Pentagon,1947,CGC,NM- 9.2,White pages.
+Clue Comics,2,Mile High pedigree,Hillman Publications,1943,CGC,NM/MT 9.8,Off-white pages.
+Clue Comics,7,Hillman Publications,1943,CGC,NM+ 9.6,Off-white to white pages.
+Crack Comics,22,Mile High pedigree,Quality,1942,CGC,NM 9.4,White pages.
+Crack Comics,23,Mile High pedigree,Quality,1942,CGC,NM+ 9.6,White pages.
+Crack Comics,24,Mile High pedigree,Quality,1942,CGC,NM 9.4,White pages.
+Crimes by Women,2,Mile High pedigree,Fox Features Syndicate,1948,CGC,VF 8.0,White pages.
+Doll Man,38,Mile High pedigree,Quality,1952,CGC,FN/VF 7.0,White pages.
+Eagle Comics,1,Mile High pedigree,Rural Home,1945,CGC,VF/NM 9.0,White pages.
+Flash Comics,45,San Francisco pedigree,DC,1943,CGC,NM+ 9.6,White pages.
+Great Comics,1,Mile High pedigree,Novack,1945,CGC,VF 8.0,White pages.
+Green Lantern,35,Mile High pedigree,DC,1948,CGC,FN/VF 7.0,Off-white to white pages.
+Green Lantern,38,Mile High pedigree,DC,1949,CGC,VF 8.0,Off-white pages.
+Hi-Spot Comics,2,Mile High pedigree,Hawley Publications,1940,,,"A Dave Innes of Pellucidar story written by Edgar Rice Bur..."
+It Rhymes With Lust,nn,St. John,1950,CGC,Apparent VG/FN 5.0 Slight (A),Off-white to white pages.
+Kewpies,1,Mile High pedigree,Will Eisner Publications,1949,CGC,FN- 5.5,White pages.
+Magic Comics,1,Mile High pedigree,David McKay Publications,1939,CGC,FN/VF 7.0,Off-white to white pages.
+Negro Heroes,1,Mile High pedigree,Parents' Magazine Institute,1947,CGC,VG+ 4.5,White pages.
+New York World's Fair Comics 1939,Mile High pedigree,DC,1939,CGC,FN- 5.5,White pages.
+Plastic Man,6,Mile High pedigree,Quality,1946,CGC,VG/FN 5.0,Off-white to white pages.
+Punch Comics,15,Mile High pedigree,Chesler,1945,CGC,VG/FN 5.0,White pages.
+Santa Claus Funnies,1,Mile High pedigree,Dell,1952,CGC,FN 6.0,Off-white pages.
+Schwinn Bike Thrills,nn,Mile High pedigree,Schwinn,1959,CGC,FN/VF 7.0,Off-white to white pages.
+Shadow Comics V8,10,Mile High pedigree,Street & Smith,1949,CGC,VF 8.0,Off-white to white pages.
+Shock SuspenStories,9,Gaines File pedigree,EC,1953,CGC,NM/MT 9.8,White pages.
+Target Comics V3,6,Mile High pedigree,Novelty Press,1942,CGC,VF 8.0,White pages.
+The American Air Forces,7,Mile High pedigree,Magazine Enterprises,1952,CGC,VF- 7.5,White pages.
+True Crime Comics,5,Mile High pedigree,Magazine Village,1949,CGC,FN- 5.5,Off-white to white pages.
+War Comics,2,Mile High pedigree,Dell,1941,CGC,VF- 7.5,Off-white to white pages.
+Whiz Comics,122,Mile High pedigree,Fawcett,1950,CGC,FN+ 6.5,White pages.
+Young King Cole V3,8,Mile High pedigree,Novelty Press,1948,CGC,VF/NM 9.0,Off-white to white pages
+
 
 
 pancho villa,NN,NM,$12.00 ,,,,1950,Avon,
@@ -9947,6 +10208,7 @@ punch comics ,10,NL ,,9.2,OW-W , ,1944,Harry A. Chesler,
 punch comics,11,FN,$5.00 ,,,,1944,Harry A. Chesler,
 punch comics,13,NM,$6.00 ,,,,1945,Harry A. Chesler,
 punch comics,14,NM+,$9.00 ,,,,1945,Harry A. Chesler,
+punch comics,15,NL , ,5,W ,,1945,Harry A. Chesler,
 punch comics,17,NM+,$9.00 ,,,,1946,Harry A. Chesler,
 punch comics,18,NM+,$9.00 ,9.6,OW , ,1946,Harry A. Chesler,
 punch comics,19,NM,$6.00 ,,,,1946,Harry A. Chesler,
@@ -9986,16 +10248,20 @@ range romances,2,NM+,$10.00 ,,,,1950,Fiction House,
 range romances,3,NM,$6.00 ,7.5,OW , ,1950,Fiction House,
 range romances,4,NM,$8.00 ,,,,1950,Fiction House,
 range romances,5,VG,$2.00 ,,,,1950,Fiction House,
-rangers ,20,NL ,,9.4, ,Graded by Metropolis.com not CGC ,1944,Fiction House,
+ranger comics,6,NL ,,9.6,,,1945,Fiction House,
+ranger comics,9,NL ,,9.4,,,1945,Fiction House,
+ranger comics,13,NL ,,8.5,OW-W ,,1945,Fiction House,
+ranger comics,19,NL ,,9.6,,,1945,Fiction House,
+rangers comics,20,NL ,,9.4, ,Graded by Metropolis.com not CGC ,1944,Fiction House,
 ranger comics,25,NM+,$30.00 ,,,,1945,Fiction House,
-ranger comics,36,NM+,$18.00 ,,,,1947,Fiction House,
+ranger comics,36,NM+,$18.00 ,9.4,OW-W ,,1947,Fiction House,
 ranger comics,37,NM+,$18.00 ,,,,1947,Fiction House,
 ranger comics,38,NM+,$18.00 ,,,,1947,Fiction House,
 ranger comics,39,NM+,$18.00 ,,,,1947,Fiction House,
 ranger comics,40,NM+,$18.00 ,9.4, ,Grade by Metropolis.com not CGC ,1948,Fiction House,
 ranger comics,41,NM+,$15.00 ,9.4, ,Grade by Metropolis.com not CGC ,1948,Fiction House,
 ranger comics,42,NM+,$15.00 ,9.4,OW-W , ,1948,Fiction House,
-ranger comics,43,NM,$11.00 ,9.6, ,Grade by Metropolis.com not CGC ,1948,Fiction House,
+ranger comics,43,NM,SW,9.6, ,Grade by Metropolis.com not CGC ,1948,Fiction House,
 ranger comics,45,NM+,$15.00 ,,,,1949,Fiction House,
 ranger comics,46,NM+,$15.00 ,9.4, ,Grade by Metropolis.com not CGC ,1949,Fiction House,
 ranger comics,47,NM+,$15.00 ,9.4, ,Grade by Metropolis.com not CGC ,1949,Fiction House,
@@ -10090,29 +10356,6 @@ real life comics ,51,FN,$3.00 ,,,,1950,Standard,
 real life comics ,52,VG,$12.00 ,,,,1950,Standard,
 real life comics ,53,NM,$4.00 ,,,,1950,Standard,
 real life secrets,1,FN,$4.00 ,7.5,OW-W , ,1949,Ace Magazines,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
 real love,25,NM+,$5.00 ,,,,1949,Ace Magazines,
 real love,26,NM+,$5.00 ,,,,1949,Ace Magazines,
 real love,27,NM+,$5.00 ,,,,1949,Ace Magazines,
@@ -10354,7 +10597,7 @@ red ryder ranch magazine (fc),916,NM,$4.00 ,,,,1958,Dell,
 red seal comics ,15,NM+,$16.00 ,,,,1946,Harry A. Chesler,
 red seal comics ,16,NM+,$16.00 ,,,,1946,Harry A. Chesler,
 red seal comics ,17,NM+,$16.00 ,9.4,OW-W , ,1946,Harry A. Chesler,
-red seal comics ,18,NM+,$16.00 ,,,,1946,Harry A. Chesler,
+red seal comics ,18,NM+,$16.00 ,9.2,W ,,1946,Harry A. Chesler,
 red seal comics ,19,NM+,$16.00 ,9.4,OW-W , ,1947,Harry A. Chesler,
 red seal comics ,20,NM+,$16.00 ,,,,1947,Harry A. Chesler,
 red seal comics ,21,NM,$13.00 ,,,,1947,Harry A. Chesler,
@@ -10748,6 +10991,7 @@ roy rogers trigger,9,VG,$2.00 ,,,,1953,Dell,
 roy rogers trigger,10,VG,$2.00 ,,,,1953,Dell,
 roy rogers trigger,17,NM+,$5.00 ,,,,1955,Dell,
 roy rogers trigger (fc),329,VG,$3.00 ,,,,1951,Dell,
+Rulah Jungle Goddess,19,NL,,9,OW-W ,,1948,Fox,
 rusty,12,NM,$5.00 ,,,,1947,Timely,
 rusty,13,VG,$3.00 ,,,,1947,Timely,
 rusty,14,NM+,$20.00 ,,,,1947,Timely,
@@ -10770,7 +11014,7 @@ saint,4,NM+,$25.00 ,,,,1948,Avon,
 saint,5,NM,$20.00 ,,,,1949,Avon,
 saint,6,NM+,$40.00 ,,,,1949,Avon,
 saint,7,NM,$16.00 ,,,,1950,Avon,
-saint,9,NM,$16.00 ,9.4,OW-W , ,1950,Avon,
+saint,9,NM,$16.00 ,9.4,W , ,1950,Avon,
 saint,10,NM+,$15.00 ,,,,1951,Avon,
 saint,11,NM+,$15.00 ,,,,1951,Avon,
 saint,12,NM+,$15.00 ,,,,1952,Avon,
@@ -10804,6 +11048,7 @@ science comics (fox),7,NM+,$90.00 ,,,,1940,Fox,
 science comics (fox),8,NM,$65.00 ,,,,1940,Fox,
 scoop,1,NM+,$80.00 ,,,,1941,Harry A. Chesler,
 scoop,3,NM+,$18.00 ,,,,1942,Harry A. Chesler,
+scoop,8,NL , ,8,OW-W ,,1942,Harry A. Chesler,
 scooter,1,VG,$4.00 ,,,,1946,Rucker Publications,
 scream,1,NM+,$6.00 ,,,,1944,Ace Magazines,
 scream,3,VG,$2.00 ,,,,1945,Ace Magazines,
@@ -11028,8 +11273,8 @@ shadow (vol. 2),8,NM+,$30.00 ,,,,1942,Street & Smith,
 shadow (vol. 2),9,NM+,$30.00 ,,,,1942,Street & Smith,
 shadow (vol. 2),10,NM+,$30.00 ,7.5,OW-W , ,1943,Street & Smith,
 shadow (vol. 2),11,NM,$22.00 ,9.4,OW , ,1943,Street & Smith,
-shadow (vol. 2),12,NM+,$30.00 ,,,,1943,Street & Smith,
-shadow (vol. 3),1,NM+,$25.00 ,,,,1943,Street & Smith,
+shadow (vol. 2),12,NM+,$30.00 ,9.8,w,,1943,Street & Smith,
+shadow (vol. 3),1,NM+,$25.00 ,9.6,OW-W ,,1943,Street & Smith,
 shadow (vol. 3),2,NM+,$25.00 ,,,,1943,Street & Smith,
 shadow (vol. 3),3,NM,$20.00 ,,,,1943,Street & Smith,
 shadow (vol. 3),4,NM,$20.00 ,,,,1943,Street & Smith,
@@ -11111,7 +11356,7 @@ shield-wizard,8,NM,$100.00 ,,,,1942,MLJ,
 shield-wizard,9,NM+,$80.00 ,,,,1942,MLJ,
 shield-wizard,10,NM,$100.00 ,,,,1943,MLJ,
 shield-wizard,11,NM+,$60.00 ,,,,1943,MLJ,
-shield-wizard,13,NM,$45.00 ,,,,1944,MLJ,
+shield-wizard,13,NM,$45.00 ,8.5,W ,,1944,MLJ,
 ship ahoy,NN,NM+,$5.00 ,,,,1944,Spotlight,
 shmoo,4,NM+,$20.00 ,,,,1950,Toby,
 shmoo,5,NM+,$20.00 ,,,,1950,Toby,
@@ -11193,6 +11438,9 @@ slam-bang comics,1,NM,$110.00 ,8.5,W , ,1940,Fawcett,
 slam-bang comics,5,NM+,$55.00 ,,,,1940,Fawcett,
 slam-bang comics,6,NM+,$55.00 ,,,,1940,Fawcett,
 slam-bang comics ,7,NL ,,9.4,OW-W , ,1940,Fawcett,
+Slapstick Comics,nn,NL ,,8.5,W ,CBCS,,,
+Slave Girl Comics,1,NL ,,9.2,W ,,1949,Avon,
+Slave Girl Comics,2,NL ,,9.4,OW-W ,,1949,Avon,
 slick chick,1,NM+,$8.00 ,,,,1946,Universal Phoenix,
 slick chick,2,NM+,$6.00 ,,,,1946,Universal Phoenix,
 slick chick,3,NM,$5.00 ,,,,1946,Universal Phoenix,
@@ -11220,7 +11468,7 @@ smash comics ,13,NM+,$80.00 ,,,,1940,Quality,
 smash comics ,23,NM+,$80.00 ,,,,1941,Quality,
 smash comics ,24,NM+,$80.00 ,,,,1941,Quality,
 smash comics ,25,NM+,$100.00 ,,,,1941,Quality,
-smash comics ,26,NM+,$80.00 ,,,,1941,Quality,
+smash comics ,26,NM+,$80.00 ,9.6,W ,,1941,Quality,
 smash comics ,27,NM+,$60.00 ,,,,1941,Quality,
 smash comics ,28,NM+,$60.00 ,,,,1941,Quality,
 smash comics ,29,NM+,$60.00 ,,,,1941,Quality,
@@ -11658,7 +11906,7 @@ star spangled comics ,25,NM,$35.00 ,,,,1943,National,
 star spangled comics ,26,NM,$35.00 ,,,,1943,National,
 star spangled comics ,27,NM+,$45.00 ,,,,1943,National,
 star spangled comics ,27,NM+,$40.00 ,,,,1943,National,
-star spangled comics ,28,NM+,$40.00 ,,,,1944,National,
+star spangled comics ,28,NM+,$40.00 ,9.6,W ,,1944,National,
 star spangled comics ,29,NM+,$40.00 ,,,,1944,National,
 star spangled comics ,30,NM,$30.00 ,,,,1944,National,
 star spangled comics ,30,FN,$18.00 ,,,,1944,National,
@@ -12377,7 +12625,7 @@ suzie,59,NM+,$7.00 ,,,,1947,MLJ,
 suzie,60,NM+,$7.00 ,,,,1947,MLJ,
 suzie,61,NM+,$7.00 ,,,,1948,MLJ,
 suzie,62,NM+,$7.00 ,,,,1948,MLJ,
-suzie,63,NM+,$7.00 ,,,,1948,MLJ,
+suzie,63,NM+,$7.00 ,9.4,W ,,1948,MLJ,
 suzie,64,NM+,$7.00 ,,,,1948,MLJ,
 suzie,65,VG,$2.00 ,,,,1948,MLJ,
 suzie,66,NM+,$5.00 ,,,,1948,MLJ,
@@ -12820,7 +13068,7 @@ thing,2,NM+,$5.00 ,,,,1952,Charlton,
 thing,3,NM+,$5.00 ,9.4,W , ,1952,Charlton,
 thing,4,NM,$4.00 ,,,,1952,Charlton,
 thing,5,NM,$4.00 ,,,,1952,Charlton,
-thing,6,NM,$4.00 ,,,,1953,Charlton,
+thing,6,NM,$4.00 ,8.5,OW-W ,,1953,Charlton,
 thing,7,NM,$4.00 ,,,,1953,Charlton,
 thing,11,FN,$3.00 ,,,,1953,Charlton,
 this magazine is haunted,1,VG,$3.00 ,,,,1951,Fawcett,
@@ -13468,20 +13716,22 @@ two gun western,12,FN,$4.00 ,,,,1952,Timely,
 two gun western,13,NM,$6.00 ,,,,1952,Timely,
 two gun western,14,FN,$4.00 ,,,,1952,Timely,
 two-gun kid,1,NM+,$45.00 ,9.2,OW , ,1948,Timely,
-two-gun kid,2,NM+,$22.00 ,,,,1948,Timely,
+two-gun kid,2,NM+,$22.00 ,9.4,OW-W ,,1948,Timely,
 two-gun kid,3,NM+,$15.00 ,9.4,OW-W , ,1948,Timely,
 two-gun kid,4,NM+,$15.00 ,,,,1948,Timely,
 two-gun kid,5,NM+,$15.00 ,,,,1948,Timely,
 two-gun kid,6,NM,$12.00 ,,,,1949,Timely,
 two-gun kid,7,NM+,$15.00 ,,,,1949,Timely,
 two-gun kid,9,G,$2.00 ,,,,1949,Timely,
-two-gun kid,10,NM+,$15.00 ,,,,1949,Timely,
-two-gun kid,20,FN,$4.00 ,,,,1955,Timely,
+two-gun kid,10,NM+,$15.00 ,8.5,,,1949,Timely,
+two-gun kid,13,NL ,,6,,,1954,Timely,
+two-gun kid,20,FN,$4.00 ,,,,1954,Timely,
+two-gun kid,23,NL ,,8.5,,,1955,Timely,
 two-gun kid,25,NM+,$10.00 ,,,,1955,Timely,
-two-gun kid,26,NM,$8.00 ,,,,1956,Timely,
-two-gun kid,27,NM+,$8.00 ,,,,1956,Timely,
-two-gun kid,28,NM+,$8.00 ,,,,1956,Timely,
-two-gun kid,29,NM+,$8.00 ,,,,1956,Timely,
+two-gun kid,26,NM,$8.00 ,,,There is a 6.5 and a 7.5 both listed as Church books that are.. Not the same book,1956,Timely,
+two-gun kid,27,NM+,$8.00 ,9,,,1956,Timely,
+two-gun kid,28,NM+,$8.00 ,9.2,,,1956,Timely,
+two-gun kid,29,NM+,$8.00 ,9,,,1956,Timely,
 two-gun kid,30,NM+,$10.00 ,,,,1956,Timely,
 u.s. agent,1,NM+,$6.00 ,,,,1945,D.S. Publishing,
 u.s. border patrol,5,NM+,$8.00 ,,,,1944,Holyoke,
@@ -13668,8 +13918,8 @@ war,3,VG,$2.00 ,,,,,#N/A,Can't be the Dell series since War Stories is also list
 war,4,G,$2.00 ,,,,,#N/A,
 war,7,VG,$2.00 ,,,,,#N/A,
 war against crime,11,PR/FR,$10.00 ,,,,1950,E.C.,
-war comics,1,NM,$22.00 ,,,,1950,Timely,
-war comics,2,NM,$13.00 ,,,,1951,Timely,
+war comics,1,NM,$22.00 ,9,,,1950,Timely,
+war comics,2,NM,$13.00 ,7.5,,,1951,Timely,
 war comics,3,NM+,$17.00 ,,,,1951,Timely,
 war comics,4,FN,$10.00 ,,,,1951,Timely,
 war comics,5,FN,$10.00 ,,,,1951,Timely,
@@ -13678,7 +13928,7 @@ war heroes,3,VG,$4.00 ,,,,1943,Dell,
 war heroes,5,VG,$4.00 ,,,,1943,Dell,
 war heroes,6,VG,$4.00 ,,,,1943,Dell,
 war heroes,7,NM+,$5.00 ,9.6,OW , ,1944,Dell,
-war heroes,9,NM+,$5.00 ,,,,1944,Dell,
+war heroes,9,NM+,$5.00 ,9.6,,,1944,Dell,
 war stories,7,NM,$11.00 ,,,,1942,Dell,
 war stories,8,NM+,$16.00 ,,,,1943,Dell,
 war victory,3,NM,$10.00 ,,,,1943,Harvey ,
@@ -13803,7 +14053,7 @@ weird thrillers,1,NM,$5.00 ,,,,1952,Ziff-Davis,
 weird thrillers,2,G,$2.00 ,,,,1952,Ziff-Davis,
 weird thrillers,3,NM,$5.00 ,,,,1953,Ziff-Davis,
 weird thrillers,4,NM,$5.00 ,,,,1953,Ziff-Davis,
-weird thrillers,5,VG,$3.00 ,,,,1953,Ziff-Davis,
+weird thrillers,5,VG,$3.00 ,9.4,OW-W ,,1953,Ziff-Davis,
 western adventures,4,NM+,$8.00 ,,,,1949,Ace Magazines,
 western adventures,5,G,$2.00 ,,,,1949,Ace Magazines,
 western adventures,6,VG,$3.00 ,,,,1949,Ace Magazines,
@@ -14078,11 +14328,11 @@ whip wilson,11,NM+,$12.00 ,,,,1950,Bell Features,
 whirlwind,1,NM+,$100.00 ,9.4,OW-W ,Old grade NM- 9.2 W ,1940,Continental,
 whirlwind,2,NM,$35.00 ,8.5,W , ,1940,Continental,
 whirlwind,3,NM+,$40.00 ,,,,1940,Continental,
-white chief of the pawnee indians,1,NM,$24.00 ,,,,1951,Avon,
-white chief of the pawnee indians,2,NM,$20.00 ,,,,,#N/A,White Chief of the Pawnee was an Avon one-shot. Is the title here listed correctly?
-white chief of the pawnee indians,3,NM+,$25.00 ,,,,,#N/A,"Could it be White Eagle, Indian Chief instead?"
-white chief of the pawnee indians,4,NM+,$25.00 ,,,,,#N/A,
-white chief of the pawnee indians,5,VG,$10.00 ,,,,,#N/A,
+White Princess of the Jungle,1,NM,$24.00 ,,,,1951,Avon,
+White Princess of the Jungle,2,NM,$20.00 ,,,,1951,Avon,
+White Princess of the Jungle,3,NM+,$25.00 ,8,OW-W ,,1951,Avon,
+White Princess of the Jungle,4,NM+,$25.00 ,,,,1951,Avon,
+White Princess of the Jungle,5,VG,$10.00 ,,,,1951,Avon,
 white rider & super horse,4,NM+,$6.00 ,9.6,W ,First issue ,1950,Star Publications,
 white rider & super horse,5,NM,$5.00 ,,,,1950,Star Publications,
 white rider & super horse,6,NM,$5.00 ,,,,1951,Star Publications,
@@ -14253,7 +14503,30 @@ wilbur,28,FN,$3.00 ,,,,1949,MLJ,
 wilbur,29,FR,$2.00 ,,,,1950,MLJ,
 wilbur,43,VG,$2.00 ,,,,1952,MLJ,
 wild bill elliot (fc),278,NM+,$15.00 ,,,,1950,Dell,
-wild bill hickok ,4,NL ,,9.6,W , ,1950,Avon,
+wild bill elliot,2,NM+,$8.00 ,,,,1951,Dell,
+wild bill elliot,3,NM,$6.00 ,,,,1951,Dell,
+wild bill elliot,4,NM+,$8.00 ,,,,1951,Dell,
+wild bill elliot,5,NM,$6.00 ,,,,1951,Dell,
+wild bill elliot,7,F,$8.00 ,,,,1952,Dell,
+wild bill elliot,8,NM+,$8.00 ,,,,1952,Dell,
+wild bill elliot,9,GD,$2.00 ,,,,1952,Dell,
+wild bill hickok ,1,NM+,$30.00 ,9.4,W , ,1949,Avon,
+wild bill hickok ,2,NM+,$15.00 ,,, ,1949,Avon,
+wild bill hickok ,3,NM+,$10.00 ,,, ,1950,Avon,
+wild bill hickok ,4,NM+,$10.00 ,9.6,W , ,1950,Avon,
+wild bill hickok ,5,NM+,$10.00 ,,, ,1951,Avon,
+wild bill hickok ,6,NM+,$10.00 ,,, ,1951,Avon,
+wild bill hickok ,7,NM+,$10.00 ,9.4,W , ,1951,Avon,
+wild bill hickok ,8,FN,$5.00 ,,, ,1951,Avon,
+wild bill hickok ,9,VG,$4.00 ,,, ,1951,Avon,
+wild bill hickok ,10,FN,$5.00 ,,, ,1952,Avon,
+wild bill hickok ,11,NM,$7.00 ,9.2,W , ,1952,Avon,
+wild bill hickok ,12,NM,$7.00 ,,, ,1952,Avon,
+wild bill hickok ,13,VG,$4.00 ,,, ,1952,Avon,
+wild bill hickok ,14,FN,$5.00 ,,, ,1952,Avon,
+wild bill hickok ,15,VF,$4.00 ,,, ,1952,Avon,
+wild bill hickok ,17,FN,$5.00 ,,, ,1953,Avon,
+wild bill hickok ,27,NM,$4.00 ,9,W , ,1955,Avon,
 wild boy biff davis,4,VG,$3.00 ,,,,1951,Ziff-Davis,
 wild boy biff davis,5,NM+,$5.00 ,,,,1951,Ziff-Davis,
 wild boy biff davis,6,NM,$5.00 ,,,,1952,Ziff-Davis,
@@ -14757,7 +15030,7 @@ zip comics ,5,NM+,$90.00 ,,,,1940,MLJ,
 zip comics ,7,NM,$70.00 ,,,,1940,MLJ,
 zip comics ,7,NM+,$90.00 ,,,,1940,MLJ,
 zip comics ,8,NM,$65.00 ,,,,1940,MLJ,
-zip comics ,10,NM+,$80.00 ,,,,1941,MLJ,
+zip comics ,10,NM+,$80.00 ,9.8,W ,,1941,MLJ,
 zip comics ,11,NM+,$80.00 ,,,,1941,MLJ,
 zip comics ,12,NM,$65.00 ,,,,1941,MLJ,
 zip comics ,13,NM,$65.00 ,,,,1941,MLJ,
