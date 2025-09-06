@@ -173,11 +173,24 @@ class ChurchDataApp {
     const minYear = Math.min(...years);
     const maxYear = Math.max(...years);
 
+    // Calculate average CGC grade
+    const cgcGrades = data
+      .map(record => record['CGC Grade'])
+      .filter(grade => grade && grade.trim() !== '')
+      .map(grade => parseFloat(grade))
+      .filter(grade => !isNaN(grade) && grade >= 0.1 && grade <= 10);
+    
+    const avgCgcGrade = cgcGrades.length > 0 
+      ? (cgcGrades.reduce((sum, grade) => sum + grade, 0) / cgcGrades.length).toFixed(1)
+      : 'N/A';
+
     statsDiv.innerHTML = `
       <h3>Collection Statistics</h3>
       <p><strong>${count.toLocaleString()}</strong> total records, 
       <strong>${publishers.size}</strong> unique publishers</p>
       <p>Years: <strong>${minYear}</strong> - <strong>${maxYear}</strong></p>
+      <p>Average CGC Grade: <strong>${avgCgcGrade}</strong> 
+      (${cgcGrades.length.toLocaleString()} graded comics)</p>
     `;
   }
 
