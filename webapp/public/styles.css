@@ -28,7 +28,8 @@
         
         .header h1 {
             color: #333;
-            margin-bottom: 10px;
+            margin-bottom: 10px;font-family: 'Comic Relief', cursive;
+            font-size: 36px;
         }
         
         .header p {
