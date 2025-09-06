@@ -5,10 +5,21 @@
             padding: 20px;
             background-color: #67b4fc;
         }
+        .header-top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        
+        #logo {
+            flex: 1;
+            text-align: center;
+        }
+        
         #links {
-            position:absolute;
-            top:15px;
-            right:15px;
+            flex: 1;
+            text-align: right;
+            padding-right: 0;
         }
         #links a {
             color:#003366;
