@@ -61,7 +61,20 @@ class ChurchDataApp {
                     filter: 'agTextColumnFilter',
                     sortable: true,
                     resizable: true,
-                    width: 120
+                    width: 120,
+                    valueFormatter: (params) => {
+                        const v = params.value;
+                        if (v === null || v === undefined)
+                            return '';
+                        const s = String(v).trim();
+                        if (s === '')
+                            return '';
+                        const normalized = s.replace(',', '.');
+                        if (/^\d+(\.\d+)?$/.test(normalized)) {
+                            return parseFloat(normalized).toFixed(1);
+                        }
+                        return s;
+                    }
                 },
                 {
                     field: 'Page Quality',
