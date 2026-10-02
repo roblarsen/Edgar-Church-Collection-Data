@@ -1,0 +1,62 @@
+name: Monthly Pedigree Reconciliation
+
+on:
+  schedule:
+    # Runs at 06:00 UTC on the 1st of every month
+    - cron: '0 6 1 * *'
+  workflow_dispatch: # Allows manual one-click trigger anytime
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  reconcile-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: pip install pandas
+
+      - name: Download Feed from Google Drive
+        env:
+          FILE_ID: ${{ secrets.GDRIVE_FILE_ID }}
+        run: |
+          mkdir -p data
+          # Direct download using Drive export endpoint
+          curl -fsSL "https://docs.google.com/uc?export=download&id=${FILE_ID}" -o data/church_pedigree_live_feed.csv
+          
+          # Verify download wasn't empty or blocked
+          if [ ! -s data/church_pedigree_live_feed.csv ]; then
+            echo "Failed to download CSV from Google Drive or file is empty."
+            exit 1
+          fi
+
+      - name: Run Reconciliation
+        run: python scripts/reconcile_monthly_feed.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "data: monthly church pedigree reconciliation"
+          branch: "automated/monthly-pedigree-reconcile"
+          delete-branch: true
+          title: "Data: Monthly Church Pedigree Reconciliation"
+          body: |
+            Automated monthly reconciliation of new Edgar Church pedigree auction records and census grades.
+            
+            - Downloaded latest live feed from Google Drive.
+            - Merged via `scripts/reconcile_monthly_feed.py`.
+            - Please verify page quality values and newly added issues before merging.
+          labels: |
+            data
+            automated-pr
