@@ -31,8 +31,12 @@ jobs:
         run: |
           mkdir -p data
           # Direct download using Drive export endpoint
-          curl -fsSL "https://docs.google.com/uc?export=download&id=${FILE_ID}" -o data/church_pedigree_live_feed.csv
-          
+          curl -fsSL "https://docs.google.com/spreadsheets/d/${FILE_ID}/export?format=csv" -o data/church_pedigree_live_feed.csv
+
+          if [ ! -s data/church_pedigree_live_feed.csv ]; then
+            echo "Error: Downloaded CSV is empty or inaccessible. Verify the Sheet is shared as 'Anyone with the link can view'."
+            exit 1
+          fi  
           # Verify download wasn't empty or blocked
           if [ ! -s data/church_pedigree_live_feed.csv ]; then
             echo "Failed to download CSV from Google Drive or file is empty."
