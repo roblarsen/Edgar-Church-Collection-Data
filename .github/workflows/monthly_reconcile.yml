@@ -2,9 +2,9 @@ name: Monthly Pedigree Reconciliation
 
 on:
   schedule:
-    # Runs at 06:00 UTC on the 1st of every month
+    # 06:00 UTC on the 1st of every month
     - cron: '0 6 1 * *'
-  workflow_dispatch: # Allows manual one-click trigger anytime
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,41 +25,44 @@ jobs:
       - name: Install Dependencies
         run: pip install pandas
 
-      - name: Download Feed from Google Drive
+      - name: Download Feed from Google Sheet
         env:
           FILE_ID: ${{ secrets.GDRIVE_FILE_ID }}
         run: |
           mkdir -p data
-          # Direct download using Drive export endpoint
           curl -fsSL "https://docs.google.com/spreadsheets/d/${FILE_ID}/export?format=csv" -o data/church_pedigree_live_feed.csv
-
+          
           if [ ! -s data/church_pedigree_live_feed.csv ]; then
-            echo "Error: Downloaded CSV is empty or inaccessible. Verify the Sheet is shared as 'Anyone with the link can view'."
-            exit 1
-          fi  
-          # Verify download wasn't empty or blocked
-          if [ ! -s data/church_pedigree_live_feed.csv ]; then
-            echo "Failed to download CSV from Google Drive or file is empty."
+            echo "Error: Live feed download failed or file is empty."
             exit 1
           fi
 
-      - name: Run Reconciliation
+      - name: Run Reconciliation Across src/
         run: python scripts/reconcile_monthly_feed.py
+
+      - name: Read Summary Body
+        id: summary
+        run: |
+          if [ -f reconcile_summary.md ]; then
+            BODY=$(cat reconcile_summary.md)
+          else
+            BODY="Monthly Church Pedigree Census Reconciliation."
+          fi
+          # Escape multiline output for GitHub Actions
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "PR_BODY<<$EOF" >> $GITHUB_ENV
+          echo "$BODY" >> $GITHUB_ENV
+          echo "$EOF" >> $GITHUB_ENV
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "data: monthly church pedigree reconciliation"
+          commit-message: "data(census): monthly church pedigree reconciliation"
           branch: "automated/monthly-pedigree-reconcile"
           delete-branch: true
-          title: "Data: Monthly Church Pedigree Reconciliation"
-          body: |
-            Automated monthly reconciliation of new Edgar Church pedigree auction records and census grades.
-            
-            - Downloaded latest live feed from Google Drive.
-            - Merged via `scripts/reconcile_monthly_feed.py`.
-            - Please verify page quality values and newly added issues before merging.
+          title: "Data: Monthly Church Pedigree Census Reconciliation"
+          body: ${{ env.PR_BODY }}
           labels: |
-            data
+            census
             automated-pr
