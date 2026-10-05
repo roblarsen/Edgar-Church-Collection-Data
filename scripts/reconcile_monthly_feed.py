@@ -1,19 +1,42 @@
 #!/usr/bin/env python3
 """
 scripts/reconcile_monthly_feed.py
-Reconciles incoming Church pedigree live feed data into the repo's master census.
+Reconciles church_pedigree_live_feed.csv directly into src/[A-Z]-[A-Z].csv
 """
 
-from pathlib import Path
 import sys
+import re
+from pathlib import Path
 import pandas as pd
 
-def normalize_val(val):
-    if pd.isna(val) or str(val).strip().lower() in ["unknown", "nan", ""]:
-        return None
-    return str(val).strip()
+PQ_MAP = {
+    "off-white to white": "OW-W",
+    "white": "W",
+    "off-white": "OW",
+    "cream to off-white": "CR-OW",
+    "cream": "CR",
+}
 
-def normalize_issue(issue):
+SRC_FILES = [
+    ("A-C.csv", ["a", "b", "c", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]),
+    ("D-F.csv", ["d", "e", "f"]),
+    ("G-I.csv", ["g", "h", "i"]),
+    ("J-L.csv", ["j", "k", "l"]),
+    ("M-O.csv", ["m", "n", "o"]),
+    ("P-R.csv", ["p", "q", "r"]),
+    ("S-U.csv", ["s", "t", "u"]),
+    ("V-Z.csv", ["v", "w", "x", "y", "z"]),
+]
+
+def clean_title(title: str) -> str:
+    if pd.isna(title):
+        return ""
+    t = str(title).lower().strip()
+    t = re.sub(r'^(the|a|an)\s+', '', t)  # normalize leading articles
+    t = re.sub(r'[^a-z0-9\s]', '', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+def clean_issue(issue) -> str:
     if pd.isna(issue):
         return ""
     clean = str(issue).strip().lstrip("#")
@@ -21,79 +44,128 @@ def normalize_issue(issue):
         val = float(clean)
         return str(int(val)) if val.is_integer() else str(val)
     except ValueError:
-        return clean
+        return clean.lower()
+
+def map_page_quality(pq: str) -> str:
+    if pd.isna(pq) or str(pq).strip().lower() in ["unknown", "nan", ""]:
+        return ""
+    key = str(pq).strip().lower()
+    return PQ_MAP.get(key, str(pq).strip())
+
+def get_target_src_file(title: str) -> str:
+    cleaned = clean_title(title)
+    if not cleaned:
+        return "A-C.csv"
+    first_char = cleaned[0]
+    for filename, chars in SRC_FILES:
+        if first_char in chars:
+            return filename
+    return "A-C.csv"
 
 def reconcile():
     feed_path = Path("data/church_pedigree_live_feed.csv")
-    # Path to your master dataset in the repo
-    master_path = Path("data/church_pedigree_master.csv")
+    src_dir = Path("src")
 
     if not feed_path.exists():
-        print(f"No staging feed found at {feed_path}. Nothing to reconcile.")
+        print(f"Staging file {feed_path} not found. Exiting.")
         sys.exit(0)
 
-    print(f"Loading incoming feed: {feed_path}")
+    print(f"Reading incoming feed: {feed_path}")
     df_feed = pd.read_csv(feed_path)
+    total_feed = len(df_feed)
 
-    if master_path.exists():
-        df_master = pd.read_csv(master_path)
-    else:
-        df_master = pd.DataFrame(columns=df_feed.columns)
+    summary_updates = []
+    summary_inserts = []
 
-    # Composite matching keys
-    df_master["_k_title"] = df_master["Title"].fillna("").astype(str).str.lower().str.strip()
-    df_master["_k_issue"] = df_master["Issue"].apply(normalize_issue)
+    # Process each alphabetical src file
+    for filename, _ in SRC_FILES:
+        csv_file = src_dir / filename
+        if not csv_file.exists():
+            continue
 
-    df_feed["_k_title"] = df_feed["Title"].fillna("").astype(str).str.lower().str.strip()
-    df_feed["_k_issue"] = df_feed["Issue"].apply(normalize_issue)
+        df_target = pd.read_csv(csv_file)
+        issue_col = "Issue #" if "Issue #" in df_target.columns else "Issue"
 
-    master_indices = {
-        (row["_k_title"], row["_k_issue"]): idx
-        for idx, row in df_master.iterrows()
-    }
+        # Create normalized matching keys on target
+        df_target["_k_title"] = df_target["Title"].apply(clean_title)
+        df_target["_k_issue"] = df_target[issue_col].apply(clean_issue)
 
-    new_rows = []
-    updated_fields = 0
+        # Filter feed entries intended for this alphabetical bucket
+        file_feed = df_feed[df_feed["Title"].apply(get_target_src_file) == filename].copy()
+        if file_feed.empty:
+            df_target.drop(columns=["_k_title", "_k_issue"]).to_csv(csv_file, index=False)
+            continue
 
-    fields_to_update = [
-        "CGC/CBCS Numeric Grade",
-        "Certification ID",
-        "Page Quality",
-        "Realized Sales Price",
-        "Auction House Tracking ID"
-    ]
+        file_feed["_k_title"] = file_feed["Title"].apply(clean_title)
+        file_feed["_k_issue"] = file_feed["Issue"].apply(clean_issue)
 
-    for _, row in df_feed.iterrows():
-        key = (row["_k_title"], row["_k_issue"])
-        if key in master_indices:
-            idx = master_indices[key]
-            for col in fields_to_update:
-                if col in df_master.columns and col in df_feed.columns:
-                    incoming = normalize_val(row[col])
-                    existing = normalize_val(df_master.at[idx, col])
-                    if incoming and not existing:
-                        df_master.at[idx, col] = incoming
-                        updated_fields += 1
-        else:
-            clean_entry = row.drop(labels=["_k_title", "_k_issue"]).to_dict()
-            new_rows.append(clean_entry)
+        target_map = {
+            (row["_k_title"], row["_k_issue"]): idx
+            for idx, row in df_target.iterrows()
+        }
 
-    if new_rows:
-        df_new = pd.DataFrame(new_rows)
-        df_master = df_master.drop(columns=["_k_title", "_k_issue"])
-        df_master = pd.concat([df_master, df_new], ignore_index=True)
-    else:
-        df_master = df_master.drop(columns=["_k_title", "_k_issue"])
+        new_rows = []
 
-    df_master = df_master.sort_values(by=["Title", "Issue"]).reset_index(drop=True)
+        for _, frow in file_feed.iterrows():
+            key = (frow["_k_title"], frow["_k_issue"])
+            incoming_grade = frow.get("CGC/CBCS Numeric Grade")
+            incoming_pq = map_page_quality(frow.get("Page Quality"))
 
-    master_path.parent.mkdir(parents=True, exist_ok=True)
-    df_master.to_csv(master_path, index=False)
-    print(f"Reconciliation complete: {len(new_rows)} rows added, {updated_fields} fields updated.")
+            if key in target_map:
+                idx = target_map[key]
+                current_grade = df_target.at[idx, "CGC Grade"]
+                current_pq = df_target.at[idx, "Page Quality"]
 
-    # Remove the staging file so it isn't committed in the PR
+                updated = False
+                # Reconcile grade if missing or different
+                if pd.notna(incoming_grade) and (pd.isna(current_grade) or str(current_grade).strip() == ""):
+                    df_target.at[idx, "CGC Grade"] = incoming_grade
+                    updated = True
+
+                # Reconcile Page Quality
+                if incoming_pq and (pd.isna(current_pq) or str(current_pq).strip() == ""):
+                    df_target.at[idx, "Page Quality"] = incoming_pq
+                    updated = True
+
+                if updated:
+                    summary_updates.append(f"{frow['Title']} #{frow['Issue']} -> Grade: {incoming_grade}, PQ: {incoming_pq} ({filename})")
+            else:
+                # Issue not found in current census: format new row matching target schema
+                new_row = {col: "" for col in df_target.columns if not col.startswith("_k_")}
+                new_row["Title"] = str(frow["Title"]).lower()
+                new_row[issue_col] = frow["Issue"]
+                new_row["CGC Grade"] = incoming_grade if pd.notna(incoming_grade) else ""
+                new_row["Page Quality"] = incoming_pq
+                new_rows.append(new_row)
+                summary_inserts.append(f"{frow['Title']} #{frow['Issue']} -> Grade: {incoming_grade} ({filename})")
+
+        # Drop temporary matching keys
+        df_target = df_target.drop(columns=["_k_title", "_k_issue"])
+
+        if new_rows:
+            df_new = pd.DataFrame(new_rows)
+            df_target = pd.concat([df_target, df_new], ignore_index=True)
+
+        # Write cleanly back to src/[filename]
+        df_target.to_csv(csv_file, index=False)
+        print(f"Processed {filename}: {len(file_feed)} candidates evaluated.")
+
+    # Write PR Summary to environment if running in GitHub Actions
+    summary_md = f"### Monthly Reconciliation Summary\n"
+    summary_md += f"- **Total Incoming Records Evaluated:** {total_feed}\n"
+    summary_md += f"- **Existing Census Entries Updated:** {len(summary_updates)}\n"
+    summary_md += f"- **New Entries Inserted:** {len(summary_inserts)}\n\n"
+    if summary_updates:
+        summary_md += "#### Updated Records\n" + "\n".join(f"- {u}" for u in summary_updates[:20]) + "\n\n"
+    if summary_inserts:
+        summary_md += "#### New Census Additions\n" + "\n".join(f"- {i}" for i in summary_inserts[:20]) + "\n"
+
+    Path("reconcile_summary.md").write_text(summary_md)
+    print("Reconciliation complete. Summary generated.")
+
+    # Clean up staging feed
     feed_path.unlink()
-    print(f"Cleaned up staging file: {feed_path}")
+    print("Cleaned up data/church_pedigree_live_feed.csv")
 
 if __name__ == "__main__":
     reconcile()
