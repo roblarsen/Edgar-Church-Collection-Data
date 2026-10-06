@@ -134,6 +134,7 @@ def reconcile():
 
                 if updated:
                     summary_updates.append(f"{frow['Title']} #{frow['Issue']} -> Grade: {incoming_grade}, PQ: {incoming_pq} ({filename})")
+
             else:
                 new_row = {col: "" for col in df_target.columns if not col.startswith("_k_")}
                 new_row["Title"] = str(frow["Title"]).lower()
