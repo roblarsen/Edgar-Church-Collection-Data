@@ -2,6 +2,7 @@
 """
 scripts/reconcile_monthly_feed.py
 Reconciles church_pedigree_live_feed.csv directly into src/[A-Z]-[A-Z].csv
+Handles feeds both with and without a header row.
 """
 
 import sys
@@ -26,6 +27,17 @@ SRC_FILES = [
     ("P-R.csv", ["p", "q", "r"]),
     ("S-U.csv", ["s", "t", "u"]),
     ("V-Z.csv", ["v", "w", "x", "y", "z"]),
+]
+
+EXPECTED_COLUMNS = [
+    "Title",
+    "Issue",
+    "CGC/CBCS Numeric Grade",
+    "Certification ID",
+    "Page Quality",
+    "Realized Sales Price",
+    "Auction House Tracking ID",
+    "Scan Date"
 ]
 
 def clean_title(title: str) -> str:
@@ -71,16 +83,23 @@ def get_target_src_file(title: str) -> str:
             return filename
     return "A-C.csv"
 
-def normalize_feed_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Strip whitespace and match expected feed headers case-insensitively."""
-    expected = {
-        "title": "Title",
-        "issue": "Issue",
-        "issue #": "Issue",
-        "cgc/cbcs numeric grade": "CGC/CBCS Numeric Grade",
-        "page quality": "Page Quality",
-    }
-    df.columns = [expected.get(str(c).strip().lower(), str(c).strip()) for c in df.columns]
+def load_incoming_feed(feed_path: Path) -> pd.DataFrame:
+    df_peek = pd.read_csv(feed_path, nrows=1, dtype=str)
+    cols = [str(c).strip() for c in df_peek.columns]
+    
+    has_header = any("title" in c.lower() for c in cols) and any("issue" in c.lower() for c in cols)
+    
+    if has_header:
+        df = pd.read_csv(feed_path, dtype=str)
+        df.columns = [str(c).strip() for c in df.columns]
+    else:
+        df = pd.read_csv(feed_path, header=None, dtype=str)
+        if df.shape[1] >= len(EXPECTED_COLUMNS):
+            df = df.iloc[:, :len(EXPECTED_COLUMNS)]
+            df.columns = EXPECTED_COLUMNS
+        else:
+            df.columns = EXPECTED_COLUMNS[:df.shape[1]]
+            
     return df
 
 def reconcile():
@@ -92,13 +111,9 @@ def reconcile():
         sys.exit(0)
 
     print(f"Reading incoming feed: {feed_path}")
-    df_feed = pd.read_csv(feed_path, dtype=str, encoding="utf-8-sig")
-    df_feed = normalize_feed_columns(df_feed)
-    missing = [c for c in ("Title", "Issue") if c not in df_feed.columns]
-    if missing:
-        print(f"Error: feed is missing required column(s) {missing}. Found columns: {list(df_feed.columns)}")
-        sys.exit(1)
+    df_feed = load_incoming_feed(feed_path)
     total_feed = len(df_feed)
+    print(f"Loaded {total_feed} incoming rows with columns: {list(df_feed.columns)}")
 
     summary_updates = []
     summary_inserts = []
@@ -108,7 +123,6 @@ def reconcile():
         if not csv_file.exists():
             continue
 
-        # Load all columns as strings to prevent Pandas type conflicts
         df_target = pd.read_csv(csv_file, dtype=str)
         issue_col = "Issue #" if "Issue #" in df_target.columns else "Issue"
 
@@ -150,8 +164,7 @@ def reconcile():
                     updated = True
 
                 if updated:
-                    summary_updates.append(f"{frow['Title']} #{frow['Issue']} -> Grade: {incoming_grade}, PQ: {incoming_pq} ({filename})")
-
+                    summary_updates.append(f"`{frow['Title']} #{frow['Issue']}` -> Grade: {incoming_grade}, PQ: {incoming_pq} ({filename})")
             else:
                 new_row = {col: "" for col in df_target.columns if not col.startswith("_k_")}
                 new_row["Title"] = str(frow["Title"]).lower()
@@ -159,7 +172,7 @@ def reconcile():
                 new_row["CGC Grade"] = incoming_grade
                 new_row["Page Quality"] = incoming_pq
                 new_rows.append(new_row)
-                summary_inserts.append(f"{frow['Title']} #{frow['Issue']} -> Grade: {incoming_grade} ({filename})")
+                summary_inserts.append(f"`{frow['Title']} #{frow['Issue']}` -> Grade: {incoming_grade} ({filename})")
 
         df_target = df_target.drop(columns=["_k_title", "_k_issue"])
 
@@ -170,7 +183,7 @@ def reconcile():
         df_target.to_csv(csv_file, index=False)
         print(f"Processed {filename}: {len(file_feed)} candidates evaluated.")
 
-    # Write summary for the PR body
+    # Write summary for PR body
     summary_md = "### Monthly Reconciliation Summary\n"
     summary_md += f"- **Total Incoming Records Evaluated:** {total_feed}\n"
     summary_md += f"- **Existing Census Entries Updated:** {len(summary_updates)}\n"
