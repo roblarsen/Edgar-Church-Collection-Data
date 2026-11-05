@@ -1,4 +1,4 @@
-name: Monthly Pedigree Reconciliation
+name: Monthly Pedigree Verification Report
 
 on:
   schedule:
@@ -7,11 +7,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
+  issues: write
 
 jobs:
-  reconcile-feed:
+  audit-pedigree-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -37,32 +37,18 @@ jobs:
             exit 1
           fi
 
-      - name: Run Reconciliation Across src/
+      - name: Generate Issue Verification Report
         run: python scripts/reconcile_monthly_feed.py
 
-      - name: Read Summary Body
-        id: summary
+      - name: Create GitHub Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -f reconcile_summary.md ]; then
-            BODY=$(cat reconcile_summary.md)
+          if [ -f issue_body.md ]; then
+            gh issue create \
+              --title "Edgar Church Monthly Ingestion Audit - $(date +'%B %Y')" \
+              --body-file issue_body.md \
+              --label "census,verification"
           else
-            BODY="Monthly Church Pedigree Census Reconciliation."
+            echo "No issue report generated."
           fi
-          # Escape multiline output for GitHub Actions
-          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
-          echo "PR_BODY<<$EOF" >> $GITHUB_ENV
-          echo "$BODY" >> $GITHUB_ENV
-          echo "$EOF" >> $GITHUB_ENV
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "data(census): monthly church pedigree reconciliation"
-          branch: "automated/monthly-pedigree-reconcile"
-          delete-branch: true
-          title: "Data: Monthly Church Pedigree Census Reconciliation"
-          body: ${{ env.PR_BODY }}
-          labels: |
-            census
-            automated-pr
