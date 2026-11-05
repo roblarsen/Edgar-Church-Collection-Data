@@ -71,6 +71,18 @@ def get_target_src_file(title: str) -> str:
             return filename
     return "A-C.csv"
 
+def normalize_feed_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Strip whitespace and match expected feed headers case-insensitively."""
+    expected = {
+        "title": "Title",
+        "issue": "Issue",
+        "issue #": "Issue",
+        "cgc/cbcs numeric grade": "CGC/CBCS Numeric Grade",
+        "page quality": "Page Quality",
+    }
+    df.columns = [expected.get(str(c).strip().lower(), str(c).strip()) for c in df.columns]
+    return df
+
 def reconcile():
     feed_path = Path("data/church_pedigree_live_feed.csv")
     src_dir = Path("src")
@@ -80,7 +92,12 @@ def reconcile():
         sys.exit(0)
 
     print(f"Reading incoming feed: {feed_path}")
-    df_feed = pd.read_csv(feed_path, dtype=str)
+    df_feed = pd.read_csv(feed_path, dtype=str, encoding="utf-8-sig")
+    df_feed = normalize_feed_columns(df_feed)
+    missing = [c for c in ("Title", "Issue") if c not in df_feed.columns]
+    if missing:
+        print(f"Error: feed is missing required column(s) {missing}. Found columns: {list(df_feed.columns)}")
+        sys.exit(1)
     total_feed = len(df_feed)
 
     summary_updates = []
