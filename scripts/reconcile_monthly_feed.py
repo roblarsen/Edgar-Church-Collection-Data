@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 scripts/reconcile_monthly_feed.py
-Reconciles headerless church_pedigree_live_feed.csv directly into src/[A-Z]-[A-Z].csv
+Generates an audit report (issue_body.md) for human verification
+without mutating repository files in src/.
 """
 
 import sys
@@ -83,29 +84,23 @@ def get_target_src_file(title: str) -> str:
     return "A-C.csv"
 
 def load_incoming_feed(feed_path: Path) -> pd.DataFrame:
-    # Always read headerless by default
     df = pd.read_csv(feed_path, header=None, dtype=str)
-
-    # Check if row 0 happens to contain header names
     first_cell = str(df.iloc[0, 0]).strip().lower()
     if first_cell == "title":
         df = df.iloc[1:].reset_index(drop=True)
 
-    # Assign standard 8 columns
     if df.shape[1] >= len(EXPECTED_COLUMNS):
         df = df.iloc[:, :len(EXPECTED_COLUMNS)]
         df.columns = EXPECTED_COLUMNS
     else:
         df.columns = EXPECTED_COLUMNS[:df.shape[1]]
 
-    # Guardrails: Drop empty rows or stray header labels
     df = df[df["Title"].fillna("").astype(str).str.strip().str.lower() != "title"]
     df = df[df["Issue"].fillna("").astype(str).str.strip().str.lower() != "issue"]
     df = df.dropna(subset=["Title", "Issue"]).reset_index(drop=True)
-
     return df
 
-def reconcile():
+def generate_report():
     feed_path = Path("data/church_pedigree_live_feed.csv")
     src_dir = Path("src")
 
@@ -115,12 +110,12 @@ def reconcile():
 
     print(f"Reading incoming feed: {feed_path}")
     df_feed = load_incoming_feed(feed_path)
-    total_feed = len(df_feed)
-    print(f"Loaded {total_feed} valid incoming records.")
+    print(f"Loaded {len(df_feed)} incoming records.")
 
-    summary_updates = []
-    summary_inserts = []
+    updates = []
+    additions = []
 
+    # Map across all 8 src files
     for filename, _ in SRC_FILES:
         csv_file = src_dir / filename
         if not csv_file.exists():
@@ -134,7 +129,6 @@ def reconcile():
 
         file_feed = df_feed[df_feed["Title"].apply(get_target_src_file) == filename].copy()
         if file_feed.empty:
-            df_target.drop(columns=["_k_title", "_k_issue"]).to_csv(csv_file, index=False)
             continue
 
         file_feed["_k_title"] = file_feed["Title"].apply(clean_title)
@@ -145,62 +139,74 @@ def reconcile():
             for idx, row in df_target.iterrows()
         }
 
-        new_rows = []
-
         for _, frow in file_feed.iterrows():
             key = (frow["_k_title"], frow["_k_issue"])
             incoming_grade = format_grade(frow.get("CGC/CBCS Numeric Grade"))
             incoming_pq = map_page_quality(frow.get("Page Quality"))
+            cert_id = frow.get("Certification ID", "Unknown")
+            price = frow.get("Realized Sales Price", "Unknown")
+            source = frow.get("Auction House Tracking ID", "Unknown")
+            title = frow["Title"]
+            issue = frow["Issue"]
+
+            entry = {
+                "title": title,
+                "issue": issue,
+                "grade": incoming_grade,
+                "pq": incoming_pq,
+                "cert": cert_id,
+                "price": price,
+                "source": source,
+                "target_file": filename,
+            }
 
             if key in target_map:
                 idx = target_map[key]
                 current_grade = df_target.at[idx, "CGC Grade"]
                 current_pq = df_target.at[idx, "Page Quality"]
+                
+                # Check if this record offers a new grade or page quality
+                grade_diff = incoming_grade and (pd.isna(current_grade) or str(current_grade).strip() == "")
+                pq_diff = incoming_pq and (pd.isna(current_pq) or str(current_pq).strip() == "")
 
-                updated = False
-                if incoming_grade and (pd.isna(current_grade) or str(current_grade).strip() == ""):
-                    df_target.at[idx, "CGC Grade"] = incoming_grade
-                    updated = True
-
-                if incoming_pq and (pd.isna(current_pq) or str(current_pq).strip() == ""):
-                    df_target.at[idx, "Page Quality"] = incoming_pq
-                    updated = True
-
-                if updated:
-                    summary_updates.append(f"`{frow['Title']} #{frow['Issue']}` -> Grade: {incoming_grade}, PQ: {incoming_pq} ({filename})")
+                if grade_diff or pq_diff:
+                    entry["current_grade"] = current_grade if pd.notna(current_grade) else "None"
+                    entry["current_pq"] = current_pq if pd.notna(current_pq) else "None"
+                    updates.append(entry)
             else:
-                new_row = {col: "" for col in df_target.columns if not col.startswith("_k_")}
-                new_row["Title"] = str(frow["Title"]).lower()
-                new_row[issue_col] = str(frow["Issue"])
-                new_row["CGC Grade"] = incoming_grade
-                new_row["Page Quality"] = incoming_pq
-                new_rows.append(new_row)
-                summary_inserts.append(f"`{frow['Title']} #{frow['Issue']}` -> Grade: {incoming_grade} ({filename})")
+                additions.append(entry)
 
-        df_target = df_target.drop(columns=["_k_title", "_k_issue"])
+    # Build Markdown Issue Body
+    report = []
+    report.append("### Monthly Edgar Church Ingestion Verification\n")
+    report.append(f"**Total Records Evaluated:** {len(df_feed)}  ")
+    report.append(f"**Census Updates Detected:** {len(updates)}  ")
+    report.append(f"**Potential New Additions:** {len(additions)}\n")
+    report.append("> Check the auction source links and certs below before manually committing updates to `src/`.\n")
 
-        if new_rows:
-            df_new = pd.DataFrame(new_rows)
-            df_target = pd.concat([df_target, df_new], ignore_index=True)
+    if updates:
+        report.append("### Updates to Existing Issues\n")
+        for u in updates:
+            report.append(f"- [ ] `{u['title']} #{u['issue']}` (`src/{u['target_file']}`)")
+            report.append(f"  - **Incoming:** Grade `{u['grade']}`, PQ `{u['pq']}` | **Current:** Grade `{u['current_grade']}`, PQ `{u['current_pq']}`")
+            report.append(f"  - **Cert ID:** `{u['cert']}` | **Price:** `{u['price']}`")
+            report.append(f"  - **Source / Lot:** {u['source']}\n")
 
-        df_target.to_csv(csv_file, index=False)
-        print(f"Processed {filename}: {len(file_feed)} candidates evaluated.")
+    if additions:
+        report.append("### Potential New Additions (Not Currently in `src/`)\n")
+        for a in additions:
+            report.append(f"- [ ] `{a['title']} #{a['issue']}` (Target: `src/{a['target_file']}`)")
+            report.append(f"  - **Grade:** `{a['grade']}` | **PQ:** `{a['pq']}` | **Cert ID:** `{a['cert']}`")
+            report.append(f"  - **Price:** `{a['price']}`")
+            report.append(f"  - **Source / Lot:** {a['source']}\n")
 
-    # PR Summary
-    summary_md = "### Monthly Reconciliation Summary\n"
-    summary_md += f"- **Total Incoming Records Evaluated:** {total_feed}\n"
-    summary_md += f"- **Existing Census Entries Updated:** {len(summary_updates)}\n"
-    summary_md += f"- **New Entries Inserted:** {len(summary_inserts)}\n\n"
-    if summary_updates:
-        summary_md += "#### Updated Records\n" + "\n".join(f"- {u}" for u in summary_updates[:25]) + "\n\n"
-    if summary_inserts:
-        summary_md += "#### New Census Additions\n" + "\n".join(f"- {i}" for i in summary_inserts[:25]) + "\n"
+    out_file = Path("issue_body.md")
+    out_file.write_text("\n".join(report))
+    print(f"Report generated at {out_file}.")
 
-    Path("reconcile_summary.md").write_text(summary_md)
-    print("Reconciliation complete. Summary generated.")
-
+    # Clean up staging file
     feed_path.unlink()
-    print("Cleaned up staging file.")
+    print("Staging file cleaned up.")
 
 if __name__ == "__main__":
-    reconcile()
+    generate_report()
