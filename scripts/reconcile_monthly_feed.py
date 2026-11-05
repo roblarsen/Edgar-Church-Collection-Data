@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 scripts/reconcile_monthly_feed.py
-Reconciles church_pedigree_live_feed.csv directly into src/[A-Z]-[A-Z].csv
-Handles feeds both with and without a header row.
+Reconciles headerless church_pedigree_live_feed.csv directly into src/[A-Z]-[A-Z].csv
 """
 
 import sys
@@ -84,22 +83,26 @@ def get_target_src_file(title: str) -> str:
     return "A-C.csv"
 
 def load_incoming_feed(feed_path: Path) -> pd.DataFrame:
-    df_peek = pd.read_csv(feed_path, nrows=1, dtype=str)
-    cols = [str(c).strip() for c in df_peek.columns]
-    
-    has_header = any("title" in c.lower() for c in cols) and any("issue" in c.lower() for c in cols)
-    
-    if has_header:
-        df = pd.read_csv(feed_path, dtype=str)
-        df.columns = [str(c).strip() for c in df.columns]
+    # Always read headerless by default
+    df = pd.read_csv(feed_path, header=None, dtype=str)
+
+    # Check if row 0 happens to contain header names
+    first_cell = str(df.iloc[0, 0]).strip().lower()
+    if first_cell == "title":
+        df = df.iloc[1:].reset_index(drop=True)
+
+    # Assign standard 8 columns
+    if df.shape[1] >= len(EXPECTED_COLUMNS):
+        df = df.iloc[:, :len(EXPECTED_COLUMNS)]
+        df.columns = EXPECTED_COLUMNS
     else:
-        df = pd.read_csv(feed_path, header=None, dtype=str)
-        if df.shape[1] >= len(EXPECTED_COLUMNS):
-            df = df.iloc[:, :len(EXPECTED_COLUMNS)]
-            df.columns = EXPECTED_COLUMNS
-        else:
-            df.columns = EXPECTED_COLUMNS[:df.shape[1]]
-            
+        df.columns = EXPECTED_COLUMNS[:df.shape[1]]
+
+    # Guardrails: Drop empty rows or stray header labels
+    df = df[df["Title"].fillna("").astype(str).str.strip().str.lower() != "title"]
+    df = df[df["Issue"].fillna("").astype(str).str.strip().str.lower() != "issue"]
+    df = df.dropna(subset=["Title", "Issue"]).reset_index(drop=True)
+
     return df
 
 def reconcile():
@@ -113,7 +116,7 @@ def reconcile():
     print(f"Reading incoming feed: {feed_path}")
     df_feed = load_incoming_feed(feed_path)
     total_feed = len(df_feed)
-    print(f"Loaded {total_feed} incoming rows with columns: {list(df_feed.columns)}")
+    print(f"Loaded {total_feed} valid incoming records.")
 
     summary_updates = []
     summary_inserts = []
@@ -183,7 +186,7 @@ def reconcile():
         df_target.to_csv(csv_file, index=False)
         print(f"Processed {filename}: {len(file_feed)} candidates evaluated.")
 
-    # Write summary for PR body
+    # PR Summary
     summary_md = "### Monthly Reconciliation Summary\n"
     summary_md += f"- **Total Incoming Records Evaluated:** {total_feed}\n"
     summary_md += f"- **Existing Census Entries Updated:** {len(summary_updates)}\n"
